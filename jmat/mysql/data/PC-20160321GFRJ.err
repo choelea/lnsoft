@@ -1,0 +1,192 @@
+170522 11:27:19 [Note] Plugin 'FEDERATED' is disabled.
+170522 11:27:19  InnoDB: Initializing buffer pool, size = 8.0M
+170522 11:27:19  InnoDB: Completed initialization of buffer pool
+170522 11:27:19  InnoDB: Started; log sequence number 0 26378552
+170522 11:27:19 [Note] Event Scheduler: Loaded 0 events
+170522 11:27:19 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 14:51:02 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 14:51:02 [Note] Event Scheduler: Purging the queue. 0 events
+170522 14:51:02  InnoDB: Starting shutdown...
+170522 14:51:04  InnoDB: Shutdown completed; log sequence number 0 26393203
+170522 14:51:04 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 14:57:04 [Note] Plugin 'FEDERATED' is disabled.
+170522 14:57:05  InnoDB: Initializing buffer pool, size = 8.0M
+170522 14:57:05  InnoDB: Completed initialization of buffer pool
+170522 14:57:05  InnoDB: Started; log sequence number 0 26393203
+170522 14:57:05 [Note] Event Scheduler: Loaded 0 events
+170522 14:57:05 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 15:04:28 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 15:04:28 [Note] Event Scheduler: Purging the queue. 0 events
+170522 15:04:28  InnoDB: Starting shutdown...
+170522 15:04:31  InnoDB: Shutdown completed; log sequence number 0 26393213
+170522 15:04:31 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 15:24:48 [Note] Plugin 'FEDERATED' is disabled.
+170522 15:24:48  InnoDB: Initializing buffer pool, size = 8.0M
+170522 15:24:48  InnoDB: Completed initialization of buffer pool
+170522 15:24:48  InnoDB: Started; log sequence number 0 26393213
+170522 15:24:48 [Note] Event Scheduler: Loaded 0 events
+170522 15:24:48 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 15:25:07 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 15:25:07 [Note] Event Scheduler: Purging the queue. 0 events
+170522 15:25:07  InnoDB: Starting shutdown...
+170522 15:25:09  InnoDB: Shutdown completed; log sequence number 0 26393223
+170522 15:25:09 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 15:26:59 [Note] Plugin 'FEDERATED' is disabled.
+170522 15:26:59  InnoDB: Initializing buffer pool, size = 8.0M
+170522 15:26:59  InnoDB: Completed initialization of buffer pool
+170522 15:26:59  InnoDB: Started; log sequence number 0 26393223
+170522 15:26:59 [Note] Event Scheduler: Loaded 0 events
+170522 15:26:59 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 15:27:11 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 15:27:11 [Note] Event Scheduler: Purging the queue. 0 events
+170522 15:27:11  InnoDB: Starting shutdown...
+170522 15:27:14  InnoDB: Shutdown completed; log sequence number 0 26393233
+170522 15:27:14 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 15:27:58 [Note] Plugin 'FEDERATED' is disabled.
+170522 15:27:59  InnoDB: Initializing buffer pool, size = 8.0M
+170522 15:27:59  InnoDB: Completed initialization of buffer pool
+170522 15:27:59  InnoDB: Started; log sequence number 0 26393233
+170522 15:27:59 [Note] Event Scheduler: Loaded 0 events
+170522 15:27:59 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 15:28:11 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 15:28:11 [Note] Event Scheduler: Purging the queue. 0 events
+170522 15:28:11  InnoDB: Starting shutdown...
+170522 15:28:14  InnoDB: Shutdown completed; log sequence number 0 26393243
+170522 15:28:14 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 15:28:26 [Note] Plugin 'FEDERATED' is disabled.
+170522 15:28:26  InnoDB: Initializing buffer pool, size = 8.0M
+170522 15:28:26  InnoDB: Completed initialization of buffer pool
+170522 15:28:26  InnoDB: Started; log sequence number 0 26393243
+170522 15:28:26 [Note] Event Scheduler: Loaded 0 events
+170522 15:28:26 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 15:28:39 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 15:28:39 [Note] Event Scheduler: Purging the queue. 0 events
+170522 15:28:39  InnoDB: Starting shutdown...
+170522 15:28:41  InnoDB: Shutdown completed; log sequence number 0 26393253
+170522 15:28:41 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 15:33:08 [Note] Plugin 'FEDERATED' is disabled.
+170522 15:33:08  InnoDB: Initializing buffer pool, size = 8.0M
+170522 15:33:08  InnoDB: Completed initialization of buffer pool
+170522 15:33:08  InnoDB: Started; log sequence number 0 26393253
+170522 15:33:08 [Note] Event Scheduler: Loaded 0 events
+170522 15:33:08 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 15:33:19 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 15:33:19 [Note] Event Scheduler: Purging the queue. 0 events
+170522 15:33:19  InnoDB: Starting shutdown...
+170522 15:33:23  InnoDB: Shutdown completed; log sequence number 0 26393253
+170522 15:33:23 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 15:33:57 [Note] Plugin 'FEDERATED' is disabled.
+170522 15:33:57  InnoDB: Initializing buffer pool, size = 8.0M
+170522 15:33:57  InnoDB: Completed initialization of buffer pool
+170522 15:33:57  InnoDB: Started; log sequence number 0 26393253
+170522 15:33:57 [Note] Event Scheduler: Loaded 0 events
+170522 15:33:57 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 15:34:09 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 15:34:09 [Note] Event Scheduler: Purging the queue. 0 events
+170522 15:34:09  InnoDB: Starting shutdown...
+170522 15:34:12  InnoDB: Shutdown completed; log sequence number 0 26393263
+170522 15:34:12 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 15:34:47 [Note] Plugin 'FEDERATED' is disabled.
+170522 15:34:47  InnoDB: Initializing buffer pool, size = 8.0M
+170522 15:34:47  InnoDB: Completed initialization of buffer pool
+170522 15:34:47  InnoDB: Started; log sequence number 0 26393263
+170522 15:34:47 [Note] Event Scheduler: Loaded 0 events
+170522 15:34:47 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 15:35:02 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 15:35:02 [Note] Event Scheduler: Purging the queue. 0 events
+170522 15:35:02  InnoDB: Starting shutdown...
+170522 15:35:07  InnoDB: Shutdown completed; log sequence number 0 26393273
+170522 15:35:07 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 15:35:12 [Note] Plugin 'FEDERATED' is disabled.
+170522 15:35:13  InnoDB: Initializing buffer pool, size = 8.0M
+170522 15:35:13  InnoDB: Completed initialization of buffer pool
+170522 15:35:13  InnoDB: Started; log sequence number 0 26393273
+170522 15:35:13 [Note] Event Scheduler: Loaded 0 events
+170522 15:35:13 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 15:35:46 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 15:35:46 [Note] Event Scheduler: Purging the queue. 0 events
+170522 15:35:46  InnoDB: Starting shutdown...
+170522 15:35:48  InnoDB: Shutdown completed; log sequence number 0 26393283
+170522 15:35:48 [Note] E:\programs\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 15:54:21 [Note] Plugin 'FEDERATED' is disabled.
+170522 15:54:21  InnoDB: Initializing buffer pool, size = 8.0M
+170522 15:54:21  InnoDB: Completed initialization of buffer pool
+170522 15:54:21  InnoDB: Started; log sequence number 0 26393283
+170522 15:54:21 [Note] Event Scheduler: Loaded 0 events
+170522 15:54:21 [Note] E:\programs\jmat\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 16:23:20 [Note] E:\programs\jmat\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 16:23:20 [Note] Event Scheduler: Purging the queue. 0 events
+170522 16:23:20  InnoDB: Starting shutdown...
+170522 16:23:21  InnoDB: Shutdown completed; log sequence number 0 26675124
+170522 16:23:21 [Note] E:\programs\jmat\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 16:32:29 [Note] Plugin 'FEDERATED' is disabled.
+170522 16:32:29  InnoDB: Initializing buffer pool, size = 8.0M
+170522 16:32:29  InnoDB: Completed initialization of buffer pool
+170522 16:32:29  InnoDB: Started; log sequence number 0 26675124
+170522 16:32:29 [Note] Event Scheduler: Loaded 0 events
+170522 16:32:29 [Note] E:\programs\jmat\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 17:27:56 [Note] E:\programs\jmat\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 17:27:56 [Note] Event Scheduler: Purging the queue. 0 events
+170522 17:27:58 [Warning] E:\programs\jmat\mysql\bin\mysqld.exe: Forcing close of thread 6  user: 'root'
+
+170522 17:27:58 [Warning] E:\programs\jmat\mysql\bin\mysqld.exe: Forcing close of thread 3  user: 'root'
+
+170522 17:27:58 [Warning] E:\programs\jmat\mysql\bin\mysqld.exe: Forcing close of thread 2  user: 'root'
+
+170522 17:27:58  InnoDB: Starting shutdown...
+170522 17:28:00  InnoDB: Shutdown completed; log sequence number 0 26675897
+170522 17:28:00 [Note] E:\programs\jmat\mysql\bin\mysqld.exe: Shutdown complete
+
+170522 17:50:16 [Note] Plugin 'FEDERATED' is disabled.
+170522 17:50:16  InnoDB: Initializing buffer pool, size = 8.0M
+170522 17:50:16  InnoDB: Completed initialization of buffer pool
+170522 17:50:16  InnoDB: Started; log sequence number 0 26675897
+170522 17:50:16 [Note] Event Scheduler: Loaded 0 events
+170522 17:50:16 [Note] E:\programs\jmat\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+170522 17:54:52 [Note] E:\programs\jmat\mysql\bin\mysqld.exe: Normal shutdown
+
+170522 17:54:52 [Note] Event Scheduler: Purging the queue. 0 events
+170522 17:54:54 [Warning] E:\programs\jmat\mysql\bin\mysqld.exe: Forcing close of thread 3  user: 'root'
+
+170522 17:54:54 [Warning] E:\programs\jmat\mysql\bin\mysqld.exe: Forcing close of thread 2  user: 'root'
+
+170522 17:54:54  InnoDB: Starting shutdown...
+170522 17:54:57  InnoDB: Shutdown completed; log sequence number 0 26676674
+170522 17:54:57 [Note] E:\programs\jmat\mysql\bin\mysqld.exe: Shutdown complete
+

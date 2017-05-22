@@ -1,0 +1,2426 @@
+Hibernate: 
+    select
+        seo0_.id as id24_,
+        seo0_.create_date as create2_24_,
+        seo0_.modify_date as modify3_24_,
+        seo0_.description as descript4_24_,
+        seo0_.keywords as keywords24_,
+        seo0_.title as title24_,
+        seo0_.type as type24_ 
+    from
+        t_seo seo0_ 
+    where
+        seo0_.type=? limit ?
+Hibernate: 
+    select
+        navigation0_.id as id17_,
+        navigation0_.create_date as create2_17_,
+        navigation0_.modify_date as modify3_17_,
+        navigation0_.orders as orders17_,
+        navigation0_.is_blank_target as is5_17_,
+        navigation0_.name as name17_,
+        navigation0_.position as position17_,
+        navigation0_.url as url17_ 
+    from
+        t_navigation navigation0_ 
+    where
+        1=1 
+        and navigation0_.position=? 
+    order by
+        navigation0_.orders asc
+Hibernate: 
+    select
+        tag0_.id as id53_,
+        tag0_.create_date as create2_53_,
+        tag0_.modify_date as modify3_53_,
+        tag0_.orders as orders53_,
+        tag0_.icon as icon53_,
+        tag0_.memo as memo53_,
+        tag0_.name as name53_,
+        tag0_.type as type53_ 
+    from
+        t_tag tag0_ 
+    where
+        1=1 
+        and tag0_.type=? 
+    order by
+        tag0_.orders asc limit ?
+Hibernate: 
+    select
+        navigation0_.id as id17_,
+        navigation0_.create_date as create2_17_,
+        navigation0_.modify_date as modify3_17_,
+        navigation0_.orders as orders17_,
+        navigation0_.is_blank_target as is5_17_,
+        navigation0_.name as name17_,
+        navigation0_.position as position17_,
+        navigation0_.url as url17_ 
+    from
+        t_navigation navigation0_ 
+    where
+        1=1 
+        and navigation0_.position=? 
+    order by
+        navigation0_.orders asc
+Hibernate: 
+    select
+        adposition0_.id as id18_1_,
+        adposition0_.create_date as create2_18_1_,
+        adposition0_.modify_date as modify3_18_1_,
+        adposition0_.description as descript4_18_1_,
+        adposition0_.height as height18_1_,
+        adposition0_.name as name18_1_,
+        adposition0_.template as template18_1_,
+        adposition0_.width as width18_1_,
+        ads1_.ad_position as ad12_18_3_,
+        ads1_.id as id3_,
+        ads1_.id as id21_0_,
+        ads1_.create_date as create2_21_0_,
+        ads1_.modify_date as modify3_21_0_,
+        ads1_.orders as orders21_0_,
+        ads1_.ad_position as ad12_21_0_,
+        ads1_.begin_date as begin5_21_0_,
+        ads1_.content as content21_0_,
+        ads1_.end_date as end7_21_0_,
+        ads1_.path as path21_0_,
+        ads1_.title as title21_0_,
+        ads1_.type as type21_0_,
+        ads1_.url as url21_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        articlecat0_.id as id37_,
+        articlecat0_.create_date as create2_37_,
+        articlecat0_.modify_date as modify3_37_,
+        articlecat0_.orders as orders37_,
+        articlecat0_.grade as grade37_,
+        articlecat0_.name as name37_,
+        articlecat0_.parent as parent37_,
+        articlecat0_.seo_description as seo7_37_,
+        articlecat0_.seo_keywords as seo8_37_,
+        articlecat0_.seo_title as seo9_37_,
+        articlecat0_.tree_path as tree10_37_ 
+    from
+        t_article_category articlecat0_ 
+    where
+        articlecat0_.parent is null 
+    order by
+        articlecat0_.orders asc limit ?
+Hibernate: 
+    select
+        article0_.id as id39_,
+        article0_.create_date as create2_39_,
+        article0_.modify_date as modify3_39_,
+        article0_.article_category as article13_39_,
+        article0_.author as author39_,
+        article0_.content as content39_,
+        article0_.hits as hits39_,
+        article0_.is_publication as is7_39_,
+        article0_.is_top as is8_39_,
+        article0_.seo_description as seo9_39_,
+        article0_.seo_keywords as seo10_39_,
+        article0_.seo_title as seo11_39_,
+        article0_.title as title39_ 
+    from
+        t_article article0_ cross 
+    join
+        t_article_category articlecat1_ 
+    where
+        article0_.article_category=articlecat1_.id 
+        and 1=1 
+        and article0_.is_publication=? 
+        and (
+            article0_.article_category=? 
+            or articlecat1_.tree_path like ?
+        ) 
+    order by
+        article0_.is_top desc limit ?
+Hibernate: 
+    select
+        article0_.id as id39_,
+        article0_.create_date as create2_39_,
+        article0_.modify_date as modify3_39_,
+        article0_.article_category as article13_39_,
+        article0_.author as author39_,
+        article0_.content as content39_,
+        article0_.hits as hits39_,
+        article0_.is_publication as is7_39_,
+        article0_.is_top as is8_39_,
+        article0_.seo_description as seo9_39_,
+        article0_.seo_keywords as seo10_39_,
+        article0_.seo_title as seo11_39_,
+        article0_.title as title39_ 
+    from
+        t_article article0_ cross 
+    join
+        t_article_category articlecat1_ 
+    where
+        article0_.article_category=articlecat1_.id 
+        and 1=1 
+        and article0_.is_publication=? 
+        and (
+            article0_.article_category=? 
+            or articlecat1_.tree_path like ?
+        ) 
+    order by
+        article0_.is_top desc limit ?
+Hibernate: 
+    select
+        article0_.id as id39_,
+        article0_.create_date as create2_39_,
+        article0_.modify_date as modify3_39_,
+        article0_.article_category as article13_39_,
+        article0_.author as author39_,
+        article0_.content as content39_,
+        article0_.hits as hits39_,
+        article0_.is_publication as is7_39_,
+        article0_.is_top as is8_39_,
+        article0_.seo_description as seo9_39_,
+        article0_.seo_keywords as seo10_39_,
+        article0_.seo_title as seo11_39_,
+        article0_.title as title39_ 
+    from
+        t_article article0_ cross 
+    join
+        t_article_category articlecat1_ 
+    where
+        article0_.article_category=articlecat1_.id 
+        and 1=1 
+        and article0_.is_publication=? 
+        and (
+            article0_.article_category=? 
+            or articlecat1_.tree_path like ?
+        ) 
+    order by
+        article0_.is_top desc limit ?
+Hibernate: 
+    select
+        adposition0_.id as id18_1_,
+        adposition0_.create_date as create2_18_1_,
+        adposition0_.modify_date as modify3_18_1_,
+        adposition0_.description as descript4_18_1_,
+        adposition0_.height as height18_1_,
+        adposition0_.name as name18_1_,
+        adposition0_.template as template18_1_,
+        adposition0_.width as width18_1_,
+        ads1_.ad_position as ad12_18_3_,
+        ads1_.id as id3_,
+        ads1_.id as id21_0_,
+        ads1_.create_date as create2_21_0_,
+        ads1_.modify_date as modify3_21_0_,
+        ads1_.orders as orders21_0_,
+        ads1_.ad_position as ad12_21_0_,
+        ads1_.begin_date as begin5_21_0_,
+        ads1_.content as content21_0_,
+        ads1_.end_date as end7_21_0_,
+        ads1_.path as path21_0_,
+        ads1_.title as title21_0_,
+        ads1_.type as type21_0_,
+        ads1_.url as url21_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        brand0_.id as id28_,
+        brand0_.create_date as create2_28_,
+        brand0_.modify_date as modify3_28_,
+        brand0_.orders as orders28_,
+        brand0_.introduction as introduc5_28_,
+        brand0_.logo as logo28_,
+        brand0_.name as name28_,
+        brand0_.type as type28_,
+        brand0_.url as url28_ 
+    from
+        t_brand brand0_ 
+    where
+        1=1 
+        and brand0_.type=? 
+    order by
+        brand0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.parent is null 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        children0_.parent as parent50_1_,
+        children0_.id as id1_,
+        children0_.id as id50_0_,
+        children0_.create_date as create2_50_0_,
+        children0_.modify_date as modify3_50_0_,
+        children0_.orders as orders50_0_,
+        children0_.grade as grade50_0_,
+        children0_.name as name50_0_,
+        children0_.parent as parent50_0_,
+        children0_.seo_description as seo7_50_0_,
+        children0_.seo_keywords as seo8_50_0_,
+        children0_.seo_title as seo9_50_0_,
+        children0_.tree_path as tree10_50_0_ 
+    from
+        t_product_category children0_ 
+    where
+        children0_.parent=? 
+    order by
+        children0_.orders asc
+Hibernate: 
+    select
+        children0_.parent as parent50_1_,
+        children0_.id as id1_,
+        children0_.id as id50_0_,
+        children0_.create_date as create2_50_0_,
+        children0_.modify_date as modify3_50_0_,
+        children0_.orders as orders50_0_,
+        children0_.grade as grade50_0_,
+        children0_.name as name50_0_,
+        children0_.parent as parent50_0_,
+        children0_.seo_description as seo7_50_0_,
+        children0_.seo_keywords as seo8_50_0_,
+        children0_.seo_title as seo9_50_0_,
+        children0_.tree_path as tree10_50_0_ 
+    from
+        t_product_category children0_ 
+    where
+        children0_.parent=? 
+    order by
+        children0_.orders asc
+Hibernate: 
+    select
+        promotion0_.id as id31_,
+        promotion0_.create_date as create2_31_,
+        promotion0_.modify_date as modify3_31_,
+        promotion0_.orders as orders31_,
+        promotion0_.begin_date as begin5_31_,
+        promotion0_.end_date as end6_31_,
+        promotion0_.introduction as introduc7_31_,
+        promotion0_.is_coupon_allowed as is8_31_,
+        promotion0_.is_free_shipping as is9_31_,
+        promotion0_.maximum_price as maximum10_31_,
+        promotion0_.maximum_quantity as maximum11_31_,
+        promotion0_.minimum_price as minimum12_31_,
+        promotion0_.minimum_quantity as minimum13_31_,
+        promotion0_.name as name31_,
+        promotion0_.point_expression as point15_31_,
+        promotion0_.price_expression as price16_31_,
+        promotion0_.title as title31_ 
+    from
+        t_promotion promotion0_ 
+    where
+        1=1 
+        and (
+            promotion0_.end_date is null 
+            or promotion0_.end_date>=?
+        ) 
+    order by
+        promotion0_.orders asc limit ?
+Hibernate: 
+    select
+        product0_.id as id9_,
+        product0_.create_date as create2_9_,
+        product0_.modify_date as modify3_9_,
+        product0_.allocated_stock as allocated4_9_,
+        product0_.attribute_value0 as attribute5_9_,
+        product0_.attribute_value1 as attribute6_9_,
+        product0_.attribute_value10 as attribute7_9_,
+        product0_.attribute_value11 as attribute8_9_,
+        product0_.attribute_value12 as attribute9_9_,
+        product0_.attribute_value13 as attribute10_9_,
+        product0_.attribute_value14 as attribute11_9_,
+        product0_.attribute_value15 as attribute12_9_,
+        product0_.attribute_value16 as attribute13_9_,
+        product0_.attribute_value17 as attribute14_9_,
+        product0_.attribute_value18 as attribute15_9_,
+        product0_.attribute_value19 as attribute16_9_,
+        product0_.attribute_value2 as attribute17_9_,
+        product0_.attribute_value3 as attribute18_9_,
+        product0_.attribute_value4 as attribute19_9_,
+        product0_.attribute_value5 as attribute20_9_,
+        product0_.attribute_value6 as attribute21_9_,
+        product0_.attribute_value7 as attribute22_9_,
+        product0_.attribute_value8 as attribute23_9_,
+        product0_.attribute_value9 as attribute24_9_,
+        product0_.brand as brand9_,
+        product0_.cost as cost9_,
+        product0_.full_name as full26_9_,
+        product0_.goods as goods9_,
+        product0_.hits as hits9_,
+        product0_.image as image9_,
+        product0_.introduction as introdu29_9_,
+        product0_.is_gift as is30_9_,
+        product0_.is_list as is31_9_,
+        product0_.is_marketable as is32_9_,
+        product0_.is_top as is33_9_,
+        product0_.keyword as keyword9_,
+        product0_.market_price as market35_9_,
+        product0_.memo as memo9_,
+        product0_.month_hits as month37_9_,
+        product0_.month_hits_date as month38_9_,
+        product0_.month_sales as month39_9_,
+        product0_.month_sales_date as month40_9_,
+        product0_.name as name9_,
+        product0_.point as point9_,
+        product0_.price as price9_,
+        product0_.product_category as product62_9_,
+        product0_.sales as sales9_,
+        product0_.score as score9_,
+        product0_.score_count as score46_9_,
+        product0_.seo_description as seo47_9_,
+        product0_.seo_keywords as seo48_9_,
+        product0_.seo_title as seo49_9_,
+        product0_.sn as sn9_,
+        product0_.stock as stock9_,
+        product0_.stock_memo as stock52_9_,
+        product0_.total_score as total53_9_,
+        product0_.unit as unit9_,
+        product0_.week_hits as week55_9_,
+        product0_.week_hits_date as week56_9_,
+        product0_.week_sales as week57_9_,
+        product0_.week_sales_date as week58_9_,
+        product0_.weight as weight9_ 
+    from
+        t_product product0_ 
+    where
+        1=1 
+        and (
+            exists (
+                select
+                    product1_.id 
+                from
+                    t_product product1_ 
+                inner join
+                    t_promotion_product promotions2_ 
+                        on product1_.id=promotions2_.products 
+                inner join
+                    t_promotion promotion3_ 
+                        on promotions2_.promotions=promotion3_.id 
+                where
+                    product1_.id=product0_.id 
+                    and promotion3_.id=?
+            ) 
+            or exists (
+                select
+                    product4_.id 
+                from
+                    t_product product4_ 
+                inner join
+                    t_product_category productcat5_ 
+                        on product4_.product_category=productcat5_.id 
+                inner join
+                    t_promotion_product_category promotions6_ 
+                        on productcat5_.id=promotions6_.product_categories 
+                inner join
+                    t_promotion promotion7_ 
+                        on promotions6_.promotions=promotion7_.id 
+                where
+                    product4_.id=product0_.id 
+                    and promotion7_.id=?
+            ) 
+            or exists (
+                select
+                    product8_.id 
+                from
+                    t_product product8_ 
+                inner join
+                    t_brand brand9_ 
+                        on product8_.brand=brand9_.id 
+                inner join
+                    t_promotion_brand promotions10_ 
+                        on brand9_.id=promotions10_.brands 
+                inner join
+                    t_promotion promotion11_ 
+                        on promotions10_.promotions=promotion11_.id 
+                where
+                    product8_.id=product0_.id 
+                    and promotion11_.id=?
+            )
+        ) 
+        and product0_.is_marketable=? 
+        and product0_.is_list=? 
+        and product0_.is_gift=? 
+    order by
+        product0_.is_top desc,
+        product0_.modify_date desc limit ?
+Hibernate: 
+    select
+        product0_.id as id9_,
+        product0_.create_date as create2_9_,
+        product0_.modify_date as modify3_9_,
+        product0_.allocated_stock as allocated4_9_,
+        product0_.attribute_value0 as attribute5_9_,
+        product0_.attribute_value1 as attribute6_9_,
+        product0_.attribute_value10 as attribute7_9_,
+        product0_.attribute_value11 as attribute8_9_,
+        product0_.attribute_value12 as attribute9_9_,
+        product0_.attribute_value13 as attribute10_9_,
+        product0_.attribute_value14 as attribute11_9_,
+        product0_.attribute_value15 as attribute12_9_,
+        product0_.attribute_value16 as attribute13_9_,
+        product0_.attribute_value17 as attribute14_9_,
+        product0_.attribute_value18 as attribute15_9_,
+        product0_.attribute_value19 as attribute16_9_,
+        product0_.attribute_value2 as attribute17_9_,
+        product0_.attribute_value3 as attribute18_9_,
+        product0_.attribute_value4 as attribute19_9_,
+        product0_.attribute_value5 as attribute20_9_,
+        product0_.attribute_value6 as attribute21_9_,
+        product0_.attribute_value7 as attribute22_9_,
+        product0_.attribute_value8 as attribute23_9_,
+        product0_.attribute_value9 as attribute24_9_,
+        product0_.brand as brand9_,
+        product0_.cost as cost9_,
+        product0_.full_name as full26_9_,
+        product0_.goods as goods9_,
+        product0_.hits as hits9_,
+        product0_.image as image9_,
+        product0_.introduction as introdu29_9_,
+        product0_.is_gift as is30_9_,
+        product0_.is_list as is31_9_,
+        product0_.is_marketable as is32_9_,
+        product0_.is_top as is33_9_,
+        product0_.keyword as keyword9_,
+        product0_.market_price as market35_9_,
+        product0_.memo as memo9_,
+        product0_.month_hits as month37_9_,
+        product0_.month_hits_date as month38_9_,
+        product0_.month_sales as month39_9_,
+        product0_.month_sales_date as month40_9_,
+        product0_.name as name9_,
+        product0_.point as point9_,
+        product0_.price as price9_,
+        product0_.product_category as product62_9_,
+        product0_.sales as sales9_,
+        product0_.score as score9_,
+        product0_.score_count as score46_9_,
+        product0_.seo_description as seo47_9_,
+        product0_.seo_keywords as seo48_9_,
+        product0_.seo_title as seo49_9_,
+        product0_.sn as sn9_,
+        product0_.stock as stock9_,
+        product0_.stock_memo as stock52_9_,
+        product0_.total_score as total53_9_,
+        product0_.unit as unit9_,
+        product0_.week_hits as week55_9_,
+        product0_.week_hits_date as week56_9_,
+        product0_.week_sales as week57_9_,
+        product0_.week_sales_date as week58_9_,
+        product0_.weight as weight9_ 
+    from
+        t_product product0_ 
+    where
+        1=1 
+        and (
+            exists (
+                select
+                    product1_.id 
+                from
+                    t_product product1_ 
+                inner join
+                    t_promotion_product promotions2_ 
+                        on product1_.id=promotions2_.products 
+                inner join
+                    t_promotion promotion3_ 
+                        on promotions2_.promotions=promotion3_.id 
+                where
+                    product1_.id=product0_.id 
+                    and promotion3_.id=?
+            ) 
+            or exists (
+                select
+                    product4_.id 
+                from
+                    t_product product4_ 
+                inner join
+                    t_product_category productcat5_ 
+                        on product4_.product_category=productcat5_.id 
+                inner join
+                    t_promotion_product_category promotions6_ 
+                        on productcat5_.id=promotions6_.product_categories 
+                inner join
+                    t_promotion promotion7_ 
+                        on promotions6_.promotions=promotion7_.id 
+                where
+                    product4_.id=product0_.id 
+                    and promotion7_.id=?
+            ) 
+            or exists (
+                select
+                    product8_.id 
+                from
+                    t_product product8_ 
+                inner join
+                    t_brand brand9_ 
+                        on product8_.brand=brand9_.id 
+                inner join
+                    t_promotion_brand promotions10_ 
+                        on brand9_.id=promotions10_.brands 
+                inner join
+                    t_promotion promotion11_ 
+                        on promotions10_.promotions=promotion11_.id 
+                where
+                    product8_.id=product0_.id 
+                    and promotion11_.id=?
+            )
+        ) 
+        and product0_.is_marketable=? 
+        and product0_.is_list=? 
+        and product0_.is_gift=? 
+    order by
+        product0_.is_top desc,
+        product0_.modify_date desc limit ?
+Hibernate: 
+    select
+        review0_.id as id22_,
+        review0_.create_date as create2_22_,
+        review0_.modify_date as modify3_22_,
+        review0_.content as content22_,
+        review0_.ip as ip22_,
+        review0_.is_show as is6_22_,
+        review0_.member as member22_,
+        review0_.product as product22_,
+        review0_.score as score22_ 
+    from
+        t_review review0_ 
+    where
+        1=1 
+        and review0_.is_show=? 
+    order by
+        review0_.create_date desc limit ?
+Hibernate: 
+    select
+        adposition0_.id as id18_1_,
+        adposition0_.create_date as create2_18_1_,
+        adposition0_.modify_date as modify3_18_1_,
+        adposition0_.description as descript4_18_1_,
+        adposition0_.height as height18_1_,
+        adposition0_.name as name18_1_,
+        adposition0_.template as template18_1_,
+        adposition0_.width as width18_1_,
+        ads1_.ad_position as ad12_18_3_,
+        ads1_.id as id3_,
+        ads1_.id as id21_0_,
+        ads1_.create_date as create2_21_0_,
+        ads1_.modify_date as modify3_21_0_,
+        ads1_.orders as orders21_0_,
+        ads1_.ad_position as ad12_21_0_,
+        ads1_.begin_date as begin5_21_0_,
+        ads1_.content as content21_0_,
+        ads1_.end_date as end7_21_0_,
+        ads1_.path as path21_0_,
+        ads1_.title as title21_0_,
+        ads1_.type as type21_0_,
+        ads1_.url as url21_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.parent is null 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        adposition0_.id as id18_1_,
+        adposition0_.create_date as create2_18_1_,
+        adposition0_.modify_date as modify3_18_1_,
+        adposition0_.description as descript4_18_1_,
+        adposition0_.height as height18_1_,
+        adposition0_.name as name18_1_,
+        adposition0_.template as template18_1_,
+        adposition0_.width as width18_1_,
+        ads1_.ad_position as ad12_18_3_,
+        ads1_.id as id3_,
+        ads1_.id as id21_0_,
+        ads1_.create_date as create2_21_0_,
+        ads1_.modify_date as modify3_21_0_,
+        ads1_.orders as orders21_0_,
+        ads1_.ad_position as ad12_21_0_,
+        ads1_.begin_date as begin5_21_0_,
+        ads1_.content as content21_0_,
+        ads1_.end_date as end7_21_0_,
+        ads1_.path as path21_0_,
+        ads1_.title as title21_0_,
+        ads1_.type as type21_0_,
+        ads1_.url as url21_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        product0_.id as id9_,
+        product0_.create_date as create2_9_,
+        product0_.modify_date as modify3_9_,
+        product0_.allocated_stock as allocated4_9_,
+        product0_.attribute_value0 as attribute5_9_,
+        product0_.attribute_value1 as attribute6_9_,
+        product0_.attribute_value10 as attribute7_9_,
+        product0_.attribute_value11 as attribute8_9_,
+        product0_.attribute_value12 as attribute9_9_,
+        product0_.attribute_value13 as attribute10_9_,
+        product0_.attribute_value14 as attribute11_9_,
+        product0_.attribute_value15 as attribute12_9_,
+        product0_.attribute_value16 as attribute13_9_,
+        product0_.attribute_value17 as attribute14_9_,
+        product0_.attribute_value18 as attribute15_9_,
+        product0_.attribute_value19 as attribute16_9_,
+        product0_.attribute_value2 as attribute17_9_,
+        product0_.attribute_value3 as attribute18_9_,
+        product0_.attribute_value4 as attribute19_9_,
+        product0_.attribute_value5 as attribute20_9_,
+        product0_.attribute_value6 as attribute21_9_,
+        product0_.attribute_value7 as attribute22_9_,
+        product0_.attribute_value8 as attribute23_9_,
+        product0_.attribute_value9 as attribute24_9_,
+        product0_.brand as brand9_,
+        product0_.cost as cost9_,
+        product0_.full_name as full26_9_,
+        product0_.goods as goods9_,
+        product0_.hits as hits9_,
+        product0_.image as image9_,
+        product0_.introduction as introdu29_9_,
+        product0_.is_gift as is30_9_,
+        product0_.is_list as is31_9_,
+        product0_.is_marketable as is32_9_,
+        product0_.is_top as is33_9_,
+        product0_.keyword as keyword9_,
+        product0_.market_price as market35_9_,
+        product0_.memo as memo9_,
+        product0_.month_hits as month37_9_,
+        product0_.month_hits_date as month38_9_,
+        product0_.month_sales as month39_9_,
+        product0_.month_sales_date as month40_9_,
+        product0_.name as name9_,
+        product0_.point as point9_,
+        product0_.price as price9_,
+        product0_.product_category as product62_9_,
+        product0_.sales as sales9_,
+        product0_.score as score9_,
+        product0_.score_count as score46_9_,
+        product0_.seo_description as seo47_9_,
+        product0_.seo_keywords as seo48_9_,
+        product0_.seo_title as seo49_9_,
+        product0_.sn as sn9_,
+        product0_.stock as stock9_,
+        product0_.stock_memo as stock52_9_,
+        product0_.total_score as total53_9_,
+        product0_.unit as unit9_,
+        product0_.week_hits as week55_9_,
+        product0_.week_hits_date as week56_9_,
+        product0_.week_sales as week57_9_,
+        product0_.week_sales_date as week58_9_,
+        product0_.weight as weight9_ 
+    from
+        t_product product0_ 
+    where
+        1=1 
+        and (
+            exists (
+                select
+                    product1_.id 
+                from
+                    t_product product1_ 
+                inner join
+                    t_product_tag tags2_ 
+                        on product1_.id=tags2_.products 
+                inner join
+                    t_tag tag3_ 
+                        on tags2_.tags=tag3_.id 
+                where
+                    product1_.id=product0_.id 
+                    and (
+                        tag3_.id in (
+                            ?
+                        )
+                    )
+            )
+        ) 
+        and product0_.is_marketable=? 
+        and product0_.is_list=? 
+        and product0_.is_gift=? 
+    order by
+        product0_.is_top desc,
+        product0_.modify_date desc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.parent is null 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        adposition0_.id as id18_1_,
+        adposition0_.create_date as create2_18_1_,
+        adposition0_.modify_date as modify3_18_1_,
+        adposition0_.description as descript4_18_1_,
+        adposition0_.height as height18_1_,
+        adposition0_.name as name18_1_,
+        adposition0_.template as template18_1_,
+        adposition0_.width as width18_1_,
+        ads1_.ad_position as ad12_18_3_,
+        ads1_.id as id3_,
+        ads1_.id as id21_0_,
+        ads1_.create_date as create2_21_0_,
+        ads1_.modify_date as modify3_21_0_,
+        ads1_.orders as orders21_0_,
+        ads1_.ad_position as ad12_21_0_,
+        ads1_.begin_date as begin5_21_0_,
+        ads1_.content as content21_0_,
+        ads1_.end_date as end7_21_0_,
+        ads1_.path as path21_0_,
+        ads1_.title as title21_0_,
+        ads1_.type as type21_0_,
+        ads1_.url as url21_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        product0_.id as id9_,
+        product0_.create_date as create2_9_,
+        product0_.modify_date as modify3_9_,
+        product0_.allocated_stock as allocated4_9_,
+        product0_.attribute_value0 as attribute5_9_,
+        product0_.attribute_value1 as attribute6_9_,
+        product0_.attribute_value10 as attribute7_9_,
+        product0_.attribute_value11 as attribute8_9_,
+        product0_.attribute_value12 as attribute9_9_,
+        product0_.attribute_value13 as attribute10_9_,
+        product0_.attribute_value14 as attribute11_9_,
+        product0_.attribute_value15 as attribute12_9_,
+        product0_.attribute_value16 as attribute13_9_,
+        product0_.attribute_value17 as attribute14_9_,
+        product0_.attribute_value18 as attribute15_9_,
+        product0_.attribute_value19 as attribute16_9_,
+        product0_.attribute_value2 as attribute17_9_,
+        product0_.attribute_value3 as attribute18_9_,
+        product0_.attribute_value4 as attribute19_9_,
+        product0_.attribute_value5 as attribute20_9_,
+        product0_.attribute_value6 as attribute21_9_,
+        product0_.attribute_value7 as attribute22_9_,
+        product0_.attribute_value8 as attribute23_9_,
+        product0_.attribute_value9 as attribute24_9_,
+        product0_.brand as brand9_,
+        product0_.cost as cost9_,
+        product0_.full_name as full26_9_,
+        product0_.goods as goods9_,
+        product0_.hits as hits9_,
+        product0_.image as image9_,
+        product0_.introduction as introdu29_9_,
+        product0_.is_gift as is30_9_,
+        product0_.is_list as is31_9_,
+        product0_.is_marketable as is32_9_,
+        product0_.is_top as is33_9_,
+        product0_.keyword as keyword9_,
+        product0_.market_price as market35_9_,
+        product0_.memo as memo9_,
+        product0_.month_hits as month37_9_,
+        product0_.month_hits_date as month38_9_,
+        product0_.month_sales as month39_9_,
+        product0_.month_sales_date as month40_9_,
+        product0_.name as name9_,
+        product0_.point as point9_,
+        product0_.price as price9_,
+        product0_.product_category as product62_9_,
+        product0_.sales as sales9_,
+        product0_.score as score9_,
+        product0_.score_count as score46_9_,
+        product0_.seo_description as seo47_9_,
+        product0_.seo_keywords as seo48_9_,
+        product0_.seo_title as seo49_9_,
+        product0_.sn as sn9_,
+        product0_.stock as stock9_,
+        product0_.stock_memo as stock52_9_,
+        product0_.total_score as total53_9_,
+        product0_.unit as unit9_,
+        product0_.week_hits as week55_9_,
+        product0_.week_hits_date as week56_9_,
+        product0_.week_sales as week57_9_,
+        product0_.week_sales_date as week58_9_,
+        product0_.weight as weight9_ 
+    from
+        t_product product0_ 
+    where
+        1=1 
+        and (
+            exists (
+                select
+                    product1_.id 
+                from
+                    t_product product1_ 
+                inner join
+                    t_product_tag tags2_ 
+                        on product1_.id=tags2_.products 
+                inner join
+                    t_tag tag3_ 
+                        on tags2_.tags=tag3_.id 
+                where
+                    product1_.id=product0_.id 
+                    and (
+                        tag3_.id in (
+                            ?
+                        )
+                    )
+            )
+        ) 
+        and product0_.is_marketable=? 
+        and product0_.is_list=? 
+        and product0_.is_gift=? 
+    order by
+        product0_.is_top desc,
+        product0_.modify_date desc limit ?
+Hibernate: 
+    select
+        friendlink0_.id as id34_,
+        friendlink0_.create_date as create2_34_,
+        friendlink0_.modify_date as modify3_34_,
+        friendlink0_.orders as orders34_,
+        friendlink0_.logo as logo34_,
+        friendlink0_.name as name34_,
+        friendlink0_.type as type34_,
+        friendlink0_.url as url34_ 
+    from
+        t_friend_link friendlink0_ 
+    order by
+        friendlink0_.orders asc limit ?
+Hibernate: 
+    select
+        adposition0_.id as id18_1_,
+        adposition0_.create_date as create2_18_1_,
+        adposition0_.modify_date as modify3_18_1_,
+        adposition0_.description as descript4_18_1_,
+        adposition0_.height as height18_1_,
+        adposition0_.name as name18_1_,
+        adposition0_.template as template18_1_,
+        adposition0_.width as width18_1_,
+        ads1_.ad_position as ad12_18_3_,
+        ads1_.id as id3_,
+        ads1_.id as id21_0_,
+        ads1_.create_date as create2_21_0_,
+        ads1_.modify_date as modify3_21_0_,
+        ads1_.orders as orders21_0_,
+        ads1_.ad_position as ad12_21_0_,
+        ads1_.begin_date as begin5_21_0_,
+        ads1_.content as content21_0_,
+        ads1_.end_date as end7_21_0_,
+        ads1_.path as path21_0_,
+        ads1_.title as title21_0_,
+        ads1_.type as type21_0_,
+        ads1_.url as url21_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        navigation0_.id as id17_,
+        navigation0_.create_date as create2_17_,
+        navigation0_.modify_date as modify3_17_,
+        navigation0_.orders as orders17_,
+        navigation0_.is_blank_target as is5_17_,
+        navigation0_.name as name17_,
+        navigation0_.position as position17_,
+        navigation0_.url as url17_ 
+    from
+        t_navigation navigation0_ 
+    where
+        1=1 
+        and navigation0_.position=? 
+    order by
+        navigation0_.orders asc
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.parent is null 
+    order by
+        productcat0_.orders asc
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id50_,
+        productcat0_.create_date as create2_50_,
+        productcat0_.modify_date as modify3_50_,
+        productcat0_.orders as orders50_,
+        productcat0_.grade as grade50_,
+        productcat0_.name as name50_,
+        productcat0_.parent as parent50_,
+        productcat0_.seo_description as seo7_50_,
+        productcat0_.seo_keywords as seo8_50_,
+        productcat0_.seo_title as seo9_50_,
+        productcat0_.tree_path as tree10_50_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        systemconf0_.id as id23_,
+        systemconf0_.create_date as create2_23_,
+        systemconf0_.modify_date as modify3_23_,
+        systemconf0_.code as code23_,
+        systemconf0_.type as type23_,
+        systemconf0_.value as value23_ 
+    from
+        t_system_config systemconf0_ 
+    where
+        1=1 
+        and systemconf0_.type=? 
+        and systemconf0_.code=? 
+    order by
+        systemconf0_.create_date desc limit ?
+Hibernate: 
+    select
+        seo0_.id as id48_,
+        seo0_.create_date as create2_48_,
+        seo0_.modify_date as modify3_48_,
+        seo0_.description as descript4_48_,
+        seo0_.keywords as keywords48_,
+        seo0_.title as title48_,
+        seo0_.type as type48_ 
+    from
+        t_seo seo0_ 
+    where
+        seo0_.type=? limit ?
+Hibernate: 
+    select
+        navigation0_.id as id6_,
+        navigation0_.create_date as create2_6_,
+        navigation0_.modify_date as modify3_6_,
+        navigation0_.orders as orders6_,
+        navigation0_.is_blank_target as is5_6_,
+        navigation0_.name as name6_,
+        navigation0_.position as position6_,
+        navigation0_.url as url6_ 
+    from
+        t_navigation navigation0_ 
+    where
+        1=1 
+        and navigation0_.position=? 
+    order by
+        navigation0_.orders asc
+Hibernate: 
+    select
+        tag0_.id as id51_,
+        tag0_.create_date as create2_51_,
+        tag0_.modify_date as modify3_51_,
+        tag0_.orders as orders51_,
+        tag0_.icon as icon51_,
+        tag0_.memo as memo51_,
+        tag0_.name as name51_,
+        tag0_.type as type51_ 
+    from
+        t_tag tag0_ 
+    where
+        1=1 
+        and tag0_.type=? 
+    order by
+        tag0_.orders asc limit ?
+Hibernate: 
+    select
+        navigation0_.id as id6_,
+        navigation0_.create_date as create2_6_,
+        navigation0_.modify_date as modify3_6_,
+        navigation0_.orders as orders6_,
+        navigation0_.is_blank_target as is5_6_,
+        navigation0_.name as name6_,
+        navigation0_.position as position6_,
+        navigation0_.url as url6_ 
+    from
+        t_navigation navigation0_ 
+    where
+        1=1 
+        and navigation0_.position=? 
+    order by
+        navigation0_.orders asc
+Hibernate: 
+    select
+        adposition0_.id as id54_1_,
+        adposition0_.create_date as create2_54_1_,
+        adposition0_.modify_date as modify3_54_1_,
+        adposition0_.description as descript4_54_1_,
+        adposition0_.height as height54_1_,
+        adposition0_.name as name54_1_,
+        adposition0_.template as template54_1_,
+        adposition0_.width as width54_1_,
+        ads1_.ad_position as ad12_54_3_,
+        ads1_.id as id3_,
+        ads1_.id as id20_0_,
+        ads1_.create_date as create2_20_0_,
+        ads1_.modify_date as modify3_20_0_,
+        ads1_.orders as orders20_0_,
+        ads1_.ad_position as ad12_20_0_,
+        ads1_.begin_date as begin5_20_0_,
+        ads1_.content as content20_0_,
+        ads1_.end_date as end7_20_0_,
+        ads1_.path as path20_0_,
+        ads1_.title as title20_0_,
+        ads1_.type as type20_0_,
+        ads1_.url as url20_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        articlecat0_.id as id12_,
+        articlecat0_.create_date as create2_12_,
+        articlecat0_.modify_date as modify3_12_,
+        articlecat0_.orders as orders12_,
+        articlecat0_.grade as grade12_,
+        articlecat0_.name as name12_,
+        articlecat0_.parent as parent12_,
+        articlecat0_.seo_description as seo7_12_,
+        articlecat0_.seo_keywords as seo8_12_,
+        articlecat0_.seo_title as seo9_12_,
+        articlecat0_.tree_path as tree10_12_ 
+    from
+        t_article_category articlecat0_ 
+    where
+        articlecat0_.parent is null 
+    order by
+        articlecat0_.orders asc limit ?
+Hibernate: 
+    select
+        article0_.id as id46_,
+        article0_.create_date as create2_46_,
+        article0_.modify_date as modify3_46_,
+        article0_.article_category as article13_46_,
+        article0_.author as author46_,
+        article0_.content as content46_,
+        article0_.hits as hits46_,
+        article0_.is_publication as is7_46_,
+        article0_.is_top as is8_46_,
+        article0_.seo_description as seo9_46_,
+        article0_.seo_keywords as seo10_46_,
+        article0_.seo_title as seo11_46_,
+        article0_.title as title46_ 
+    from
+        t_article article0_ cross 
+    join
+        t_article_category articlecat1_ 
+    where
+        article0_.article_category=articlecat1_.id 
+        and 1=1 
+        and article0_.is_publication=? 
+        and (
+            article0_.article_category=? 
+            or articlecat1_.tree_path like ?
+        ) 
+    order by
+        article0_.is_top desc limit ?
+Hibernate: 
+    select
+        article0_.id as id46_,
+        article0_.create_date as create2_46_,
+        article0_.modify_date as modify3_46_,
+        article0_.article_category as article13_46_,
+        article0_.author as author46_,
+        article0_.content as content46_,
+        article0_.hits as hits46_,
+        article0_.is_publication as is7_46_,
+        article0_.is_top as is8_46_,
+        article0_.seo_description as seo9_46_,
+        article0_.seo_keywords as seo10_46_,
+        article0_.seo_title as seo11_46_,
+        article0_.title as title46_ 
+    from
+        t_article article0_ cross 
+    join
+        t_article_category articlecat1_ 
+    where
+        article0_.article_category=articlecat1_.id 
+        and 1=1 
+        and article0_.is_publication=? 
+        and (
+            article0_.article_category=? 
+            or articlecat1_.tree_path like ?
+        ) 
+    order by
+        article0_.is_top desc limit ?
+Hibernate: 
+    select
+        article0_.id as id46_,
+        article0_.create_date as create2_46_,
+        article0_.modify_date as modify3_46_,
+        article0_.article_category as article13_46_,
+        article0_.author as author46_,
+        article0_.content as content46_,
+        article0_.hits as hits46_,
+        article0_.is_publication as is7_46_,
+        article0_.is_top as is8_46_,
+        article0_.seo_description as seo9_46_,
+        article0_.seo_keywords as seo10_46_,
+        article0_.seo_title as seo11_46_,
+        article0_.title as title46_ 
+    from
+        t_article article0_ cross 
+    join
+        t_article_category articlecat1_ 
+    where
+        article0_.article_category=articlecat1_.id 
+        and 1=1 
+        and article0_.is_publication=? 
+        and (
+            article0_.article_category=? 
+            or articlecat1_.tree_path like ?
+        ) 
+    order by
+        article0_.is_top desc limit ?
+Hibernate: 
+    select
+        adposition0_.id as id54_1_,
+        adposition0_.create_date as create2_54_1_,
+        adposition0_.modify_date as modify3_54_1_,
+        adposition0_.description as descript4_54_1_,
+        adposition0_.height as height54_1_,
+        adposition0_.name as name54_1_,
+        adposition0_.template as template54_1_,
+        adposition0_.width as width54_1_,
+        ads1_.ad_position as ad12_54_3_,
+        ads1_.id as id3_,
+        ads1_.id as id20_0_,
+        ads1_.create_date as create2_20_0_,
+        ads1_.modify_date as modify3_20_0_,
+        ads1_.orders as orders20_0_,
+        ads1_.ad_position as ad12_20_0_,
+        ads1_.begin_date as begin5_20_0_,
+        ads1_.content as content20_0_,
+        ads1_.end_date as end7_20_0_,
+        ads1_.path as path20_0_,
+        ads1_.title as title20_0_,
+        ads1_.type as type20_0_,
+        ads1_.url as url20_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        brand0_.id as id9_,
+        brand0_.create_date as create2_9_,
+        brand0_.modify_date as modify3_9_,
+        brand0_.orders as orders9_,
+        brand0_.introduction as introduc5_9_,
+        brand0_.logo as logo9_,
+        brand0_.name as name9_,
+        brand0_.type as type9_,
+        brand0_.url as url9_ 
+    from
+        t_brand brand0_ 
+    where
+        1=1 
+        and brand0_.type=? 
+    order by
+        brand0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.parent is null 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        children0_.parent as parent52_1_,
+        children0_.id as id1_,
+        children0_.id as id52_0_,
+        children0_.create_date as create2_52_0_,
+        children0_.modify_date as modify3_52_0_,
+        children0_.orders as orders52_0_,
+        children0_.grade as grade52_0_,
+        children0_.name as name52_0_,
+        children0_.parent as parent52_0_,
+        children0_.seo_description as seo7_52_0_,
+        children0_.seo_keywords as seo8_52_0_,
+        children0_.seo_title as seo9_52_0_,
+        children0_.tree_path as tree10_52_0_ 
+    from
+        t_product_category children0_ 
+    where
+        children0_.parent=? 
+    order by
+        children0_.orders asc
+Hibernate: 
+    select
+        children0_.parent as parent52_1_,
+        children0_.id as id1_,
+        children0_.id as id52_0_,
+        children0_.create_date as create2_52_0_,
+        children0_.modify_date as modify3_52_0_,
+        children0_.orders as orders52_0_,
+        children0_.grade as grade52_0_,
+        children0_.name as name52_0_,
+        children0_.parent as parent52_0_,
+        children0_.seo_description as seo7_52_0_,
+        children0_.seo_keywords as seo8_52_0_,
+        children0_.seo_title as seo9_52_0_,
+        children0_.tree_path as tree10_52_0_ 
+    from
+        t_product_category children0_ 
+    where
+        children0_.parent=? 
+    order by
+        children0_.orders asc
+Hibernate: 
+    select
+        promotion0_.id as id5_,
+        promotion0_.create_date as create2_5_,
+        promotion0_.modify_date as modify3_5_,
+        promotion0_.orders as orders5_,
+        promotion0_.begin_date as begin5_5_,
+        promotion0_.end_date as end6_5_,
+        promotion0_.introduction as introduc7_5_,
+        promotion0_.is_coupon_allowed as is8_5_,
+        promotion0_.is_free_shipping as is9_5_,
+        promotion0_.maximum_price as maximum10_5_,
+        promotion0_.maximum_quantity as maximum11_5_,
+        promotion0_.minimum_price as minimum12_5_,
+        promotion0_.minimum_quantity as minimum13_5_,
+        promotion0_.name as name5_,
+        promotion0_.point_expression as point15_5_,
+        promotion0_.price_expression as price16_5_,
+        promotion0_.title as title5_ 
+    from
+        t_promotion promotion0_ 
+    where
+        1=1 
+        and (
+            promotion0_.end_date is null 
+            or promotion0_.end_date>=?
+        ) 
+    order by
+        promotion0_.orders asc limit ?
+Hibernate: 
+    select
+        product0_.id as id43_,
+        product0_.create_date as create2_43_,
+        product0_.modify_date as modify3_43_,
+        product0_.allocated_stock as allocated4_43_,
+        product0_.attribute_value0 as attribute5_43_,
+        product0_.attribute_value1 as attribute6_43_,
+        product0_.attribute_value10 as attribute7_43_,
+        product0_.attribute_value11 as attribute8_43_,
+        product0_.attribute_value12 as attribute9_43_,
+        product0_.attribute_value13 as attribute10_43_,
+        product0_.attribute_value14 as attribute11_43_,
+        product0_.attribute_value15 as attribute12_43_,
+        product0_.attribute_value16 as attribute13_43_,
+        product0_.attribute_value17 as attribute14_43_,
+        product0_.attribute_value18 as attribute15_43_,
+        product0_.attribute_value19 as attribute16_43_,
+        product0_.attribute_value2 as attribute17_43_,
+        product0_.attribute_value3 as attribute18_43_,
+        product0_.attribute_value4 as attribute19_43_,
+        product0_.attribute_value5 as attribute20_43_,
+        product0_.attribute_value6 as attribute21_43_,
+        product0_.attribute_value7 as attribute22_43_,
+        product0_.attribute_value8 as attribute23_43_,
+        product0_.attribute_value9 as attribute24_43_,
+        product0_.brand as brand43_,
+        product0_.cost as cost43_,
+        product0_.full_name as full26_43_,
+        product0_.goods as goods43_,
+        product0_.hits as hits43_,
+        product0_.image as image43_,
+        product0_.introduction as introdu29_43_,
+        product0_.is_gift as is30_43_,
+        product0_.is_list as is31_43_,
+        product0_.is_marketable as is32_43_,
+        product0_.is_top as is33_43_,
+        product0_.keyword as keyword43_,
+        product0_.market_price as market35_43_,
+        product0_.memo as memo43_,
+        product0_.month_hits as month37_43_,
+        product0_.month_hits_date as month38_43_,
+        product0_.month_sales as month39_43_,
+        product0_.month_sales_date as month40_43_,
+        product0_.name as name43_,
+        product0_.point as point43_,
+        product0_.price as price43_,
+        product0_.product_category as product62_43_,
+        product0_.sales as sales43_,
+        product0_.score as score43_,
+        product0_.score_count as score46_43_,
+        product0_.seo_description as seo47_43_,
+        product0_.seo_keywords as seo48_43_,
+        product0_.seo_title as seo49_43_,
+        product0_.sn as sn43_,
+        product0_.stock as stock43_,
+        product0_.stock_memo as stock52_43_,
+        product0_.total_score as total53_43_,
+        product0_.unit as unit43_,
+        product0_.week_hits as week55_43_,
+        product0_.week_hits_date as week56_43_,
+        product0_.week_sales as week57_43_,
+        product0_.week_sales_date as week58_43_,
+        product0_.weight as weight43_ 
+    from
+        t_product product0_ 
+    where
+        1=1 
+        and (
+            exists (
+                select
+                    product1_.id 
+                from
+                    t_product product1_ 
+                inner join
+                    t_promotion_product promotions2_ 
+                        on product1_.id=promotions2_.products 
+                inner join
+                    t_promotion promotion3_ 
+                        on promotions2_.promotions=promotion3_.id 
+                where
+                    product1_.id=product0_.id 
+                    and promotion3_.id=?
+            ) 
+            or exists (
+                select
+                    product4_.id 
+                from
+                    t_product product4_ 
+                inner join
+                    t_product_category productcat5_ 
+                        on product4_.product_category=productcat5_.id 
+                inner join
+                    t_promotion_product_category promotions6_ 
+                        on productcat5_.id=promotions6_.product_categories 
+                inner join
+                    t_promotion promotion7_ 
+                        on promotions6_.promotions=promotion7_.id 
+                where
+                    product4_.id=product0_.id 
+                    and promotion7_.id=?
+            ) 
+            or exists (
+                select
+                    product8_.id 
+                from
+                    t_product product8_ 
+                inner join
+                    t_brand brand9_ 
+                        on product8_.brand=brand9_.id 
+                inner join
+                    t_promotion_brand promotions10_ 
+                        on brand9_.id=promotions10_.brands 
+                inner join
+                    t_promotion promotion11_ 
+                        on promotions10_.promotions=promotion11_.id 
+                where
+                    product8_.id=product0_.id 
+                    and promotion11_.id=?
+            )
+        ) 
+        and product0_.is_marketable=? 
+        and product0_.is_list=? 
+        and product0_.is_gift=? 
+    order by
+        product0_.is_top desc,
+        product0_.modify_date desc limit ?
+Hibernate: 
+    select
+        product0_.id as id43_,
+        product0_.create_date as create2_43_,
+        product0_.modify_date as modify3_43_,
+        product0_.allocated_stock as allocated4_43_,
+        product0_.attribute_value0 as attribute5_43_,
+        product0_.attribute_value1 as attribute6_43_,
+        product0_.attribute_value10 as attribute7_43_,
+        product0_.attribute_value11 as attribute8_43_,
+        product0_.attribute_value12 as attribute9_43_,
+        product0_.attribute_value13 as attribute10_43_,
+        product0_.attribute_value14 as attribute11_43_,
+        product0_.attribute_value15 as attribute12_43_,
+        product0_.attribute_value16 as attribute13_43_,
+        product0_.attribute_value17 as attribute14_43_,
+        product0_.attribute_value18 as attribute15_43_,
+        product0_.attribute_value19 as attribute16_43_,
+        product0_.attribute_value2 as attribute17_43_,
+        product0_.attribute_value3 as attribute18_43_,
+        product0_.attribute_value4 as attribute19_43_,
+        product0_.attribute_value5 as attribute20_43_,
+        product0_.attribute_value6 as attribute21_43_,
+        product0_.attribute_value7 as attribute22_43_,
+        product0_.attribute_value8 as attribute23_43_,
+        product0_.attribute_value9 as attribute24_43_,
+        product0_.brand as brand43_,
+        product0_.cost as cost43_,
+        product0_.full_name as full26_43_,
+        product0_.goods as goods43_,
+        product0_.hits as hits43_,
+        product0_.image as image43_,
+        product0_.introduction as introdu29_43_,
+        product0_.is_gift as is30_43_,
+        product0_.is_list as is31_43_,
+        product0_.is_marketable as is32_43_,
+        product0_.is_top as is33_43_,
+        product0_.keyword as keyword43_,
+        product0_.market_price as market35_43_,
+        product0_.memo as memo43_,
+        product0_.month_hits as month37_43_,
+        product0_.month_hits_date as month38_43_,
+        product0_.month_sales as month39_43_,
+        product0_.month_sales_date as month40_43_,
+        product0_.name as name43_,
+        product0_.point as point43_,
+        product0_.price as price43_,
+        product0_.product_category as product62_43_,
+        product0_.sales as sales43_,
+        product0_.score as score43_,
+        product0_.score_count as score46_43_,
+        product0_.seo_description as seo47_43_,
+        product0_.seo_keywords as seo48_43_,
+        product0_.seo_title as seo49_43_,
+        product0_.sn as sn43_,
+        product0_.stock as stock43_,
+        product0_.stock_memo as stock52_43_,
+        product0_.total_score as total53_43_,
+        product0_.unit as unit43_,
+        product0_.week_hits as week55_43_,
+        product0_.week_hits_date as week56_43_,
+        product0_.week_sales as week57_43_,
+        product0_.week_sales_date as week58_43_,
+        product0_.weight as weight43_ 
+    from
+        t_product product0_ 
+    where
+        1=1 
+        and (
+            exists (
+                select
+                    product1_.id 
+                from
+                    t_product product1_ 
+                inner join
+                    t_promotion_product promotions2_ 
+                        on product1_.id=promotions2_.products 
+                inner join
+                    t_promotion promotion3_ 
+                        on promotions2_.promotions=promotion3_.id 
+                where
+                    product1_.id=product0_.id 
+                    and promotion3_.id=?
+            ) 
+            or exists (
+                select
+                    product4_.id 
+                from
+                    t_product product4_ 
+                inner join
+                    t_product_category productcat5_ 
+                        on product4_.product_category=productcat5_.id 
+                inner join
+                    t_promotion_product_category promotions6_ 
+                        on productcat5_.id=promotions6_.product_categories 
+                inner join
+                    t_promotion promotion7_ 
+                        on promotions6_.promotions=promotion7_.id 
+                where
+                    product4_.id=product0_.id 
+                    and promotion7_.id=?
+            ) 
+            or exists (
+                select
+                    product8_.id 
+                from
+                    t_product product8_ 
+                inner join
+                    t_brand brand9_ 
+                        on product8_.brand=brand9_.id 
+                inner join
+                    t_promotion_brand promotions10_ 
+                        on brand9_.id=promotions10_.brands 
+                inner join
+                    t_promotion promotion11_ 
+                        on promotions10_.promotions=promotion11_.id 
+                where
+                    product8_.id=product0_.id 
+                    and promotion11_.id=?
+            )
+        ) 
+        and product0_.is_marketable=? 
+        and product0_.is_list=? 
+        and product0_.is_gift=? 
+    order by
+        product0_.is_top desc,
+        product0_.modify_date desc limit ?
+Hibernate: 
+    select
+        review0_.id as id37_,
+        review0_.create_date as create2_37_,
+        review0_.modify_date as modify3_37_,
+        review0_.content as content37_,
+        review0_.ip as ip37_,
+        review0_.is_show as is6_37_,
+        review0_.member as member37_,
+        review0_.product as product37_,
+        review0_.score as score37_ 
+    from
+        t_review review0_ 
+    where
+        1=1 
+        and review0_.is_show=? 
+    order by
+        review0_.create_date desc limit ?
+Hibernate: 
+    select
+        adposition0_.id as id54_1_,
+        adposition0_.create_date as create2_54_1_,
+        adposition0_.modify_date as modify3_54_1_,
+        adposition0_.description as descript4_54_1_,
+        adposition0_.height as height54_1_,
+        adposition0_.name as name54_1_,
+        adposition0_.template as template54_1_,
+        adposition0_.width as width54_1_,
+        ads1_.ad_position as ad12_54_3_,
+        ads1_.id as id3_,
+        ads1_.id as id20_0_,
+        ads1_.create_date as create2_20_0_,
+        ads1_.modify_date as modify3_20_0_,
+        ads1_.orders as orders20_0_,
+        ads1_.ad_position as ad12_20_0_,
+        ads1_.begin_date as begin5_20_0_,
+        ads1_.content as content20_0_,
+        ads1_.end_date as end7_20_0_,
+        ads1_.path as path20_0_,
+        ads1_.title as title20_0_,
+        ads1_.type as type20_0_,
+        ads1_.url as url20_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.parent is null 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        adposition0_.id as id54_1_,
+        adposition0_.create_date as create2_54_1_,
+        adposition0_.modify_date as modify3_54_1_,
+        adposition0_.description as descript4_54_1_,
+        adposition0_.height as height54_1_,
+        adposition0_.name as name54_1_,
+        adposition0_.template as template54_1_,
+        adposition0_.width as width54_1_,
+        ads1_.ad_position as ad12_54_3_,
+        ads1_.id as id3_,
+        ads1_.id as id20_0_,
+        ads1_.create_date as create2_20_0_,
+        ads1_.modify_date as modify3_20_0_,
+        ads1_.orders as orders20_0_,
+        ads1_.ad_position as ad12_20_0_,
+        ads1_.begin_date as begin5_20_0_,
+        ads1_.content as content20_0_,
+        ads1_.end_date as end7_20_0_,
+        ads1_.path as path20_0_,
+        ads1_.title as title20_0_,
+        ads1_.type as type20_0_,
+        ads1_.url as url20_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        product0_.id as id43_,
+        product0_.create_date as create2_43_,
+        product0_.modify_date as modify3_43_,
+        product0_.allocated_stock as allocated4_43_,
+        product0_.attribute_value0 as attribute5_43_,
+        product0_.attribute_value1 as attribute6_43_,
+        product0_.attribute_value10 as attribute7_43_,
+        product0_.attribute_value11 as attribute8_43_,
+        product0_.attribute_value12 as attribute9_43_,
+        product0_.attribute_value13 as attribute10_43_,
+        product0_.attribute_value14 as attribute11_43_,
+        product0_.attribute_value15 as attribute12_43_,
+        product0_.attribute_value16 as attribute13_43_,
+        product0_.attribute_value17 as attribute14_43_,
+        product0_.attribute_value18 as attribute15_43_,
+        product0_.attribute_value19 as attribute16_43_,
+        product0_.attribute_value2 as attribute17_43_,
+        product0_.attribute_value3 as attribute18_43_,
+        product0_.attribute_value4 as attribute19_43_,
+        product0_.attribute_value5 as attribute20_43_,
+        product0_.attribute_value6 as attribute21_43_,
+        product0_.attribute_value7 as attribute22_43_,
+        product0_.attribute_value8 as attribute23_43_,
+        product0_.attribute_value9 as attribute24_43_,
+        product0_.brand as brand43_,
+        product0_.cost as cost43_,
+        product0_.full_name as full26_43_,
+        product0_.goods as goods43_,
+        product0_.hits as hits43_,
+        product0_.image as image43_,
+        product0_.introduction as introdu29_43_,
+        product0_.is_gift as is30_43_,
+        product0_.is_list as is31_43_,
+        product0_.is_marketable as is32_43_,
+        product0_.is_top as is33_43_,
+        product0_.keyword as keyword43_,
+        product0_.market_price as market35_43_,
+        product0_.memo as memo43_,
+        product0_.month_hits as month37_43_,
+        product0_.month_hits_date as month38_43_,
+        product0_.month_sales as month39_43_,
+        product0_.month_sales_date as month40_43_,
+        product0_.name as name43_,
+        product0_.point as point43_,
+        product0_.price as price43_,
+        product0_.product_category as product62_43_,
+        product0_.sales as sales43_,
+        product0_.score as score43_,
+        product0_.score_count as score46_43_,
+        product0_.seo_description as seo47_43_,
+        product0_.seo_keywords as seo48_43_,
+        product0_.seo_title as seo49_43_,
+        product0_.sn as sn43_,
+        product0_.stock as stock43_,
+        product0_.stock_memo as stock52_43_,
+        product0_.total_score as total53_43_,
+        product0_.unit as unit43_,
+        product0_.week_hits as week55_43_,
+        product0_.week_hits_date as week56_43_,
+        product0_.week_sales as week57_43_,
+        product0_.week_sales_date as week58_43_,
+        product0_.weight as weight43_ 
+    from
+        t_product product0_ 
+    where
+        1=1 
+        and (
+            exists (
+                select
+                    product1_.id 
+                from
+                    t_product product1_ 
+                inner join
+                    t_product_tag tags2_ 
+                        on product1_.id=tags2_.products 
+                inner join
+                    t_tag tag3_ 
+                        on tags2_.tags=tag3_.id 
+                where
+                    product1_.id=product0_.id 
+                    and (
+                        tag3_.id in (
+                            ?
+                        )
+                    )
+            )
+        ) 
+        and product0_.is_marketable=? 
+        and product0_.is_list=? 
+        and product0_.is_gift=? 
+    order by
+        product0_.is_top desc,
+        product0_.modify_date desc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.parent is null 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        adposition0_.id as id54_1_,
+        adposition0_.create_date as create2_54_1_,
+        adposition0_.modify_date as modify3_54_1_,
+        adposition0_.description as descript4_54_1_,
+        adposition0_.height as height54_1_,
+        adposition0_.name as name54_1_,
+        adposition0_.template as template54_1_,
+        adposition0_.width as width54_1_,
+        ads1_.ad_position as ad12_54_3_,
+        ads1_.id as id3_,
+        ads1_.id as id20_0_,
+        ads1_.create_date as create2_20_0_,
+        ads1_.modify_date as modify3_20_0_,
+        ads1_.orders as orders20_0_,
+        ads1_.ad_position as ad12_20_0_,
+        ads1_.begin_date as begin5_20_0_,
+        ads1_.content as content20_0_,
+        ads1_.end_date as end7_20_0_,
+        ads1_.path as path20_0_,
+        ads1_.title as title20_0_,
+        ads1_.type as type20_0_,
+        ads1_.url as url20_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        product0_.id as id43_,
+        product0_.create_date as create2_43_,
+        product0_.modify_date as modify3_43_,
+        product0_.allocated_stock as allocated4_43_,
+        product0_.attribute_value0 as attribute5_43_,
+        product0_.attribute_value1 as attribute6_43_,
+        product0_.attribute_value10 as attribute7_43_,
+        product0_.attribute_value11 as attribute8_43_,
+        product0_.attribute_value12 as attribute9_43_,
+        product0_.attribute_value13 as attribute10_43_,
+        product0_.attribute_value14 as attribute11_43_,
+        product0_.attribute_value15 as attribute12_43_,
+        product0_.attribute_value16 as attribute13_43_,
+        product0_.attribute_value17 as attribute14_43_,
+        product0_.attribute_value18 as attribute15_43_,
+        product0_.attribute_value19 as attribute16_43_,
+        product0_.attribute_value2 as attribute17_43_,
+        product0_.attribute_value3 as attribute18_43_,
+        product0_.attribute_value4 as attribute19_43_,
+        product0_.attribute_value5 as attribute20_43_,
+        product0_.attribute_value6 as attribute21_43_,
+        product0_.attribute_value7 as attribute22_43_,
+        product0_.attribute_value8 as attribute23_43_,
+        product0_.attribute_value9 as attribute24_43_,
+        product0_.brand as brand43_,
+        product0_.cost as cost43_,
+        product0_.full_name as full26_43_,
+        product0_.goods as goods43_,
+        product0_.hits as hits43_,
+        product0_.image as image43_,
+        product0_.introduction as introdu29_43_,
+        product0_.is_gift as is30_43_,
+        product0_.is_list as is31_43_,
+        product0_.is_marketable as is32_43_,
+        product0_.is_top as is33_43_,
+        product0_.keyword as keyword43_,
+        product0_.market_price as market35_43_,
+        product0_.memo as memo43_,
+        product0_.month_hits as month37_43_,
+        product0_.month_hits_date as month38_43_,
+        product0_.month_sales as month39_43_,
+        product0_.month_sales_date as month40_43_,
+        product0_.name as name43_,
+        product0_.point as point43_,
+        product0_.price as price43_,
+        product0_.product_category as product62_43_,
+        product0_.sales as sales43_,
+        product0_.score as score43_,
+        product0_.score_count as score46_43_,
+        product0_.seo_description as seo47_43_,
+        product0_.seo_keywords as seo48_43_,
+        product0_.seo_title as seo49_43_,
+        product0_.sn as sn43_,
+        product0_.stock as stock43_,
+        product0_.stock_memo as stock52_43_,
+        product0_.total_score as total53_43_,
+        product0_.unit as unit43_,
+        product0_.week_hits as week55_43_,
+        product0_.week_hits_date as week56_43_,
+        product0_.week_sales as week57_43_,
+        product0_.week_sales_date as week58_43_,
+        product0_.weight as weight43_ 
+    from
+        t_product product0_ 
+    where
+        1=1 
+        and (
+            exists (
+                select
+                    product1_.id 
+                from
+                    t_product product1_ 
+                inner join
+                    t_product_tag tags2_ 
+                        on product1_.id=tags2_.products 
+                inner join
+                    t_tag tag3_ 
+                        on tags2_.tags=tag3_.id 
+                where
+                    product1_.id=product0_.id 
+                    and (
+                        tag3_.id in (
+                            ?
+                        )
+                    )
+            )
+        ) 
+        and product0_.is_marketable=? 
+        and product0_.is_list=? 
+        and product0_.is_gift=? 
+    order by
+        product0_.is_top desc,
+        product0_.modify_date desc limit ?
+Hibernate: 
+    select
+        friendlink0_.id as id34_,
+        friendlink0_.create_date as create2_34_,
+        friendlink0_.modify_date as modify3_34_,
+        friendlink0_.orders as orders34_,
+        friendlink0_.logo as logo34_,
+        friendlink0_.name as name34_,
+        friendlink0_.type as type34_,
+        friendlink0_.url as url34_ 
+    from
+        t_friend_link friendlink0_ 
+    order by
+        friendlink0_.orders asc limit ?
+Hibernate: 
+    select
+        adposition0_.id as id54_1_,
+        adposition0_.create_date as create2_54_1_,
+        adposition0_.modify_date as modify3_54_1_,
+        adposition0_.description as descript4_54_1_,
+        adposition0_.height as height54_1_,
+        adposition0_.name as name54_1_,
+        adposition0_.template as template54_1_,
+        adposition0_.width as width54_1_,
+        ads1_.ad_position as ad12_54_3_,
+        ads1_.id as id3_,
+        ads1_.id as id20_0_,
+        ads1_.create_date as create2_20_0_,
+        ads1_.modify_date as modify3_20_0_,
+        ads1_.orders as orders20_0_,
+        ads1_.ad_position as ad12_20_0_,
+        ads1_.begin_date as begin5_20_0_,
+        ads1_.content as content20_0_,
+        ads1_.end_date as end7_20_0_,
+        ads1_.path as path20_0_,
+        ads1_.title as title20_0_,
+        ads1_.type as type20_0_,
+        ads1_.url as url20_0_ 
+    from
+        t_ad_position adposition0_ 
+    left outer join
+        t_ad ads1_ 
+            on adposition0_.id=ads1_.ad_position 
+    where
+        adposition0_.id=? 
+    order by
+        ads1_.orders asc
+Hibernate: 
+    select
+        navigation0_.id as id6_,
+        navigation0_.create_date as create2_6_,
+        navigation0_.modify_date as modify3_6_,
+        navigation0_.orders as orders6_,
+        navigation0_.is_blank_target as is5_6_,
+        navigation0_.name as name6_,
+        navigation0_.position as position6_,
+        navigation0_.url as url6_ 
+    from
+        t_navigation navigation0_ 
+    where
+        1=1 
+        and navigation0_.position=? 
+    order by
+        navigation0_.orders asc
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.parent is null 
+    order by
+        productcat0_.orders asc
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        productcat0_.id as id52_,
+        productcat0_.create_date as create2_52_,
+        productcat0_.modify_date as modify3_52_,
+        productcat0_.orders as orders52_,
+        productcat0_.grade as grade52_,
+        productcat0_.name as name52_,
+        productcat0_.parent as parent52_,
+        productcat0_.seo_description as seo7_52_,
+        productcat0_.seo_keywords as seo8_52_,
+        productcat0_.seo_title as seo9_52_,
+        productcat0_.tree_path as tree10_52_ 
+    from
+        t_product_category productcat0_ 
+    where
+        productcat0_.tree_path like ? 
+    order by
+        productcat0_.orders asc limit ?
+Hibernate: 
+    select
+        systemconf0_.id as id24_,
+        systemconf0_.create_date as create2_24_,
+        systemconf0_.modify_date as modify3_24_,
+        systemconf0_.code as code24_,
+        systemconf0_.type as type24_,
+        systemconf0_.value as value24_ 
+    from
+        t_system_config systemconf0_ 
+    where
+        1=1 
+        and systemconf0_.type=? 
+        and systemconf0_.code=? 
+    order by
+        systemconf0_.create_date desc limit ?

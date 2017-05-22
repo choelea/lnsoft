@@ -1,0 +1,35 @@
+151027 19:51:53 [Note] Plugin 'FEDERATED' is disabled.
+151027 19:51:53  InnoDB: Initializing buffer pool, size = 8.0M
+151027 19:51:53  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+151027 19:51:53  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+151027 19:51:54  InnoDB: Started; log sequence number 0 26338870
+151027 19:51:54 [Note] Event Scheduler: Loaded 0 events
+151027 19:51:54 [Note] F:\jbsoft\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+151027 20:56:30 [Note] F:\jbsoft\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+151027 20:56:30 [Note] Event Scheduler: Purging the queue. 0 events
+151027 20:56:30  InnoDB: Starting shutdown...
+151027 20:56:34  InnoDB: Shutdown completed; log sequence number 0 26346436
+151027 20:56:34 [Note] F:\jbsoft\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+151027 20:58:24 [Note] Plugin 'FEDERATED' is disabled.
+151027 20:58:24  InnoDB: Initializing buffer pool, size = 8.0M
+151027 20:58:24  InnoDB: Completed initialization of buffer pool
+151027 20:58:24  InnoDB: Started; log sequence number 0 26346436
+151027 20:58:24 [Note] Event Scheduler: Loaded 0 events
+151027 20:58:24 [Note] F:\jbsoft\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+151027 21:07:01 [Note] F:\jbsoft\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+151027 21:07:01 [Note] Event Scheduler: Purging the queue. 0 events
+151027 21:07:01  InnoDB: Starting shutdown...
+151027 21:07:04  InnoDB: Shutdown completed; log sequence number 0 26356797
+151027 21:07:04 [Note] F:\jbsoft\EShop\mysql\bin\mysqld.exe: Shutdown complete
+

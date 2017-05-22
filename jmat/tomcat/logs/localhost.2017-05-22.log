@@ -1,0 +1,502 @@
+2017-5-22 15:34:51 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+2017-5-22 15:34:58 org.apache.catalina.core.ApplicationContext log
+信息:  [CompressingFilter/1.7] CompressingFilter has initialized
+2017-5-22 15:34:58 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'springmvc'
+2017-5-22 15:35:01 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'springmvc'
+2017-5-22 15:35:01 org.apache.catalina.core.ApplicationContext log
+信息:  [CompressingFilter/1.7] CompressingFilter is being destroyed...
+2017-5-22 15:35:01 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+2017-5-22 15:35:17 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+2017-5-22 15:35:25 org.apache.catalina.core.ApplicationContext log
+信息:  [CompressingFilter/1.7] CompressingFilter has initialized
+2017-5-22 15:35:25 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'springmvc'
+2017-5-22 15:35:46 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'springmvc'
+2017-5-22 15:35:46 org.apache.catalina.core.ApplicationContext log
+信息:  [CompressingFilter/1.7] CompressingFilter is being destroyed...
+2017-5-22 15:35:46 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+2017-5-22 16:17:59 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 4 in the jsp file: /index.jsp
+File cannot be resolved to a type
+1: <%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="UTF-8"%>
+2: <%  
+3: String path=application.getRealPath(request.getRequestURI());  
+4: String jmatFolder=new File(path).getParent();  
+5: %> 
+6: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+7: <html xmlns="http://www.w3.org/1999/xhtml">
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:312)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:299)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1527)
+	at java.lang.Thread.run(Thread.java:619)
+2017-5-22 16:20:33 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 34 in the jsp file: /index.jsp
+Invalid character constant
+31: 					<strong>瀹夎鍚庢枃浠跺す:</strong>
+32: 				</td>
+33: 				<td>
+34: 					<%=realContextPath.replace('tomcat\webapps\ROOT','')%>
+35: 				</td>
+36: 			</tr>
+37: 			<tr>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:312)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:299)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1527)
+	at java.lang.Thread.run(Thread.java:619)
+2017-5-22 16:21:13 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 34 in the jsp file: /index.jsp
+Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
+31: 					<strong>瀹夎鍚庢枃浠跺す:</strong>
+32: 				</td>
+33: 				<td>
+34: 					<%=realContextPath.replace("tomcat\webapps\ROOT","")%>
+35: 				</td>
+36: 			</tr>
+37: 			<tr>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:312)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:299)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1527)
+	at java.lang.Thread.run(Thread.java:619)
+2017-5-22 16:21:29 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 4 in the jsp file: /index.jsp
+Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
+1: <%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="UTF-8" import="java.io.*" %>
+2: <%  
+3: ServletContext context = session.getServletContext();
+4: String realContextPath = context.getRealPath(request.getContextPath()).replace("tomcat\webapps\ROOT",""); 
+5: %> 
+6: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+7: <html xmlns="http://www.w3.org/1999/xhtml">
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:312)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:299)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1527)
+	at java.lang.Thread.run(Thread.java:619)
+2017-5-22 16:32:47 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 14 in the jsp file: /index.jsp
+The method contain(String) is undefined for the type String
+11: String line;
+12: String mysqlPort;
+13: while((line = reader.readLine())!= null){
+14: 	if(line.contain("port"){
+15: 		mysqlPort = line.split("=")[1].trim();
+16: 		break;
+17: 	}
+
+
+An error occurred at line: 14 in the jsp file: /index.jsp
+Syntax error, insert ") Statement" to complete BlockStatements
+11: String line;
+12: String mysqlPort;
+13: while((line = reader.readLine())!= null){
+14: 	if(line.contain("port"){
+15: 		mysqlPort = line.split("=")[1].trim();
+16: 		break;
+17: 	}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:312)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:299)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1527)
+	at java.lang.Thread.run(Thread.java:619)
+2017-5-22 16:34:08 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 14 in the jsp file: /index.jsp
+Syntax error, insert ") Statement" to complete BlockStatements
+11: String line;
+12: String mysqlPort;
+13: while((line = reader.readLine())!= null){
+14: 	if(line.contains("port"){
+15: 		mysqlPort = line.split("=")[1].trim();
+16: 		break;
+17: 	}
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:312)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:299)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1527)
+	at java.lang.Thread.run(Thread.java:619)
+2017-5-22 16:34:27 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 72 in the jsp file: /index.jsp
+The local variable mysqlPort may not have been initialized
+69: 					<strong>Mysql绔彛:</strong>
+70: 				</td>
+71: 				<td>
+72: 					<%=mysqlPort%>
+73: 				</td>
+74: 			</tr>
+75: 			<tr>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:312)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:299)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1527)
+	at java.lang.Thread.run(Thread.java:619)
+2017-5-22 17:21:01 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /index.jsp
+Connection cannot be resolved to a type
+20: //娉ㄥ唽鏁版嵁搴撻┍鍔? 
+21: Class.forName("com.mysql.jdbc.Driver");  
+22: //鑾峰彇鏁版嵁搴撹繛鎺? 
+23: Connection conn = DriverManager.getConnection(  
+24:     "jdbc:mysql://localhost:"+mysqlPort+"/demo","root","root");  
+25: //鍒涘缓Statement  
+26: Statement stmt = conn.createStatement();  
+
+
+An error occurred at line: 23 in the jsp file: /index.jsp
+DriverManager cannot be resolved
+20: //娉ㄥ唽鏁版嵁搴撻┍鍔? 
+21: Class.forName("com.mysql.jdbc.Driver");  
+22: //鑾峰彇鏁版嵁搴撹繛鎺? 
+23: Connection conn = DriverManager.getConnection(  
+24:     "jdbc:mysql://localhost:"+mysqlPort+"/demo","root","root");  
+25: //鍒涘缓Statement  
+26: Statement stmt = conn.createStatement();  
+
+
+An error occurred at line: 26 in the jsp file: /index.jsp
+Statement cannot be resolved to a type
+23: Connection conn = DriverManager.getConnection(  
+24:     "jdbc:mysql://localhost:"+mysqlPort+"/demo","root","root");  
+25: //鍒涘缓Statement  
+26: Statement stmt = conn.createStatement();  
+27: //鎵ц鏌ヨ  
+28: ResultSet rs = stmt.executeQuery("select * from demo");  
+29: 
+
+
+An error occurred at line: 28 in the jsp file: /index.jsp
+ResultSet cannot be resolved to a type
+25: //鍒涘缓Statement  
+26: Statement stmt = conn.createStatement();  
+27: //鎵ц鏌ヨ  
+28: ResultSet rs = stmt.executeQuery("select * from demo");  
+29: 
+30: %> 
+31: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:312)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:299)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1527)
+	at java.lang.Thread.run(Thread.java:619)
+2017-5-22 17:24:24 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 20 in the jsp file: /index.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+17: 	}
+18: } 
+19: 
+20: String firstLineContext = ""  
+21: //娉ㄥ唽鏁版嵁搴撻┍鍔? 
+22: Class.forName("com.mysql.jdbc.Driver");  
+23: //鑾峰彇鏁版嵁搴撹繛鎺? 
+
+
+An error occurred at line: 32 in the jsp file: /index.jsp
+Syntax error, insert ";" to complete BlockStatements
+29: 
+30: ResultSet rs = stmt.executeQuery("select * from demo");  
+31: while(rs.next()){
+32: 	firstLineContext=rs.getString(2)
+33: } 
+34: %> 
+35: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+An error occurred at line: 101 in the jsp file: /index.jsp
+Syntax error on token "=", Expression expected after this token
+98: 					<strong>Mysql</strong>
+99: 				</td>
+100: 				<td>
+101: 					<%=firstLineContext=%>
+102: 				</td>
+103: 			</tr>
+104: 				</td>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:312)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:299)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1527)
+	at java.lang.Thread.run(Thread.java:619)
+2017-5-22 17:25:53 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 33 in the jsp file: /index.jsp
+Syntax error, insert ";" to complete BlockStatements
+30: 
+31: 	ResultSet rs = stmt.executeQuery("select * from demo");  
+32: 	while(rs.next()){
+33: 		mysqlTestData=rs.getString(2)
+34: 	}
+35: }catch(Exception e){
+36: 	mysqlTestData = e.getMessage();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:312)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:299)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1527)
+	at java.lang.Thread.run(Thread.java:619)
+2017-5-22 17:48:33 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:98)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:342)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)
+	at org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)
+	at org.apache.tomcat.util.net.AprEndpoint$Worker.run(AprEndpoint.java:1527)
+	at java.lang.Thread.run(Thread.java:619)

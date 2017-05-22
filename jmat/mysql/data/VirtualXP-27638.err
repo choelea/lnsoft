@@ -1,0 +1,524 @@
+141126 15:47:02 [Note] Plugin 'FEDERATED' is disabled.
+141126 15:47:02  InnoDB: Initializing buffer pool, size = 8.0M
+141126 15:47:02  InnoDB: Completed initialization of buffer pool
+141126 15:47:02  InnoDB: Started; log sequence number 0 543593
+141126 15:47:02 [Note] Event Scheduler: Loaded 0 events
+141126 15:47:02 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+141126 15:57:02 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+141126 15:57:02 [Note] Event Scheduler: Purging the queue. 0 events
+141126 15:57:02  InnoDB: Starting shutdown...
+141126 15:57:04  InnoDB: Shutdown completed; log sequence number 0 543603
+141126 15:57:04 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Shutdown complete
+
+141126 22:02:11 [Note] Plugin 'FEDERATED' is disabled.
+141126 22:02:12  InnoDB: Initializing buffer pool, size = 8.0M
+141126 22:02:12  InnoDB: Completed initialization of buffer pool
+141126 22:02:12  InnoDB: Started; log sequence number 0 543603
+141126 22:02:12 [Note] Event Scheduler: Loaded 0 events
+141126 22:02:12 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+141126 22:35:02 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+141126 22:35:02 [Note] Event Scheduler: Purging the queue. 0 events
+141126 22:35:02  InnoDB: Starting shutdown...
+141126 22:35:05  InnoDB: Shutdown completed; log sequence number 0 543603
+141126 22:35:05 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Shutdown complete
+
+141126 22:35:52 [Note] Plugin 'FEDERATED' is disabled.
+141126 22:35:57  InnoDB: Initializing buffer pool, size = 8.0M
+141126 22:35:57  InnoDB: Completed initialization of buffer pool
+141126 22:36:00  InnoDB: Started; log sequence number 0 543603
+141126 22:36:00 [Note] Event Scheduler: Loaded 0 events
+141126 22:36:00 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+141126 22:38:25 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+141126 22:38:25 [Note] Event Scheduler: Purging the queue. 0 events
+141126 22:38:25  InnoDB: Starting shutdown...
+141126 22:38:30  InnoDB: Shutdown completed; log sequence number 0 543613
+141126 22:38:30 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Shutdown complete
+
+141126 22:39:54 [Note] Plugin 'FEDERATED' is disabled.
+141126 22:39:54  InnoDB: Initializing buffer pool, size = 8.0M
+141126 22:39:54  InnoDB: Completed initialization of buffer pool
+141126 22:39:54  InnoDB: Started; log sequence number 0 543613
+141126 22:39:54 [Note] Event Scheduler: Loaded 0 events
+141126 22:39:54 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+141126 22:42:58 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+141126 22:42:58 [Note] Event Scheduler: Purging the queue. 0 events
+141126 22:43:30 [Note] Plugin 'FEDERATED' is disabled.
+141126 22:43:30  InnoDB: Initializing buffer pool, size = 8.0M
+141126 22:43:30  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+141126 22:43:30  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+141126 22:43:31  InnoDB: Started; log sequence number 0 543623
+141126 22:43:31 [Note] Event Scheduler: Loaded 0 events
+141126 22:43:31 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+141128 21:51:06 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+141128 21:51:06 [Note] Event Scheduler: Purging the queue. 0 events
+141129 11:36:01 [Note] Plugin 'FEDERATED' is disabled.
+141129 11:36:01  InnoDB: Initializing buffer pool, size = 8.0M
+141129 11:36:01  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+141129 11:36:01  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+141129 11:36:02  InnoDB: Started; log sequence number 0 543633
+141129 11:36:02 [Note] Event Scheduler: Loaded 0 events
+141129 11:36:02 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+141129 15:55:08 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+141129 15:55:08 [Note] Event Scheduler: Purging the queue. 0 events
+141130 17:04:34 [Note] Plugin 'FEDERATED' is disabled.
+141130 17:04:34  InnoDB: Initializing buffer pool, size = 8.0M
+141130 17:04:34  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+141130 17:04:34  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+141130 17:04:34  InnoDB: Started; log sequence number 0 545110
+141130 17:04:34 [Note] Event Scheduler: Loaded 0 events
+141130 17:04:34 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+141130 20:25:21 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+141130 20:25:21 [Note] Event Scheduler: Purging the queue. 0 events
+141130 20:26:09 [Note] Plugin 'FEDERATED' is disabled.
+141130 20:26:27  InnoDB: Initializing buffer pool, size = 8.0M
+141130 20:26:27  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+141130 20:26:27  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+141130 20:26:27  InnoDB: Started; log sequence number 0 545120
+141130 20:26:27 [Note] Event Scheduler: Loaded 0 events
+141130 20:26:27 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+141130 21:27:48 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+141130 21:27:48 [Note] Event Scheduler: Purging the queue. 0 events
+141130 21:27:50 [Warning] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Forcing close of thread 12  user: 'root'
+
+141130 21:27:50 [Warning] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Forcing close of thread 11  user: 'root'
+
+141130 21:27:50  InnoDB: Starting shutdown...
+141130 21:27:53  InnoDB: Shutdown completed; log sequence number 0 1490178
+141130 21:27:53 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Shutdown complete
+
+141130 21:28:50 [Note] Plugin 'FEDERATED' is disabled.
+141130 21:28:50  InnoDB: Initializing buffer pool, size = 8.0M
+141130 21:28:50  InnoDB: Completed initialization of buffer pool
+141130 21:28:51  InnoDB: Started; log sequence number 0 1490178
+141130 21:28:52 [Note] Event Scheduler: Loaded 0 events
+141130 21:28:52 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+141130 21:29:54 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+141130 21:29:54 [Note] Event Scheduler: Purging the queue. 0 events
+141130 21:29:56 [Warning] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Forcing close of thread 2  user: 'root'
+
+141130 21:29:56  InnoDB: Starting shutdown...
+141130 21:29:58  InnoDB: Shutdown completed; log sequence number 0 1490378
+141130 21:29:58 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Shutdown complete
+
+141130 21:39:20 [Note] Plugin 'FEDERATED' is disabled.
+141130 21:39:20  InnoDB: Initializing buffer pool, size = 8.0M
+141130 21:39:20  InnoDB: Completed initialization of buffer pool
+141130 21:39:20  InnoDB: Started; log sequence number 0 1490378
+141130 21:39:20 [Note] Event Scheduler: Loaded 0 events
+141130 21:39:20 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+141130 22:23:17 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+141130 22:23:17 [Note] Event Scheduler: Purging the queue. 0 events
+141214 14:30:12 [Note] Plugin 'FEDERATED' is disabled.
+141214 14:30:31  InnoDB: Initializing buffer pool, size = 8.0M
+141214 14:30:31  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+141214 14:30:31  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+141214 14:30:31  InnoDB: Started; log sequence number 0 1491791
+141214 14:30:31 [Note] Event Scheduler: Loaded 0 events
+141214 14:30:31 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+150123  9:39:02 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+150123  9:39:02 [Note] Event Scheduler: Purging the queue. 0 events
+150123  9:39:02  InnoDB: Starting shutdown...
+150123  9:39:03  InnoDB: Shutdown completed; log sequence number 0 1491791
+150123  9:39:03 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Shutdown complete
+
+150123  9:39:31 [Note] Plugin 'FEDERATED' is disabled.
+150123  9:39:32  InnoDB: Initializing buffer pool, size = 8.0M
+150123  9:39:32  InnoDB: Completed initialization of buffer pool
+150123  9:39:32  InnoDB: Started; log sequence number 0 1491791
+150123  9:39:32 [Note] Event Scheduler: Loaded 0 events
+150123  9:39:32 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+150123  9:55:44 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: Normal shutdown
+
+150123  9:55:45 [Note] Event Scheduler: Purging the queue. 0 events
+150123  9:55:45  InnoDB: Starting shutdown...
+150123 22:17:19 [Note] Plugin 'FEDERATED' is disabled.
+150123 22:17:20  InnoDB: Initializing buffer pool, size = 8.0M
+150123 22:17:20  InnoDB: Completed initialization of buffer pool
+150123 22:17:20  InnoDB: Started; log sequence number 0 1491791
+150123 22:17:20 [Note] Event Scheduler: Loaded 0 events
+150123 22:17:20 [Note] C:\JBSHOP\JBSHOP\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33366  MySQL Community Server (GPL)
+150123 22:53:43 [Note] Plugin 'FEDERATED' is disabled.
+150123 22:53:43  InnoDB: Initializing buffer pool, size = 8.0M
+150123 22:53:43  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+150123 22:53:43  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+150123 22:53:43  InnoDB: Started; log sequence number 0 1965936
+150123 22:53:43 [Note] Event Scheduler: Loaded 0 events
+150123 22:53:43 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150123 22:55:10 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150123 22:55:10 [Note] Event Scheduler: Purging the queue. 0 events
+150123 22:55:10  InnoDB: Starting shutdown...
+150123 22:55:14  InnoDB: Shutdown completed; log sequence number 0 1965936
+150123 22:55:14 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150123 22:55:21 [Note] Plugin 'FEDERATED' is disabled.
+150123 22:55:21  InnoDB: Initializing buffer pool, size = 8.0M
+150123 22:55:21  InnoDB: Completed initialization of buffer pool
+150123 22:55:21  InnoDB: Started; log sequence number 0 1965936
+150123 22:55:21 [Note] Event Scheduler: Loaded 0 events
+150123 22:55:21 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150123 23:08:44 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150123 23:08:44 [Note] Event Scheduler: Purging the queue. 0 events
+150123 23:08:46 [Warning] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Forcing close of thread 5  user: 'root'
+
+150123 23:08:46 [Warning] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Forcing close of thread 4  user: 'root'
+
+150123 23:08:46  InnoDB: Starting shutdown...
+150123 23:08:48  InnoDB: Shutdown completed; log sequence number 0 1965936
+150123 23:08:48 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150123 23:09:42 [Note] Plugin 'FEDERATED' is disabled.
+150123 23:09:42  InnoDB: Initializing buffer pool, size = 8.0M
+150123 23:09:42  InnoDB: Completed initialization of buffer pool
+150123 23:09:42  InnoDB: Started; log sequence number 0 1965936
+150123 23:09:42 [Note] Event Scheduler: Loaded 0 events
+150123 23:09:42 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150123 23:11:07 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150123 23:11:07 [Note] Event Scheduler: Purging the queue. 0 events
+150123 23:11:07  InnoDB: Starting shutdown...
+150123 23:11:13  InnoDB: Shutdown completed; log sequence number 0 1965936
+150123 23:11:13 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150123 23:11:24 [Note] Plugin 'FEDERATED' is disabled.
+150123 23:11:24  InnoDB: Initializing buffer pool, size = 8.0M
+150123 23:11:24  InnoDB: Completed initialization of buffer pool
+150123 23:11:24  InnoDB: Started; log sequence number 0 1965936
+150123 23:11:24 [Note] Event Scheduler: Loaded 0 events
+150123 23:11:24 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150123 23:12:31 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150123 23:12:31 [Note] Event Scheduler: Purging the queue. 0 events
+150123 23:12:31  InnoDB: Starting shutdown...
+150123 23:12:34  InnoDB: Shutdown completed; log sequence number 0 1983032
+150123 23:12:34 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150123 23:12:45 [Note] Plugin 'FEDERATED' is disabled.
+150123 23:12:45  InnoDB: Initializing buffer pool, size = 8.0M
+150123 23:12:45  InnoDB: Completed initialization of buffer pool
+150123 23:12:46  InnoDB: Started; log sequence number 0 1983032
+150123 23:12:46 [Note] Event Scheduler: Loaded 0 events
+150123 23:12:46 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150123 23:15:11 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150123 23:15:11 [Note] Event Scheduler: Purging the queue. 0 events
+150123 23:15:11  InnoDB: Starting shutdown...
+150123 23:15:15  InnoDB: Shutdown completed; log sequence number 0 1983265
+150123 23:15:15 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150123 23:16:27 [Note] Plugin 'FEDERATED' is disabled.
+150123 23:16:32  InnoDB: Initializing buffer pool, size = 8.0M
+150123 23:16:32  InnoDB: Completed initialization of buffer pool
+150123 23:16:32  InnoDB: Started; log sequence number 0 1983265
+150123 23:16:32 [Note] Event Scheduler: Loaded 0 events
+150123 23:16:32 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150123 23:18:50 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150123 23:18:50 [Note] Event Scheduler: Purging the queue. 0 events
+150123 23:18:52 [Warning] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Forcing close of thread 4  user: 'root'
+
+150123 23:18:52 [Warning] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Forcing close of thread 3  user: 'root'
+
+150123 23:18:52  InnoDB: Starting shutdown...
+150123 23:18:55  InnoDB: Shutdown completed; log sequence number 0 1983520
+150123 23:18:55 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150123 23:19:21 [Note] Plugin 'FEDERATED' is disabled.
+150123 23:19:21  InnoDB: Initializing buffer pool, size = 8.0M
+150123 23:19:21  InnoDB: Completed initialization of buffer pool
+150123 23:19:21  InnoDB: Started; log sequence number 0 1983520
+150123 23:19:21 [Note] Event Scheduler: Loaded 0 events
+150123 23:19:21 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150330 23:34:27 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150330 23:34:27 [Note] Event Scheduler: Purging the queue. 0 events
+150330 23:34:29 [Warning] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Forcing close of thread 4  user: 'root'
+
+150330 23:34:29 [Warning] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Forcing close of thread 3  user: 'root'
+
+150330 23:34:29  InnoDB: Starting shutdown...
+150330 23:34:34  InnoDB: Shutdown completed; log sequence number 0 1983530
+150330 23:34:34 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150330 23:34:58 [Note] Plugin 'FEDERATED' is disabled.
+150330 23:35:07  InnoDB: Initializing buffer pool, size = 8.0M
+150330 23:35:07  InnoDB: Completed initialization of buffer pool
+150330 23:35:07  InnoDB: Started; log sequence number 0 1983530
+150330 23:35:07 [Note] Event Scheduler: Loaded 0 events
+150330 23:35:07 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150124 19:21:56 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150124 19:21:56 [Note] Event Scheduler: Purging the queue. 0 events
+150124 19:21:56  InnoDB: Starting shutdown...
+150124 19:21:59  InnoDB: Shutdown completed; log sequence number 0 1983540
+150124 19:21:59 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150124 19:22:48 [Note] Plugin 'FEDERATED' is disabled.
+150124 19:22:48  InnoDB: Initializing buffer pool, size = 8.0M
+150124 19:22:48  InnoDB: Completed initialization of buffer pool
+150124 19:22:48  InnoDB: Started; log sequence number 0 1983540
+150124 19:22:48 [Note] Event Scheduler: Loaded 0 events
+150124 19:22:48 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150124 20:00:02 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150124 20:00:02 [Note] Event Scheduler: Purging the queue. 0 events
+150124 20:00:02  InnoDB: Starting shutdown...
+150124 20:00:06  InnoDB: Shutdown completed; log sequence number 0 1983550
+150124 20:00:06 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150124 20:00:29 [Note] Plugin 'FEDERATED' is disabled.
+150124 20:00:29  InnoDB: Initializing buffer pool, size = 8.0M
+150124 20:00:29  InnoDB: Completed initialization of buffer pool
+150124 20:00:29  InnoDB: Started; log sequence number 0 1983550
+150124 20:00:29 [Note] Event Scheduler: Loaded 0 events
+150124 20:00:29 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150124 20:02:19 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150124 20:02:19 [Note] Event Scheduler: Purging the queue. 0 events
+150124 20:02:19  InnoDB: Starting shutdown...
+150124 20:02:20  InnoDB: Shutdown completed; log sequence number 0 1983550
+150124 20:02:20 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150124 20:02:26 [Note] Plugin 'FEDERATED' is disabled.
+150124 20:02:27  InnoDB: Initializing buffer pool, size = 8.0M
+150124 20:02:27  InnoDB: Completed initialization of buffer pool
+150124 20:02:27  InnoDB: Started; log sequence number 0 1983550
+150124 20:02:27 [Note] Event Scheduler: Loaded 0 events
+150124 20:02:27 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150124 20:03:54 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150124 20:03:54 [Note] Event Scheduler: Purging the queue. 0 events
+150124 20:03:54  InnoDB: Starting shutdown...
+150124 20:03:57  InnoDB: Shutdown completed; log sequence number 0 1983550
+150124 20:03:57 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150124 20:04:25 [Note] Plugin 'FEDERATED' is disabled.
+150124 20:04:25  InnoDB: Initializing buffer pool, size = 8.0M
+150124 20:04:25  InnoDB: Completed initialization of buffer pool
+150124 20:04:25  InnoDB: Started; log sequence number 0 1983550
+150124 20:04:25 [Note] Event Scheduler: Loaded 0 events
+150124 20:04:25 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150124 20:12:28 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150124 20:12:28 [Note] Event Scheduler: Purging the queue. 0 events
+150124 20:12:28  InnoDB: Starting shutdown...
+150124 20:12:31  InnoDB: Shutdown completed; log sequence number 0 1983789
+150124 20:12:31 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150124 20:12:49 [Note] Plugin 'FEDERATED' is disabled.
+150124 20:12:49  InnoDB: Initializing buffer pool, size = 8.0M
+150124 20:12:49  InnoDB: Completed initialization of buffer pool
+150124 20:12:49  InnoDB: Started; log sequence number 0 1983789
+150124 20:12:49 [Note] Event Scheduler: Loaded 0 events
+150124 20:12:49 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150124 20:31:27 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150124 20:31:27 [Note] Event Scheduler: Purging the queue. 0 events
+150124 20:31:27  InnoDB: Starting shutdown...
+150124 20:31:30  InnoDB: Shutdown completed; log sequence number 0 1983799
+150124 20:31:30 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Shutdown complete
+
+150124 20:54:54 [Note] Plugin 'FEDERATED' is disabled.
+150124 20:54:54  InnoDB: Initializing buffer pool, size = 8.0M
+150124 20:54:54  InnoDB: Completed initialization of buffer pool
+150124 20:54:54  InnoDB: Started; log sequence number 0 1983799
+150124 20:54:54 [Note] Event Scheduler: Loaded 0 events
+150124 20:54:55 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150124 21:55:27 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150124 21:55:27 [Note] Event Scheduler: Purging the queue. 0 events
+150201 16:16:04 [Note] Plugin 'FEDERATED' is disabled.
+150201 16:16:06  InnoDB: Initializing buffer pool, size = 8.0M
+150201 16:16:06  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+150201 16:16:06  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+150201 16:16:07  InnoDB: Started; log sequence number 0 1984051
+150201 16:16:08 [Note] Event Scheduler: Loaded 0 events
+150201 16:16:08 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150201 17:05:40 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: Normal shutdown
+
+150201 17:05:40 [Note] Event Scheduler: Purging the queue. 0 events
+150201 17:05:42  InnoDB: Starting shutdown...
+150308 12:59:22 [Note] Plugin 'FEDERATED' is disabled.
+150308 12:59:23  InnoDB: Initializing buffer pool, size = 8.0M
+150308 12:59:23  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+150308 12:59:23  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+150308 12:59:24  InnoDB: Started; log sequence number 0 18861139
+150308 12:59:24 [Note] Event Scheduler: Loaded 0 events
+150308 12:59:24 [Note] C:\JBSHOP\JBSHOP2.0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33367  MySQL Community Server (GPL)
+150308 13:17:00 [Note] Plugin 'FEDERATED' is disabled.
+150308 13:17:00  InnoDB: Initializing buffer pool, size = 8.0M
+150308 13:17:00  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+150308 13:17:00  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+150308 13:17:00  InnoDB: Started; log sequence number 0 18861139
+150308 13:17:00 [Note] Event Scheduler: Loaded 0 events
+150308 13:17:00 [Note] C:\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+150308 13:18:34 [Note] C:\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+150308 13:18:34 [Note] Event Scheduler: Purging the queue. 0 events
+150308 13:18:34  InnoDB: Starting shutdown...
+150308 13:18:36  InnoDB: Shutdown completed; log sequence number 0 18861139
+150308 13:18:36 [Note] C:\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+150308 13:23:35 [Note] Plugin 'FEDERATED' is disabled.
+150308 13:23:35  InnoDB: Initializing buffer pool, size = 8.0M
+150308 13:23:35  InnoDB: Completed initialization of buffer pool
+150308 13:23:35  InnoDB: Started; log sequence number 0 18861139
+150308 13:23:35 [Note] Event Scheduler: Loaded 0 events
+150308 13:23:35 [Note] C:\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+150308 13:27:17 [Note] C:\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+150308 13:27:17 [Note] Event Scheduler: Purging the queue. 0 events
+150308 13:27:19 [Warning] C:\EShop\mysql\bin\mysqld.exe: Forcing close of thread 269  user: 'root'
+
+150308 13:27:19 [Warning] C:\EShop\mysql\bin\mysqld.exe: Forcing close of thread 268  user: 'root'
+
+150308 13:27:19  InnoDB: Starting shutdown...
+150308 13:27:21  InnoDB: Shutdown completed; log sequence number 0 20117019
+150308 13:27:21 [Note] C:\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+150308 13:27:41 [Note] Plugin 'FEDERATED' is disabled.
+150308 13:27:41  InnoDB: Initializing buffer pool, size = 8.0M
+150308 13:27:41  InnoDB: Completed initialization of buffer pool
+150308 13:27:41  InnoDB: Started; log sequence number 0 20117019
+150308 13:27:41 [Note] Event Scheduler: Loaded 0 events
+150308 13:27:41 [Note] C:\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+150308 13:34:19 [Note] C:\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+150308 13:34:19 [Note] Event Scheduler: Purging the queue. 0 events
+150308 13:34:19  InnoDB: Starting shutdown...
+150308 13:34:22  InnoDB: Shutdown completed; log sequence number 0 20117274
+150308 13:34:22 [Note] C:\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+150308 13:59:53 [Note] Plugin 'FEDERATED' is disabled.
+150308 13:59:54  InnoDB: Initializing buffer pool, size = 8.0M
+150308 13:59:54  InnoDB: Completed initialization of buffer pool
+150308 13:59:54  InnoDB: Started; log sequence number 0 20117274
+150308 13:59:54 [Note] Event Scheduler: Loaded 0 events
+150308 13:59:54 [Note] C:\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+151130 10:43:35 [Note] Plugin 'FEDERATED' is disabled.
+151130 10:43:36  InnoDB: Initializing buffer pool, size = 8.0M
+151130 10:43:36  InnoDB: Completed initialization of buffer pool
+151130 10:43:36  InnoDB: Started; log sequence number 0 26356797
+151130 10:43:36 [Note] Event Scheduler: Loaded 0 events
+151130 10:43:36 [Note] C:\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+151130 10:53:42 [Note] C:\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+151130 10:53:42 [Note] Event Scheduler: Purging the queue. 0 events
+151130 10:53:42  InnoDB: Starting shutdown...
+151130 10:53:46  InnoDB: Shutdown completed; log sequence number 0 26367769
+151130 10:53:46 [Note] C:\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
+151203 11:48:53 [Note] Plugin 'FEDERATED' is disabled.
+151203 11:48:53  InnoDB: Initializing buffer pool, size = 8.0M
+151203 11:48:53  InnoDB: Completed initialization of buffer pool
+151203 11:48:53  InnoDB: Started; log sequence number 0 26367769
+151203 11:48:53 [Note] Event Scheduler: Loaded 0 events
+151203 11:48:53 [Note] C:\EShop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.54-community'  socket: ''  port: 33069  MySQL Community Server (GPL)
+151203 11:51:56 [Note] C:\EShop\mysql\bin\mysqld.exe: Normal shutdown
+
+151203 11:51:56 [Note] Event Scheduler: Purging the queue. 0 events
+151203 11:51:56  InnoDB: Starting shutdown...
+151203 11:51:59  InnoDB: Shutdown completed; log sequence number 0 26378552
+151203 11:51:59 [Note] C:\EShop\mysql\bin\mysqld.exe: Shutdown complete
+
