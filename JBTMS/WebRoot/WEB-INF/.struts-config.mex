@@ -1,0 +1,2844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/login.do" location="50,50" dimension="244,84" />
+  <StrutsActivity path="/jsgl.do" location="650,50" dimension="238,84" />
+  <StrutsActivity path="/class.do" location="50,250" dimension="244,84" />
+  <StrutsActivity path="/student.do" location="950,250" dimension="232,84" />
+  <StrutsActivity path="/ggxx.do" location="1250,50" dimension="238,84" />
+  <StrutsActivity path="/sjxx.do" location="1250,450" dimension="238,84" />
+  <StrutsActivity path="/sjzdmx.do" location="1850,50" dimension="250,84" />
+  <StrutsActivity path="/testSetup.do" location="2150,50" dimension="268,84" />
+  <StrutsActivity path="/taskCircs.do" location="2150,1350" dimension="274,84" />
+  <StrutsActivity path="/yggl.do" location="2750,50" dimension="206,88" />
+  <StrutsActivity path="/kfxx.do" location="3050,50" dimension="208,88" />
+  <StrutsActivity path="/qwxx.do" location="3350,50" dimension="214,88" />
+  <StrutsActivity path="/bxgl.do" location="3650,50" dimension="206,88" />
+  <StrutsActivity path="/clgl.do" location="3950,50" dimension="203,88" />
+  <StrutsActivity path="/khxx.do" location="3050,250" dimension="210,88" />
+  <StrutsActivity path="/hzgxxx.do" location="3350,250" dimension="222,88" />
+  <StrutsActivity path="/htxx.do" location="3650,250" dimension="209,88" />
+  <StrutsActivity path="/sbxx.do" location="3950,250" dimension="210,88" />
+  <StrutsActivity path="/khdd.do" location="3050,450" dimension="210,88" />
+  <StrutsActivity path="/send.do" location="3350,450" dimension="210,88" />
+  <StrutsActivity path="/crkdd.do" location="3650,450" dimension="214,88" />
+  <StrutsActivity path="/ysps.do" location="3950,450" dimension="208,88" />
+  <StrutsActivity path="/ykdd.do" location="3050,650" dimension="209,88" />
+  <StrutsActivity path="/cczx.do" location="3350,650" dimension="209,88" />
+  <StrutsActivity path="/ddfj.do" location="3650,650" dimension="206,88" />
+  <StrutsActivity path="/pddd.do" location="3950,650" dimension="210,88" />
+  <StrutsActivity path="/kccx.do" location="4250,1450" dimension="208,88" />
+  <StrutsActivity path="/zdgl.do" location="4250,1650" dimension="206,88" />
+  <StrutsActivity path="/cwtj.do" location="50,2250" dimension="208,88" />
+  <StrutsActivity path="/pgpc.do" location="4250,150" dimension="209,88" />
+  <StrutsActivity path="/ydcx.do" location="4250,350" dimension="209,88" />
+  <StrutsActivity path="/bmxx.do" location="2450,2250" dimension="212,88" />
+  <StrutsActivity path="/sbwxjl.do" location="4550,1950" dimension="217,88" />
+  <StrutsActivity path="/khts.do" location="2750,2350" dimension="238,84" />
+  <StrutsActivity path="/khfk.do" location="950,2350" dimension="238,84" />
+  <StrutsActivity path="/khth.do" location="650,2450" dimension="238,84" />
+  <StrutsActivity path="error;6" location="350,350" dimension="106,72" />
+  <StrutsActivity path="/jsp/teacher/index.jsp" location="650,350" dimension="172,48" />
+  <StrutsActivity path="/jsp/student/index.jsp" location="3050,850" dimension="136,49" />
+  <StrutsActivity path="/jsp/teacher/jsgl_list.jsp" location="950,50" dimension="196,48" />
+  <StrutsActivity path="/jsp/teacher/jsgl_update.jsp" location="650,450" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/jsgl_update_paw.jsp" location="1550,150" dimension="232,48" />
+  <StrutsActivity path="/jsp/teacher/jsgl_view.jsp" location="950,150" dimension="196,48" />
+  <StrutsActivity path="/jsp/teacher/jsgl_add.jsp" location="350,250" dimension="190,48" />
+  <StrutsActivity path="jsp/teacher/jsgl_add.jsp" location="650,250" dimension="184,48" />
+  <StrutsActivity path="/jsp/teacher/class_update.jsp" location="650,550" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/class_list.jsp" location="950,550" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/class_view.jsp" location="50,650" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/stu_class_list.jsp" location="350,650" dimension="226,48" />
+  <StrutsActivity path="/jsp/teacher/class_add.jsp" location="650,650" dimension="196,48" />
+  <StrutsActivity path="/jsp/teacher/stu_more_add.jsp" location="950,650" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/stu_list.jsp" location="50,750" dimension="190,48" />
+  <StrutsActivity path="/jsp/teacher/stu_update.jsp" location="350,750" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/stu_view.jsp" location="650,750" dimension="190,48" />
+  <StrutsActivity path="/jsp/teacher/GgxxUpd.jsp" location="1550,350" dimension="184,48" />
+  <StrutsActivity path="/jsp/student/testResult/GgxxList.jsp" location="1550,450" dimension="256,48" />
+  <StrutsActivity path="/jsp/student/testResult/GgxxView.jsp" location="1550,550" dimension="256,48" />
+  <StrutsActivity path="/jsp/teacher/GgxxList.jsp" location="1550,650" dimension="190,48" />
+  <StrutsActivity path="/jsp/teacher/GgxxAdd.jsp" location="1550,750" dimension="184,48" />
+  <StrutsActivity path="/jsp/teacher/GgxxView.jsp" location="1550,850" dimension="190,48" />
+  <StrutsActivity path="/jsp/teacher/sjxx_update.jsp" location="1250,850" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/sjxx_list.jsp" location="50,950" dimension="196,48" />
+  <StrutsActivity path="/jsp/teacher/sjxx_add.jsp" location="350,950" dimension="190,48" />
+  <StrutsActivity path="/jsp/teacher/sjxx_view.jsp" location="650,950" dimension="196,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd12.jsp" location="1250,350" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd7.jsp" location="1850,350" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList7.jsp" location="2150,350" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList12.jsp" location="2450,350" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd11.jsp" location="2750,350" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList5.jsp" location="50,450" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdList.jsp" location="950,450" dimension="190,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd2.jsp" location="2150,450" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd10.jsp" location="2450,450" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList10.jsp" location="2750,450" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd13.jsp" location="2150,550" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd9.jsp" location="2450,550" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList11.jsp" location="2750,550" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd21.jsp" location="1850,650" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd9.jsp" location="2150,650" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList3.jsp" location="2450,650" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd4.jsp" location="2750,650" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList20.jsp" location="950,750" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList4.jsp" location="1850,750" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd19.jsp" location="2150,750" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd7.jsp" location="2450,750" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd15.jsp" location="2750,750" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList21.jsp" location="950,850" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList8.jsp" location="1850,850" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd3.jsp" location="2150,850" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList9.jsp" location="2450,850" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList15.jsp" location="2750,850" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd12.jsp" location="1850,950" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd8.jsp" location="2150,950" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd4.jsp" location="2450,950" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd3.jsp" location="2750,950" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd1.jsp" location="650,1050" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList18.jsp" location="1550,1050" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd18.jsp" location="1850,1050" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd1.jsp" location="2150,1050" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd14.jsp" location="2450,1050" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd8.jsp" location="2750,1050" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList17.jsp" location="50,1150" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList19.jsp" location="350,1150" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList16.jsp" location="650,1150" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd13.jsp" location="950,1150" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd16.jsp" location="1250,1150" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList2.jsp" location="1550,1150" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd20.jsp" location="1850,1150" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd16.jsp" location="2150,1150" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd19.jsp" location="2450,1150" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList6.jsp" location="2750,1150" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd14.jsp" location="50,1250" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd18.jsp" location="350,1250" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList13.jsp" location="650,1250" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd20.jsp" location="950,1250" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd2.jsp" location="1250,1250" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd5.jsp" location="1550,1250" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd17.jsp" location="1850,1250" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd5.jsp" location="2150,1250" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd6.jsp" location="2450,1250" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd21.jsp" location="2750,1250" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd10.jsp" location="50,1350" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd11.jsp" location="350,1350" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd15.jsp" location="650,1350" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxAdd6.jsp" location="950,1350" dimension="202,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxUpd17.jsp" location="1250,1350" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList1.jsp" location="1550,1350" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/SjzdmxList14.jsp" location="1850,1350" dimension="214,48" />
+  <StrutsActivity path="/jsp/teacher/groupSetList.jsp" location="3350,850" dimension="170,49" />
+  <StrutsActivity path="/jsp/teacher/xsxxLeaveList.jsp" location="3650,850" dimension="178,49" />
+  <StrutsActivity path="/jsp/teacher/bjxxSetList.jsp" location="3950,850" dimension="163,49" />
+  <StrutsActivity path="/jsp/teacher/xsxxSetList.jsp" location="4250,850" dimension="165,49" />
+  <StrutsActivity path="/jsp/teacher/taskCircs.jsp" location="2750,1350" dimension="196,48" />
+  <StrutsActivity path="/jsp/student/zygl/ygxx_list.jsp" location="1250,1550" dimension="176,49" />
+  <StrutsActivity path="/jsp/student/zygl/ygxx_update.jsp" location="1550,1550" dimension="197,49" />
+  <StrutsActivity path="/jsp/student/zygl/ygxx_view.jsp" location="1850,1550" dimension="185,49" />
+  <StrutsActivity path="/jsp/student/zygl/ygxx_add.jsp" location="2150,1550" dimension="181,49" />
+  <StrutsActivity path="/jsp/student/zygl/kfxxUpd.jsp" location="2450,1550" dimension="173,49" />
+  <StrutsActivity path="/jsp/student/zygl/kfxxList.jsp" location="2750,1550" dimension="170,49" />
+  <StrutsActivity path="/jsp/student/zygl/kfxxAdd.jsp" location="3050,1550" dimension="173,49" />
+  <StrutsActivity path="/jsp/student/zygl/kfxxView.jsp" location="3350,1550" dimension="176,49" />
+  <StrutsActivity path="/jsp/student/zygl/qwxxUpd.jsp" location="3650,1550" dimension="178,49" />
+  <StrutsActivity path="/jsp/student/zygl/qwxxList.jsp" location="3950,1550" dimension="175,49" />
+  <StrutsActivity path="/jsp/student/zygl/qwxxAdd.jsp" location="50,1650" dimension="178,49" />
+  <StrutsActivity path="/jsp/student/zygl/qwxxView.jsp" location="350,1650" dimension="181,49" />
+  <StrutsActivity path="/jsp/student/zygl/cwxxUpd.jsp" location="650,1650" dimension="177,49" />
+  <StrutsActivity path="/jsp/student/zygl/cwxxAdd.jsp" location="950,1650" dimension="177,49" />
+  <StrutsActivity path="/jsp/student/zygl/bxgl_upd.jsp" location="1250,1650" dimension="177,49" />
+  <StrutsActivity path="/jsp/student/zygl/bxgl_list.jsp" location="1550,1650" dimension="172,49" />
+  <StrutsActivity path="/jsp/student/zygl/bxgl_view.jsp" location="1850,1650" dimension="181,49" />
+  <StrutsActivity path="/jsp/student/zygl/bxgl_add.jsp" location="2150,1650" dimension="177,49" />
+  <StrutsActivity path="/jsp/student/zygl/clgl_upd.jsp" location="2450,1650" dimension="172,49" />
+  <StrutsActivity path="/jsp/student/zygl/clgl_list.jsp" location="2750,1650" dimension="167,49" />
+  <StrutsActivity path="/jsp/student/zygl/clgl_view.jsp" location="3050,1650" dimension="176,49" />
+  <StrutsActivity path="/jsp/student/zygl/clgl_add.jsp" location="3350,1650" dimension="172,49" />
+  <StrutsActivity path="/jsp/student/khxx/khxx_upd.jsp" location="3650,1650" dimension="184,49" />
+  <StrutsActivity path="/jsp/student/khxx/khxx_list.jsp" location="3950,1650" dimension="179,49" />
+  <StrutsActivity path="/jsp/student/khxx/khxx_view.jsp" location="50,1750" dimension="188,49" />
+  <StrutsActivity path="/jsp/student/khxx/khxx_add.jsp" location="350,1750" dimension="184,49" />
+  <StrutsActivity path="/jsp/student/khxx/hzgxxx_upd.jsp" location="650,1750" dimension="196,49" />
+  <StrutsActivity path="/jsp/student/khxx/hzgxxx_list.jsp" location="950,1750" dimension="191,49" />
+  <StrutsActivity path="/jsp/student/khxx/hzgxxx_view.jsp" location="1250,1750" dimension="200,49" />
+  <StrutsActivity path="/jsp/student/khxx/hzgxxx_add.jsp" location="1550,1750" dimension="196,49" />
+  <StrutsActivity path="/jsp/student/khxx/htxx_upd.jsp" location="1850,1750" dimension="183,49" />
+  <StrutsActivity path="/jsp/student/khxx/htxx_list.jsp" location="2150,1750" dimension="178,49" />
+  <StrutsActivity path="/jsp/student/khxx/htxx_view.jsp" location="2450,1750" dimension="187,49" />
+  <StrutsActivity path="/jsp/student/khxx/htxx_add.jsp" location="2750,1750" dimension="183,49" />
+  <StrutsActivity path="/jsp/student/zygl/sbxx_upd.jsp" location="3050,1750" dimension="180,49" />
+  <StrutsActivity path="/jsp/student/zygl/sbxx_list.jsp" location="3350,1750" dimension="175,49" />
+  <StrutsActivity path="/jsp/student/zygl/sbxx_view.jsp" location="3650,1750" dimension="184,49" />
+  <StrutsActivity path="/jsp/student/zygl/sbxx_add.jsp" location="3950,1750" dimension="180,49" />
+  <StrutsActivity path="/jsp/student/order/khdd_list1.jsp" location="3650,2250" dimension="188,49" />
+  <StrutsActivity path="/jsp/student/order/khdd_upd.jsp" location="50,1850" dimension="187,49" />
+  <StrutsActivity path="/jsp/student/order/khdd_list.jsp" location="350,1850" dimension="182,49" />
+  <StrutsActivity path="/jsp/student/order/khdd_view.jsp" location="650,1850" dimension="191,49" />
+  <StrutsActivity path="/jsp/student/order/khdd_add.jsp" location="950,1850" dimension="187,49" />
+  <StrutsActivity path="/jsp/student/order/khddMsg.jsp" location="1250,1850" dimension="182,49" />
+  <StrutsActivity path="/jsp/student/order/khdd_view1.jsp" location="3350,1050" dimension="197,49" />
+  <StrutsActivity path="/jsp/student/order/tra_add.jsp" location="1550,1850" dimension="178,49" />
+  <StrutsActivity path="/jsp/student/order/send_list1.jsp" location="4550,1050" dimension="188,49" />
+  <StrutsActivity path="/jsp/student/order/tra_list1.jsp" location="3050,1150" dimension="179,49" />
+  <StrutsActivity path="/jsp/student/order/tra_upd.jsp" location="2750,1850" dimension="178,49" />
+  <StrutsActivity path="/jsp/student/order/send_list2.jsp" location="3350,1150" dimension="188,49" />
+  <StrutsActivity path="/jsp/student/order/tra_list.jsp" location="3350,1850" dimension="173,49" />
+  <StrutsActivity path="/jsp/student/order/tra_view1.jsp" location="3950,2250" dimension="188,49" />
+  <StrutsActivity path="/jsp/student/order/send_add.jsp" location="1850,1850" dimension="187,49" />
+  <StrutsActivity path="/jsp/student/order/send_view2.jsp" location="4550,1150" dimension="197,49" />
+  <StrutsActivity path="/jsp/student/order/send_upd.jsp" location="2450,1850" dimension="187,49" />
+  <StrutsActivity path="/jsp/student/order/tra_view2.jsp" location="3350,1250" dimension="188,49" />
+  <StrutsActivity path="/jsp/student/order/tra_list2.jsp" location="3650,1250" dimension="179,49" />
+  <StrutsActivity path="/jsp/student/order/send_list.jsp" location="3050,1850" dimension="182,49" />
+  <StrutsActivity path="/jsp/student/order/send_view.jsp" location="3650,1850" dimension="191,49" />
+  <StrutsActivity path="/jsp/student/order/tra_view.jsp" location="3950,1850" dimension="182,49" />
+  <StrutsActivity path="/jsp/student/order/send_view1.jsp" location="4250,2250" dimension="197,49" />
+  <StrutsActivity path="/jsp/student/order/crkdd_list1.jsp" location="3650,1150" dimension="244,48" />
+  <StrutsActivity path="/jsp/student/order/ckdd_add.jsp" location="650,1950" dimension="186,49" />
+  <StrutsActivity path="/jsp/student/order/ckdd_update.jsp" location="950,1950" dimension="202,49" />
+  <StrutsActivity path="/jsp/student/order/crkdd_list.jsp" location="1550,1950" dimension="185,49" />
+  <StrutsActivity path="/jsp/student/order/ckdd_view.jsp" location="2450,1950" dimension="190,49" />
+  <StrutsActivity path="/jsp/student/ddzx/crkdd_dd_list.jsp" location="2750,1950" dimension="200,49" />
+  <StrutsActivity path="/jsp/student/order/rkdd_view.jsp" location="350,1950" dimension="189,49" />
+  <StrutsActivity path="/jsp/student/order/rkdd_update.jsp" location="1250,1950" dimension="201,49" />
+  <StrutsActivity path="/jsp/student/order/rkdd_add.jsp" location="2150,1950" dimension="185,49" />
+  <StrutsActivity path="/jsp/student/ddzx/crkdd_dd.jsp" location="1850,1950" dimension="181,49" />
+  <StrutsActivity path="/jsp/student/ddzx/crkdd_dd_view.jsp" location="3050,1250" dimension="209,49" />
+  <StrutsActivity path="/jsp/student/ysps/qs_qs.jsp" location="3050,1950" dimension="164,49" />
+  <StrutsActivity path="/jsp/student/ysps/feiyong_view.jsp" location="3350,1950" dimension="200,49" />
+  <StrutsActivity path="/jsp/student/ysps/feiyong_list.jsp" location="3650,1950" dimension="191,49" />
+  <StrutsActivity path="/jsp/student/ysps/qs_view.jsp" location="3950,1950" dimension="175,49" />
+  <StrutsActivity path="/jsp/student/ysps/qs_list.jsp" location="50,2050" dimension="166,49" />
+  <StrutsActivity path="/jsp/student/ysps/feiyong_charge.jsp" location="350,2050" dimension="211,49" />
+  <StrutsActivity path="/jsp/student/order/ykddUpd.jsp" location="650,2050" dimension="182,49" />
+  <StrutsActivity path="/jsp/student/cczx/ykddList.jsp" location="950,2050" dimension="174,49" />
+  <StrutsActivity path="/jsp/student/order/ykddList.jsp" location="1250,2050" dimension="179,49" />
+  <StrutsActivity path="/jsp/student/order/ykddAdd.jsp" location="1550,2050" dimension="182,49" />
+  <StrutsActivity path="/jsp/student/order/ykddView.jsp" location="1850,2050" dimension="185,49" />
+  <StrutsActivity path="/jsp/student/cczx/ykddVali.jsp" location="2150,2050" dimension="174,49" />
+  <StrutsActivity path="/jsp/student/cczx/ykddView.jsp" location="2450,2050" dimension="180,49" />
+  <StrutsActivity path="/jsp/student/cczx/rkdd_view.jsp" location="3050,1350" dimension="184,49" />
+  <StrutsActivity path="/jsp/student/cczx/crkdd_zj_list.jsp" location="2750,2050" dimension="194,49" />
+  <StrutsActivity path="/jsp/student/cczx/crkdd_js.jsp" location="3050,2050" dimension="175,49" />
+  <StrutsActivity path="/jsp/student/cczx/crkdd_ck.jsp" location="3950,2150" dimension="177,49" />
+  <StrutsActivity path="/jsp/student/cczx/crkdd_zj.jsp" location="3350,2050" dimension="175,49" />
+  <StrutsActivity path="/jsp/student/cczx/crkdd_rk.jsp" location="4250,2150" dimension="176,49" />
+  <StrutsActivity path="/jsp/student/cczx/crkdd_js_list.jsp" location="3950,2050" dimension="194,49" />
+  <StrutsActivity path="/jsp/student/cczx/ckdd_view.jsp" location="650,1450" dimension="185,49" />
+  <StrutsActivity path="/jsp/student/cczx/crkdd_crk_list.jsp" location="50,2150" dimension="200,49" />
+  <StrutsActivity path="/jsp/student/ddzx/ysdd_upd.jsp" location="350,2150" dimension="184,49" />
+  <StrutsActivity path="/jsp/student/ddzx/ysdd_list.jsp" location="650,2150" dimension="179,49" />
+  <StrutsActivity path="/jsp/student/ddzx/ysdd_view.jsp" location="950,2150" dimension="188,49" />
+  <StrutsActivity path="/jsp/student/ddzx/ysdd_add.jsp" location="1250,2150" dimension="184,49" />
+  <StrutsActivity path="/jsp/student/order/pdddUpd.jsp" location="1550,2150" dimension="183,49" />
+  <StrutsActivity path="/jsp/student/cczx/pdddList.jsp" location="1850,2150" dimension="175,49" />
+  <StrutsActivity path="/jsp/student/order/pdddList.jsp" location="2150,2150" dimension="180,49" />
+  <StrutsActivity path="/jsp/student/cczx/pdddView1.jsp" location="2450,2150" dimension="187,49" />
+  <StrutsActivity path="/jsp/student/order/pdddAdd.jsp" location="2750,2150" dimension="183,49" />
+  <StrutsActivity path="/jsp/student/order/pdddView.jsp" location="3050,2150" dimension="186,49" />
+  <StrutsActivity path="/jsp/student/cczx/pdddVali.jsp" location="3350,2150" dimension="175,49" />
+  <StrutsActivity path="/jsp/student/cczx/pdddView.jsp" location="3650,2150" dimension="181,49" />
+  <StrutsActivity path="/jsp/student/cczx/kccxList.jsp" location="1250,1450" dimension="172,49" />
+  <StrutsActivity path="/jsp/student/decision/zdglList.jsp" location="1850,1450" dimension="187,49" />
+  <StrutsActivity path="/jsp/student/decision/zdglAdd.jsp" location="2750,1450" dimension="190,49" />
+  <StrutsActivity path="/jsp/student/decision/zdglView.jsp" location="3050,1450" dimension="193,49" />
+  <StrutsActivity path="/jsp/student/decision/cc_lrprint.jsp" location="4850,1450" dimension="256,48" />
+  <StrutsActivity path="/jsp/student/decision/cc_cbprint.jsp" location="350,1550" dimension="256,48" />
+  <StrutsActivity path="/jsp/student/decision/swJlrbb.jsp" location="4850,1550" dimension="238,48" />
+  <StrutsActivity path="/jsp/student/decision/yscbcwtj.jsp" location="4850,1650" dimension="244,48" />
+  <StrutsActivity path="/jsp/student/decision/cwtj_cclr.jsp" location="4850,1750" dimension="250,48" />
+  <StrutsActivity path="/jsp/student/decision/cwtj_cccb.jsp" location="4850,1850" dimension="250,48" />
+  <StrutsActivity path="/jsp/student/decision/swcbbb.jsp" location="4850,1950" dimension="232,48" />
+  <StrutsActivity path="/jsp/student/decision/swjlrcwtj.jsp" location="4850,2050" dimension="250,48" />
+  <StrutsActivity path="/jsp/student/decision/swcbcwtj.jsp" location="4850,2150" dimension="244,48" />
+  <StrutsActivity path="/jsp/student/decision/yslrbb.jsp" location="4850,2250" dimension="232,48" />
+  <StrutsActivity path="/jsp/student/decision/yslrcwtj.jsp" location="650,2350" dimension="244,48" />
+  <StrutsActivity path="/jsp/student/decision/cwtj.jsp" location="350,2250" dimension="172,49" />
+  <StrutsActivity path="/jsp/student/decision/yscbbb.jsp" location="1250,2350" dimension="232,48" />
+  <StrutsActivity path="/jsp/student/decision/swSrbb.jsp" location="1550,2350" dimension="232,48" />
+  <StrutsActivity path="/jsp/student/ysps/ysdd_pg.jsp" location="650,2250" dimension="177,49" />
+  <StrutsActivity path="/jsp/student/ysps/ysdd_pc.jsp" location="950,2250" dimension="176,49" />
+  <StrutsActivity path="/jsp/student/ysps/ysdd_list.jsp" location="1250,2250" dimension="178,49" />
+  <StrutsActivity path="/jsp/student/ysps/ysdd_view.jsp" location="1550,2250" dimension="187,49" />
+  <StrutsActivity path="/jsp/student/ysps/ysdd_fc_list.jsp" location="2150,2350" dimension="244,48" />
+  <StrutsActivity path="/jsp/student/ysps/ysdd_zc_list.jsp" location="1850,2350" dimension="244,48" />
+  <StrutsActivity path="/jsp/student/ysps/ydcx_list.jsp" location="1850,2250" dimension="178,49" />
+  <StrutsActivity path="/jsp/student/ysps/ydcx_view.jsp" location="2150,2250" dimension="187,49" />
+  <StrutsActivity path="/jsp/student/zygl/bmxxUpd.jsp" location="3350,1450" dimension="178,49" />
+  <StrutsActivity path="/jsp/student/zygl/bmxxList.jsp" location="3650,1450" dimension="175,49" />
+  <StrutsActivity path="/jsp/student/zygl/bmxxAdd.jsp" location="3950,1450" dimension="178,49" />
+  <StrutsActivity path="/jsp/student/zygl/bmxxView.jsp" location="4550,1450" dimension="181,49" />
+  <StrutsActivity path="/jsp/student/zygl/sbwxjlUpd.jsp" location="4550,2150" dimension="182,49" />
+  <StrutsActivity path="/jsp/student/zygl/sbwxjlList.jsp" location="2750,2250" dimension="179,49" />
+  <StrutsActivity path="/jsp/student/zygl/sbwxjlAdd.jsp" location="3050,2250" dimension="182,49" />
+  <StrutsActivity path="/jsp/student/zygl/sbwxjlView.jsp" location="3350,2250" dimension="185,49" />
+  <StrutsActivity path="/jsp/student/kfzx/khts_sl.jsp" location="3950,2350" dimension="214,48" />
+  <StrutsActivity path="/jsp/student/kfzx/khts_list.jsp" location="3050,2350" dimension="226,48" />
+  <StrutsActivity path="/jsp/student/kfzx/khts_update.jsp" location="3350,2350" dimension="238,48" />
+  <StrutsActivity path="/jsp/student/kfzx/khts_view.jsp" location="3650,2350" dimension="226,48" />
+  <StrutsActivity path="/jsp/student/kfzx/khts_add.jsp" location="4250,2350" dimension="220,48" />
+  <StrutsActivity path="/jsp/student/kfzx/khfk_upd.jsp" location="4550,2350" dimension="220,48" />
+  <StrutsActivity path="/jsp/student/kfzx/khfk_list.jsp" location="4850,2350" dimension="226,48" />
+  <StrutsActivity path="/jsp/student/kfzx/khfk_view.jsp" location="50,2450" dimension="226,48" />
+  <StrutsActivity path="/jsp/student/kfzx/khfk_add.jsp" location="350,2450" dimension="220,48" />
+  <StrutsActivity path="/jsp/student/base/khth_list.jsp" location="2450,2450" dimension="226,48" />
+  <StrutsActivity path="/jsp/student/base/khth_upd.jsp" location="3050,2450" dimension="220,48" />
+  <StrutsActivity path="/jsp/student/base/khth_view.jsp" location="3350,2450" dimension="226,48" />
+  <StrutsActivity path="/jsp/student/base/khth_add.jsp" location="3650,2450" dimension="220,48" />
+  <StrutsActivity path="/error.jsp" location="50,850" dimension="100,48" />
+  <StrutsActivity path="/jsp/teacher/testSetup.jsp" location="350,1050" dimension="196,48" />
+  <StrutsActivity path="/jsp/student/order/send_charge.jsp" location="2150,1850" dimension="202,49" />
+  <StrutsActivity path="/jsp/student/order/tra_charge.jsp" location="50,1950" dimension="193,49" />
+  <StrutsActivity path="/jsp/student/cczx/crkdd_crk.jsp" location="3650,2050" dimension="181,49" />
+  <StrutsActivity path="/index.jsp" location="350,50" dimension="100,48" />
+  <StrutsActivity path="/jsp/teacher/jsgl_update" location="350,150" dimension="184,48" />
+  <StrutsActivity path="/jsp/teacher/KsnrView.jsp" location="50,550" dimension="190,48" />
+  <StrutsActivity path="/jsp/teacher/SjxxUpd.jsp" location="350,550" dimension="184,48" />
+  <StrutsActivity path="/jsp/teacher/SjxxList.jsp" location="1250,650" dimension="190,48" />
+  <StrutsActivity path="/jsp/teacher/SjxxAdd.jsp" location="1250,750" dimension="184,48" />
+  <StrutsActivity path="/jsp/teacher/SjxxView.jsp" location="350,850" dimension="190,48" />
+  <StrutsActivity path="/jsp/student/SjxxStuView.jsp" location="650,850" dimension="208,48" />
+  <StrutsActivity path="/jsp/teacher/testSetupList.jsp" location="1550,950" dimension="220,48" />
+  <StrutsActivity path="/jsp/teacher/testSetupAdd.jsp" location="50,1050" dimension="214,48" />
+  <StrutsActivity path="s" location="50,1550" dimension="34,49" />
+  <StrutsActivity path="/jsp/student/decision/pdddUpd.jsp" location="950,1550" dimension="195,49" />
+  <StrutsActivity path="/jsp/student/decision/pdddList.jsp" location="4250,1850" dimension="192,49" />
+  <StrutsActivity path="/jsp/student/decision/pdddAdd.jsp" location="4250,1950" dimension="195,49" />
+  <StrutsActivity path="/jsp/student/decision/pdddView.jsp" location="4250,2050" dimension="198,49" />
+  <StrutsActivity path="/jsp/student/zygl/bmxx_update.jsp" location="4550,1550" dimension="199,49" />
+  <StrutsActivity path="/jsp/student/zygl/bmxx_list.jsp" location="4550,1650" dimension="178,49" />
+  <StrutsActivity path="/jsp/student/zygl/bmxx_add.jsp" location="4550,1750" dimension="183,49" />
+  <StrutsActivity path="/jsp/student/zygl/bmxx_view.jsp" location="4550,1850" dimension="187,49" />
+  <StrutsActivity path="//jsp/student/order/crkdd_list.jsp" location="4550,2250" dimension="189,49" />
+  <StrutsActivity path="//jsp/student/order/crkdd_list1.jsp" location="350,2350" dimension="195,49" />
+  <StrutsActivity path="/jsp/student/base/khthList.jsp" location="1250,2450" dimension="220,48" />
+  <StrutsActivity path="/jsp/student/base/khthUpd.jsp" location="1550,2450" dimension="214,48" />
+  <StrutsActivity path="/jsp/student/base/khthView.jsp" location="1850,2450" dimension="220,48" />
+  <StrutsActivity path="/jsp/student/base/khthAdd.jsp" location="2150,2450" dimension="214,48" />
+  <StrutsActivity path="/jsp/student/kfzx/khth_list.jsp" />
+  <StrutsActivity path="/jsp/student/kfzx/khth_upd.jsp" />
+  <StrutsActivity path="/jsp/student/kfzx/khth_view.jsp" />
+  <StrutsActivity path="/jsp/student/kfzx/khth_add.jsp" />
+  <StrutsTransition id="/class.do,listPage,/jsp/teacher/class_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="279,334" />
+      <AbsolutePoint location="279,513" />
+      <AbsolutePoint location="1051,513" />
+      <AbsolutePoint location="1051,550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khth.do,savePage,/jsp/student/base/khth_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="769,2534" />
+      <AbsolutePoint location="769,2613" />
+      <AbsolutePoint location="3760,2613" />
+      <AbsolutePoint location="3760,2498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsgl.do,updatePage,/jsp/teacher/jsgl_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="849,134" />
+      <AbsolutePoint location="849,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ggxx.do,gotoUpd,/jsp/teacher/GgxxUpd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1473,134" />
+      <AbsolutePoint location="1473,374" />
+      <AbsolutePoint location="1550,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd11,/jsp/teacher/SjzdmxUpd11.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2090,134" />
+      <AbsolutePoint location="2090,165" />
+      <AbsolutePoint location="2854,165" />
+      <AbsolutePoint location="2854,350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khdd.do,objList,/jsp/student/order/khdd_list1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,526" />
+      <AbsolutePoint location="3050,2299" />
+      <AbsolutePoint location="3744,2299" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/htxx.do,listPage,/jsp/student/khxx/htxx_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3754,250" />
+      <AbsolutePoint location="3754,1750" />
+      <AbsolutePoint location="2239,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khdd.do,khddMsg,/jsp/student/order/khddMsg.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,520" />
+      <AbsolutePoint location="2441,520" />
+      <AbsolutePoint location="2441,1814" />
+      <AbsolutePoint location="1341,1814" />
+      <AbsolutePoint location="1341,1850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist12,/jsp/teacher/SjzdmxList12.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,50" />
+      <AbsolutePoint location="1975,-25" />
+      <AbsolutePoint location="2557,-25" />
+      <AbsolutePoint location="2557,350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pgpc.do,listZcPage,/jsp/student/ysps/ysdd_zc_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4354,194" />
+      <AbsolutePoint location="4354,2374" />
+      <AbsolutePoint location="1972,2374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sbwxjl.do,gotoAdd,/jsp/student/zygl/sbwxjlAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4735,2038" />
+      <AbsolutePoint location="4735,2246" />
+      <AbsolutePoint location="3141,2246" />
+      <AbsolutePoint location="3141,2250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pddd.do,gotoView1,/jsp/student/cczx/pdddView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4061,738" />
+      <AbsolutePoint location="4061,845" />
+      <AbsolutePoint location="4177,845" />
+      <AbsolutePoint location="4177,2146" />
+      <AbsolutePoint location="3740,2146" />
+      <AbsolutePoint location="3740,2150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pddd.do,gotoVali,/jsp/student/cczx/pdddVali.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4055,738" />
+      <AbsolutePoint location="4055,741" />
+      <AbsolutePoint location="3557,741" />
+      <AbsolutePoint location="3557,2174" />
+      <AbsolutePoint location="3525,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sbwxjl.do,gotoUpd,/jsp/student/zygl/sbwxjlUpd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4658,2038" />
+      <AbsolutePoint location="4658,2150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ydcx.do,getList,/ydcx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4354,350" />
+      <AbsolutePoint location="4354,260" />
+      <AbsolutePoint location="4503,260" />
+      <AbsolutePoint location="4503,394" />
+      <AbsolutePoint location="4459,394" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd19,/jsp/teacher/SjzdmxUpd19.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2085,134" />
+      <AbsolutePoint location="2085,187" />
+      <AbsolutePoint location="2409,187" />
+      <AbsolutePoint location="2409,774" />
+      <AbsolutePoint location="2358,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khth.do,updatePage,/jsp/student/kfzx/khth_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="769,2492" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pgpc.do,getList,/pgpc.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4345,150" />
+      <AbsolutePoint location="4345,130" />
+      <AbsolutePoint location="4480,130" />
+      <AbsolutePoint location="4480,179" />
+      <AbsolutePoint location="4459,179" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/yggl.do,listPage,/jsp/student/zygl/ygxx_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2836,138" />
+      <AbsolutePoint location="2836,333" />
+      <AbsolutePoint location="1245,333" />
+      <AbsolutePoint location="1245,1574" />
+      <AbsolutePoint location="1250,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kfxx.do,objList,/jsp/student/zygl/kfxxList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3150,50" />
+      <AbsolutePoint location="3150,-94" />
+      <AbsolutePoint location="4769,-94" />
+      <AbsolutePoint location="4769,1645" />
+      <AbsolutePoint location="2835,1645" />
+      <AbsolutePoint location="2835,1599" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,ccLrPrint,/jsp/student/decision/cc_lrprint.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="210,2338" />
+      <AbsolutePoint location="210,2444" />
+      <AbsolutePoint location="4812,2444" />
+      <AbsolutePoint location="4812,1474" />
+      <AbsolutePoint location="4850,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd14,/jsp/teacher/SjzdmxUpd14.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1274" />
+      <AbsolutePoint location="154,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/testSetup.do,xsxxList,/jsp/teacher/xsxxSetList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2289,134" />
+      <AbsolutePoint location="2289,230" />
+      <AbsolutePoint location="4248,230" />
+      <AbsolutePoint location="4248,874" />
+      <AbsolutePoint location="4250,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pgpc.do,listFcPage,/jsp/student/ysps/ysdd_fc_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4354,194" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sbxx.do,savePage,/jsp/student/zygl/sbxx_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4160,285" />
+      <AbsolutePoint location="4160,1784" />
+      <AbsolutePoint location="3950,1784" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,sendSave,/jsp/student/order/send_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3413,538" />
+      <AbsolutePoint location="3413,605" />
+      <AbsolutePoint location="2121,605" />
+      <AbsolutePoint location="2121,1874" />
+      <AbsolutePoint location="2037,1874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khth.do,updatePage,/jsp/student/base/khth_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="787,2534" />
+      <AbsolutePoint location="787,2595" />
+      <AbsolutePoint location="2795,2595" />
+      <AbsolutePoint location="2795,2474" />
+      <AbsolutePoint location="3050,2474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,viewCcPage,/jsp/student/order/ckdd_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3767,538" />
+      <AbsolutePoint location="3767,619" />
+      <AbsolutePoint location="4641,619" />
+      <AbsolutePoint location="4641,1019" />
+      <AbsolutePoint location="2715,1019" />
+      <AbsolutePoint location="2715,1974" />
+      <AbsolutePoint location="2640,1974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ggxx.do,gotoAdd,/jsp/teacher/GgxxAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,119" />
+      <AbsolutePoint location="915,119" />
+      <AbsolutePoint location="915,619" />
+      <AbsolutePoint location="1447,619" />
+      <AbsolutePoint location="1447,774" />
+      <AbsolutePoint location="1550,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,success,/crkdd.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3757,494" />
+      <AbsolutePoint location="3757,435" />
+      <AbsolutePoint location="3635,435" />
+      <AbsolutePoint location="3635,494" />
+      <AbsolutePoint location="3757,494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd20,/jsp/teacher/SjzdmxAdd20.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1274" />
+      <AbsolutePoint location="1054,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/clgl.do,getList,/clgl.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4051,50" />
+      <AbsolutePoint location="4051,-7" />
+      <AbsolutePoint location="4355,-7" />
+      <AbsolutePoint location="4355,82" />
+      <AbsolutePoint location="4153,82" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khfk.do,updatePage,/jsp/student/kfzx/khfk_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1069,2392" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/yggl.do,addPage,/jsp/student/zygl/ygxx_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2853,94" />
+      <AbsolutePoint location="2853,1574" />
+      <AbsolutePoint location="2240,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khth.do,savePage,/jsp/student/kfzx/khth_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="769,2492" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd6,/jsp/teacher/SjzdmxAdd6.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1374" />
+      <AbsolutePoint location="1051,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pddd.do,gotoView,/jsp/student/order/pdddView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4160,734" />
+      <AbsolutePoint location="4436,734" />
+      <AbsolutePoint location="4436,1383" />
+      <AbsolutePoint location="3281,1383" />
+      <AbsolutePoint location="3281,2174" />
+      <AbsolutePoint location="3236,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,objList,/jsp/student/order/crkdd_list1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3864,530" />
+      <AbsolutePoint location="3879,530" />
+      <AbsolutePoint location="3879,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,ccLrList,/jsp/student/decision/cwtj_cclr.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="124,2250" />
+      <AbsolutePoint location="124,2214" />
+      <AbsolutePoint location="-55,2214" />
+      <AbsolutePoint location="-55,2634" />
+      <AbsolutePoint location="5151,2634" />
+      <AbsolutePoint location="5151,1774" />
+      <AbsolutePoint location="5100,1774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,listJsPage,/jsp/student/cczx/crkdd_js_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3484,738" />
+      <AbsolutePoint location="3484,787" />
+      <AbsolutePoint location="4191,787" />
+      <AbsolutePoint location="4191,2074" />
+      <AbsolutePoint location="4144,2074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd6,/jsp/teacher/SjzdmxUpd6.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1274" />
+      <AbsolutePoint location="2551,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,zjPage,/jsp/student/cczx/crkdd_zj.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3374,738" />
+      <AbsolutePoint location="3374,765" />
+      <AbsolutePoint location="3201,765" />
+      <AbsolutePoint location="3201,1114" />
+      <AbsolutePoint location="3617,1114" />
+      <AbsolutePoint location="3617,2074" />
+      <AbsolutePoint location="3525,2074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd3,/jsp/teacher/SjzdmxUpd3.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2100,74" />
+      <AbsolutePoint location="2147,74" />
+      <AbsolutePoint location="2147,874" />
+      <AbsolutePoint location="2150,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khxx.do,listPage,/jsp/student/khxx/khxx_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3132,338" />
+      <AbsolutePoint location="3132,420" />
+      <AbsolutePoint location="2072,420" />
+      <AbsolutePoint location="2072,1713" />
+      <AbsolutePoint location="4039,1713" />
+      <AbsolutePoint location="4039,1699" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khxx.do,updatePage,/jsp/student/khxx/khxx_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3155,294" />
+      <AbsolutePoint location="3155,1674" />
+      <AbsolutePoint location="3742,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khth.do,getList,/khth.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="769,2450" />
+      <AbsolutePoint location="769,2414" />
+      <AbsolutePoint location="925,2414" />
+      <AbsolutePoint location="925,2465" />
+      <AbsolutePoint location="888,2465" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ggxx.do,viewForStu,/jsp/student/testResult/GgxxView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,91" />
+      <AbsolutePoint location="1195,91" />
+      <AbsolutePoint location="1195,574" />
+      <AbsolutePoint location="1550,574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd11,/jsp/teacher/SjzdmxAdd11.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1374" />
+      <AbsolutePoint location="454,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd19,/jsp/teacher/SjzdmxAdd19.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1174" />
+      <AbsolutePoint location="2554,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd12,/jsp/teacher/SjzdmxAdd12.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1879,134" />
+      <AbsolutePoint location="1879,295" />
+      <AbsolutePoint location="1354,295" />
+      <AbsolutePoint location="1354,350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/htxx.do,getList,/htxx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3744,250" />
+      <AbsolutePoint location="3744,187" />
+      <AbsolutePoint location="3885,187" />
+      <AbsolutePoint location="3885,294" />
+      <AbsolutePoint location="3859,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/zdgl.do,gotoView,/jsp/student/decision/zdglView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4250,1702" />
+      <AbsolutePoint location="3229,1702" />
+      <AbsolutePoint location="3229,1499" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khfk.do,savePage,/jsp/student/kfzx/khfk_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1069,2392" />
+      <AbsolutePoint location="460,2474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd13,/jsp/teacher/SjzdmxAdd13.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1174" />
+      <AbsolutePoint location="1054,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sbxx.do,viewPage,/jsp/student/zygl/sbxx_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4160,309" />
+      <AbsolutePoint location="4776,309" />
+      <AbsolutePoint location="4776,1290" />
+      <AbsolutePoint location="3888,1290" />
+      <AbsolutePoint location="3888,1774" />
+      <AbsolutePoint location="3834,1774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="error;6,null,/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,386" />
+      <AbsolutePoint location="11,386" />
+      <AbsolutePoint location="11,874" />
+      <AbsolutePoint location="50,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist13,/jsp/teacher/SjzdmxList13.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1274" />
+      <AbsolutePoint location="757,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,success,/jsp/student/decision/cwtj.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2324" />
+      <AbsolutePoint location="-85,2324" />
+      <AbsolutePoint location="-85,1714" />
+      <AbsolutePoint location="576,1714" />
+      <AbsolutePoint location="576,2274" />
+      <AbsolutePoint location="522,2274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist3,/jsp/teacher/SjzdmxList3.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1885,50" />
+      <AbsolutePoint location="1885,5" />
+      <AbsolutePoint location="1503,5" />
+      <AbsolutePoint location="1503,813" />
+      <AbsolutePoint location="2373,813" />
+      <AbsolutePoint location="2373,674" />
+      <AbsolutePoint location="2450,674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ysps.do,getList,/ysps.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4064,450" />
+      <AbsolutePoint location="4064,441" />
+      <AbsolutePoint location="4373,441" />
+      <AbsolutePoint location="4373,472" />
+      <AbsolutePoint location="4158,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,swjlrcwtjt,/jsp/student/decision/swjlrcwtj.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="257,2250" />
+      <AbsolutePoint location="257,2136" />
+      <AbsolutePoint location="4975,2136" />
+      <AbsolutePoint location="4975,2098" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,getZjList,/cczx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3413,650" />
+      <AbsolutePoint location="3413,643" />
+      <AbsolutePoint location="3341,643" />
+      <AbsolutePoint location="3341,1226" />
+      <AbsolutePoint location="3563,1226" />
+      <AbsolutePoint location="3563,700" />
+      <AbsolutePoint location="3559,700" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pddd.do,gotoView2,/jsp/student/cczx/pdddView1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4160,716" />
+      <AbsolutePoint location="4474,716" />
+      <AbsolutePoint location="4474,2314" />
+      <AbsolutePoint location="2679,2314" />
+      <AbsolutePoint location="2679,2174" />
+      <AbsolutePoint location="2637,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ysps.do,qsView,/jsp/student/ysps/qs_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3950,458" />
+      <AbsolutePoint location="3943,458" />
+      <AbsolutePoint location="3943,41" />
+      <AbsolutePoint location="4526,41" />
+      <AbsolutePoint location="4526,1936" />
+      <AbsolutePoint location="4037,1936" />
+      <AbsolutePoint location="4037,1950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="jsp/teacher/jsgl_add.jsp,null,/jsgl.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="769,250" />
+      <AbsolutePoint location="769,134" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd21,/jsp/teacher/SjzdmxUpd21.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1274" />
+      <AbsolutePoint location="2854,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pgpc.do,pgPage,/jsp/student/ysps/ysdd_pg.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4459,189" />
+      <AbsolutePoint location="5196,189" />
+      <AbsolutePoint location="5196,2345" />
+      <AbsolutePoint location="738,2345" />
+      <AbsolutePoint location="738,2299" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,sendList,/jsp/student/order/send_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3425,450" />
+      <AbsolutePoint location="3425,365" />
+      <AbsolutePoint location="2979,365" />
+      <AbsolutePoint location="2979,1874" />
+      <AbsolutePoint location="3050,1874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ddfj.do,listPage,/jsp/student/ddzx/ysdd_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3733,738" />
+      <AbsolutePoint location="3733,747" />
+      <AbsolutePoint location="925,747" />
+      <AbsolutePoint location="925,2174" />
+      <AbsolutePoint location="829,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd10,/jsp/teacher/SjzdmxAdd10.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2005,50" />
+      <AbsolutePoint location="2005,5" />
+      <AbsolutePoint location="2709,5" />
+      <AbsolutePoint location="2709,474" />
+      <AbsolutePoint location="2658,474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bxgl.do,updatePage,/jsp/student/zygl/bxgl_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3753,94" />
+      <AbsolutePoint location="3753,1674" />
+      <AbsolutePoint location="1338,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,traView2,/jsp/student/order/tra_view2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3492,538" />
+      <AbsolutePoint location="3492,546" />
+      <AbsolutePoint location="3579,546" />
+      <AbsolutePoint location="3579,1274" />
+      <AbsolutePoint location="3538,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist20,/jsp/teacher/SjzdmxList20.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1893,134" />
+      <AbsolutePoint location="1893,317" />
+      <AbsolutePoint location="1203,317" />
+      <AbsolutePoint location="1203,774" />
+      <AbsolutePoint location="1164,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/testSetup.do,success1,/testSetup.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2284,92" />
+      <AbsolutePoint location="2284,35" />
+      <AbsolutePoint location="2135,35" />
+      <AbsolutePoint location="2135,92" />
+      <AbsolutePoint location="2284,92" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/testSetup.do,bjxxList,/jsp/teacher/bjxxSetList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2373,134" />
+      <AbsolutePoint location="2373,204" />
+      <AbsolutePoint location="4200,204" />
+      <AbsolutePoint location="4200,874" />
+      <AbsolutePoint location="4113,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ddfj.do,savePage,/jsp/student/ddzx/ysdd_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3844,738" />
+      <AbsolutePoint location="3844,1145" />
+      <AbsolutePoint location="1218,1145" />
+      <AbsolutePoint location="1218,2174" />
+      <AbsolutePoint location="1250,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,listZjPage,/jsp/student/cczx/crkdd_zj_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3388,738" />
+      <AbsolutePoint location="3388,813" />
+      <AbsolutePoint location="2679,813" />
+      <AbsolutePoint location="2679,2074" />
+      <AbsolutePoint location="2750,2074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ykdd.do,gotoView1,/jsp/student/cczx/ykddView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,715" />
+      <AbsolutePoint location="2660,715" />
+      <AbsolutePoint location="2660,2074" />
+      <AbsolutePoint location="2630,2074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/clgl.do,viewPage,/jsp/student/zygl/clgl_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4153,94" />
+      <AbsolutePoint location="4806,94" />
+      <AbsolutePoint location="4806,1216" />
+      <AbsolutePoint location="3027,1216" />
+      <AbsolutePoint location="3027,1674" />
+      <AbsolutePoint location="3050,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,getList,/send.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3455,450" />
+      <AbsolutePoint location="3455,365" />
+      <AbsolutePoint location="3587,365" />
+      <AbsolutePoint location="3587,458" />
+      <AbsolutePoint location="3560,458" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/testSetup.do,groupList,/jsp/teacher/groupSetList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2395,134" />
+      <AbsolutePoint location="2395,906" />
+      <AbsolutePoint location="3435,906" />
+      <AbsolutePoint location="3435,899" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,swsrbb,/jsp/student/decision/swSrbb.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="94,2338" />
+      <AbsolutePoint location="94,2365" />
+      <AbsolutePoint location="35,2365" />
+      <AbsolutePoint location="35,1914" />
+      <AbsolutePoint location="1503,1914" />
+      <AbsolutePoint location="1503,2374" />
+      <AbsolutePoint location="1550,2374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjxx.do,gotoView,/jsp/teacher/sjxx_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,505" />
+      <AbsolutePoint location="1233,505" />
+      <AbsolutePoint location="1233,981" />
+      <AbsolutePoint location="846,981" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist10,/jsp/teacher/SjzdmxList10.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1915,50" />
+      <AbsolutePoint location="1915,-85" />
+      <AbsolutePoint location="3009,-85" />
+      <AbsolutePoint location="3009,474" />
+      <AbsolutePoint location="2964,474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,ckPage,/jsp/student/cczx/crkdd_ck.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3424,738" />
+      <AbsolutePoint location="3424,813" />
+      <AbsolutePoint location="4159,813" />
+      <AbsolutePoint location="4159,2174" />
+      <AbsolutePoint location="4127,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/htxx.do,savePage,/jsp/student/khxx/htxx_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3859,316" />
+      <AbsolutePoint location="3859,1750" />
+      <AbsolutePoint location="2841,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bmxx.do,gotoUpd,/jsp/student/zygl/bmxxUpd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2662,2336" />
+      <AbsolutePoint location="3250,2336" />
+      <AbsolutePoint location="3250,1474" />
+      <AbsolutePoint location="3350,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pgpc.do,viewPage,/jsp/student/ysps/ysdd_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4459,205" />
+      <AbsolutePoint location="4657,205" />
+      <AbsolutePoint location="4657,1043" />
+      <AbsolutePoint location="1545,1043" />
+      <AbsolutePoint location="1545,2274" />
+      <AbsolutePoint location="1550,2274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd13,/jsp/teacher/SjzdmxUpd13.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,92" />
+      <AbsolutePoint location="1821,92" />
+      <AbsolutePoint location="1821,574" />
+      <AbsolutePoint location="2150,574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khdd.do,updatePage,/jsp/student/order/khdd_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3141,450" />
+      <AbsolutePoint location="3141,445" />
+      <AbsolutePoint location="329,445" />
+      <AbsolutePoint location="329,1874" />
+      <AbsolutePoint location="237,1874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khdd.do,getList,/khdd.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3155,450" />
+      <AbsolutePoint location="3155,387" />
+      <AbsolutePoint location="3281,387" />
+      <AbsolutePoint location="3281,485" />
+      <AbsolutePoint location="3260,485" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/testSetup.do,success2,/testSetup.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2284,92" />
+      <AbsolutePoint location="2284,35" />
+      <AbsolutePoint location="2135,35" />
+      <AbsolutePoint location="2135,92" />
+      <AbsolutePoint location="2284,92" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khxx.do,savePage,/jsp/student/khxx/khxx_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3155,294" />
+      <AbsolutePoint location="3155,1774" />
+      <AbsolutePoint location="442,1774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,jsPage,/jsp/student/cczx/crkdd_js.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3514,738" />
+      <AbsolutePoint location="3514,765" />
+      <AbsolutePoint location="4504,765" />
+      <AbsolutePoint location="4504,2114" />
+      <AbsolutePoint location="3137,2114" />
+      <AbsolutePoint location="3137,2099" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,traList2,/jsp/student/order/tra_list2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3473,450" />
+      <AbsolutePoint location="3473,387" />
+      <AbsolutePoint location="3915,387" />
+      <AbsolutePoint location="3915,1274" />
+      <AbsolutePoint location="3829,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bmxx.do,objList,/jsp/student/zygl/bmxxList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2647,2250" />
+      <AbsolutePoint location="2647,1506" />
+      <AbsolutePoint location="3737,1506" />
+      <AbsolutePoint location="3737,1499" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kfxx.do,gotoUpd,/jsp/student/zygl/kfxxUpd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3154,94" />
+      <AbsolutePoint location="3154,1574" />
+      <AbsolutePoint location="2536,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khts.do,viewPage,/jsp/student/kfzx/khts_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2839,2434" />
+      <AbsolutePoint location="2839,2595" />
+      <AbsolutePoint location="3633,2595" />
+      <AbsolutePoint location="3633,2413" />
+      <AbsolutePoint location="3763,2413" />
+      <AbsolutePoint location="3763,2398" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khth.do,viewPage,/jsp/student/kfzx/khth_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="769,2492" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/taskCircs.do,success,/jsp/teacher/taskCircs.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2424,1383" />
+      <AbsolutePoint location="2750,1383" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist18,/jsp/teacher/SjzdmxList18.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1074" />
+      <AbsolutePoint location="1657,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/yggl.do,updatePage,/jsp/student/zygl/ygxx_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2853,94" />
+      <AbsolutePoint location="2853,1574" />
+      <AbsolutePoint location="1648,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,sendList2,/jsp/student/order/send_list2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3560,494" />
+      <AbsolutePoint location="3639,494" />
+      <AbsolutePoint location="3639,1174" />
+      <AbsolutePoint location="3538,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/zdgl.do,gotoAdd,/jsp/student/decision/zdglAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4250,1714" />
+      <AbsolutePoint location="2936,1714" />
+      <AbsolutePoint location="2936,1499" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/class.do,addPage,/jsp/teacher/class_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="294,313" />
+      <AbsolutePoint location="343,313" />
+      <AbsolutePoint location="343,605" />
+      <AbsolutePoint location="748,605" />
+      <AbsolutePoint location="748,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khfk.do,viewPage,/jsp/student/kfzx/khfk_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1069,2392" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sbxx.do,getList,/sbxx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4055,250" />
+      <AbsolutePoint location="4055,219" />
+      <AbsolutePoint location="4237,219" />
+      <AbsolutePoint location="4237,260" />
+      <AbsolutePoint location="4160,260" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qwxx.do,gotoAdd,/jsp/student/zygl/qwxxAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3471,50" />
+      <AbsolutePoint location="3471,27" />
+      <AbsolutePoint location="4818,27" />
+      <AbsolutePoint location="4818,1441" />
+      <AbsolutePoint location="139,1441" />
+      <AbsolutePoint location="139,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ddfj.do,viewPage,/jsp/student/ddzx/ysdd_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3835,738" />
+      <AbsolutePoint location="3835,1005" />
+      <AbsolutePoint location="1203,1005" />
+      <AbsolutePoint location="1203,2174" />
+      <AbsolutePoint location="1138,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ggxx.do,success,/ggxx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1399,50" />
+      <AbsolutePoint location="1399,-25" />
+      <AbsolutePoint location="1595,-25" />
+      <AbsolutePoint location="1595,92" />
+      <AbsolutePoint location="1488,92" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/student.do,addPlPage,/jsp/teacher/stu_more_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1154,334" />
+      <AbsolutePoint location="1154,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pddd.do,objList,/jsp/student/order/pdddList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4160,694" />
+      <AbsolutePoint location="4913,694" />
+      <AbsolutePoint location="4913,1420" />
+      <AbsolutePoint location="2431,1420" />
+      <AbsolutePoint location="2431,2174" />
+      <AbsolutePoint location="2330,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/hzgxxx.do,getList,/hzgxxx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3470,250" />
+      <AbsolutePoint location="3470,171" />
+      <AbsolutePoint location="3595,171" />
+      <AbsolutePoint location="3595,294" />
+      <AbsolutePoint location="3572,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khdd.do,viewPage1,/jsp/student/order/khdd_view1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,530" />
+      <AbsolutePoint location="3031,530" />
+      <AbsolutePoint location="3031,1074" />
+      <AbsolutePoint location="3350,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/zdgl.do,success,/zdgl.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4353,1650" />
+      <AbsolutePoint location="4353,1577" />
+      <AbsolutePoint location="4135,1577" />
+      <AbsolutePoint location="4135,2041" />
+      <AbsolutePoint location="5185,2041" />
+      <AbsolutePoint location="5185,1702" />
+      <AbsolutePoint location="4456,1702" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/testSetup.do,xsxxLeaveList,/jsp/teacher/xsxxLeaveList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2409,134" />
+      <AbsolutePoint location="2409,147" />
+      <AbsolutePoint location="4589,147" />
+      <AbsolutePoint location="4589,747" />
+      <AbsolutePoint location="3739,747" />
+      <AbsolutePoint location="3739,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ykdd.do,gotoAdd,/jsp/student/order/ykddAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,731" />
+      <AbsolutePoint location="3045,731" />
+      <AbsolutePoint location="3045,2032" />
+      <AbsolutePoint location="1641,2032" />
+      <AbsolutePoint location="1641,2050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ysps.do,qsPage,/jsp/student/ysps/qs_qs.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4158,534" />
+      <AbsolutePoint location="4871,534" />
+      <AbsolutePoint location="4871,1236" />
+      <AbsolutePoint location="3267,1236" />
+      <AbsolutePoint location="3267,1974" />
+      <AbsolutePoint location="3214,1974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khts.do,listPage,/jsp/student/kfzx/khts_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2988,2392" />
+      <AbsolutePoint location="3050,2392" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd2,/jsp/teacher/SjzdmxAdd2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2100,114" />
+      <AbsolutePoint location="2115,114" />
+      <AbsolutePoint location="2115,474" />
+      <AbsolutePoint location="2150,474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,traSave,/jsp/student/order/tra_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3350,511" />
+      <AbsolutePoint location="3306,511" />
+      <AbsolutePoint location="3306,1825" />
+      <AbsolutePoint location="1639,1825" />
+      <AbsolutePoint location="1639,1850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ykdd.do,gotoView,/jsp/student/order/ykddView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3259,694" />
+      <AbsolutePoint location="3293,694" />
+      <AbsolutePoint location="3293,2146" />
+      <AbsolutePoint location="1942,2146" />
+      <AbsolutePoint location="1942,2099" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,rkPage,/jsp/student/cczx/crkdd_rk.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3454,738" />
+      <AbsolutePoint location="3454,835" />
+      <AbsolutePoint location="4540,835" />
+      <AbsolutePoint location="4540,2174" />
+      <AbsolutePoint location="4426,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd15,/jsp/teacher/SjzdmxUpd15.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2055,134" />
+      <AbsolutePoint location="2055,637" />
+      <AbsolutePoint location="2955,637" />
+      <AbsolutePoint location="2955,750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd14,/jsp/teacher/SjzdmxAdd14.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1074" />
+      <AbsolutePoint location="2554,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,updateCcPage,/jsp/student/order/ckdd_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3864,516" />
+      <AbsolutePoint location="3901,516" />
+      <AbsolutePoint location="3901,2045" />
+      <AbsolutePoint location="1051,2045" />
+      <AbsolutePoint location="1051,1999" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sbwxjl.do,objList,/jsp/student/zygl/sbwxjlList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4756,1950" />
+      <AbsolutePoint location="4756,1834" />
+      <AbsolutePoint location="3031,1834" />
+      <AbsolutePoint location="3031,2274" />
+      <AbsolutePoint location="2929,2274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist17,/jsp/teacher/SjzdmxList17.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1174" />
+      <AbsolutePoint location="157,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pddd.do,valiList,/jsp/student/cczx/pdddList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4120,738" />
+      <AbsolutePoint location="4120,1306" />
+      <AbsolutePoint location="1847,1306" />
+      <AbsolutePoint location="1847,2174" />
+      <AbsolutePoint location="1850,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khxx.do,getList,/khxx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3155,250" />
+      <AbsolutePoint location="3155,219" />
+      <AbsolutePoint location="3267,219" />
+      <AbsolutePoint location="3267,294" />
+      <AbsolutePoint location="3260,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,sjzdList,/jsp/teacher/SjzdList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1865,134" />
+      <AbsolutePoint location="1865,265" />
+      <AbsolutePoint location="1227,265" />
+      <AbsolutePoint location="1227,474" />
+      <AbsolutePoint location="1140,474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ysps.do,qsList,/jsp/student/ysps/qs_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3950,488" />
+      <AbsolutePoint location="3901,488" />
+      <AbsolutePoint location="3901,11" />
+      <AbsolutePoint location="4788,11" />
+      <AbsolutePoint location="4788,1136" />
+      <AbsolutePoint location="11,1136" />
+      <AbsolutePoint location="11,2074" />
+      <AbsolutePoint location="50,2074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khth.do,viewPage,/jsp/student/base/khth_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="888,2531" />
+      <AbsolutePoint location="3463,2531" />
+      <AbsolutePoint location="3463,2498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qwxx.do,gotoUpd,/jsp/student/zygl/qwxxUpd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3443,50" />
+      <AbsolutePoint location="3443,-19" />
+      <AbsolutePoint location="5077,-19" />
+      <AbsolutePoint location="5077,1206" />
+      <AbsolutePoint location="3639,1206" />
+      <AbsolutePoint location="3639,1574" />
+      <AbsolutePoint location="3650,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pgpc.do,pcPage,/jsp/student/ysps/ysdd_pc.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4459,194" />
+      <AbsolutePoint location="4459,2299" />
+      <AbsolutePoint location="1038,2299" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bxgl.do,savePage,/jsp/student/zygl/bxgl_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3753,50" />
+      <AbsolutePoint location="3753,-90" />
+      <AbsolutePoint location="4568,-90" />
+      <AbsolutePoint location="4568,919" />
+      <AbsolutePoint location="2136,919" />
+      <AbsolutePoint location="2136,1674" />
+      <AbsolutePoint location="2150,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd16,/jsp/teacher/SjzdmxAdd16.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1174" />
+      <AbsolutePoint location="2254,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,swcbbb,/jsp/student/decision/swcbbb.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="124,2338" />
+      <AbsolutePoint location="124,2365" />
+      <AbsolutePoint location="315,2365" />
+      <AbsolutePoint location="315,2664" />
+      <AbsolutePoint location="5121,2664" />
+      <AbsolutePoint location="5121,1974" />
+      <AbsolutePoint location="5082,1974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist16,/jsp/teacher/SjzdmxList16.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1174" />
+      <AbsolutePoint location="757,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/yggl.do,viewPage,/jsp/student/zygl/ygxx_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2956,103" />
+      <AbsolutePoint location="3030,103" />
+      <AbsolutePoint location="3030,416" />
+      <AbsolutePoint location="2090,416" />
+      <AbsolutePoint location="2090,1574" />
+      <AbsolutePoint location="2035,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bxgl.do,viewPage,/jsp/student/zygl/bxgl_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3753,94" />
+      <AbsolutePoint location="3753,1674" />
+      <AbsolutePoint location="1940,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist6,/jsp/teacher/SjzdmxList6.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1174" />
+      <AbsolutePoint location="2854,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist4,/jsp/teacher/SjzdmxList4.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,122" />
+      <AbsolutePoint location="1847,122" />
+      <AbsolutePoint location="1847,774" />
+      <AbsolutePoint location="1850,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjxx.do,success,/sjxx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1369,450" />
+      <AbsolutePoint location="1369,431" />
+      <AbsolutePoint location="1895,431" />
+      <AbsolutePoint location="1895,526" />
+      <AbsolutePoint location="1488,526" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ykdd.do,objList,/jsp/student/order/ykddList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,705" />
+      <AbsolutePoint location="1173,705" />
+      <AbsolutePoint location="1173,2074" />
+      <AbsolutePoint location="1250,2074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,addCcPage,/jsp/student/order/ckdd_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3795,450" />
+      <AbsolutePoint location="3795,365" />
+      <AbsolutePoint location="4231,365" />
+      <AbsolutePoint location="4231,2014" />
+      <AbsolutePoint location="743,2014" />
+      <AbsolutePoint location="743,1999" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qwxx.do,gotoView,/jsp/student/zygl/qwxxView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3457,138" />
+      <AbsolutePoint location="3457,1699" />
+      <AbsolutePoint location="440,1699" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd17,/jsp/teacher/SjzdmxAdd17.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1274" />
+      <AbsolutePoint location="1954,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/class.do,getList,/class.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="172,250" />
+      <AbsolutePoint location="172,171" />
+      <AbsolutePoint location="315,171" />
+      <AbsolutePoint location="315,263" />
+      <AbsolutePoint location="294,263" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,sendList1,/jsp/student/order/send_list1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3560,524" />
+      <AbsolutePoint location="3617,524" />
+      <AbsolutePoint location="3617,1074" />
+      <AbsolutePoint location="4550,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kfxx.do,gotoView,/jsp/student/zygl/kfxxView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3154,50" />
+      <AbsolutePoint location="3154,1550" />
+      <AbsolutePoint location="3432,1550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,swJlrbb,/jsp/student/decision/swJlrbb.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="258,2314" />
+      <AbsolutePoint location="2397,2314" />
+      <AbsolutePoint location="2397,1614" />
+      <AbsolutePoint location="4969,1614" />
+      <AbsolutePoint location="4969,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,sendView1,/jsp/student/order/send_view1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3427,538" />
+      <AbsolutePoint location="3427,2299" />
+      <AbsolutePoint location="4348,2299" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qwxx.do,success,/qwxx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3480,50" />
+      <AbsolutePoint location="3480,40" />
+      <AbsolutePoint location="3586,40" />
+      <AbsolutePoint location="3586,94" />
+      <AbsolutePoint location="3564,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist15,/jsp/teacher/SjzdmxList15.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,60" />
+      <AbsolutePoint location="1667,60" />
+      <AbsolutePoint location="1667,141" />
+      <AbsolutePoint location="2745,141" />
+      <AbsolutePoint location="2745,874" />
+      <AbsolutePoint location="2750,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjxx.do,objList,/jsp/teacher/sjxx_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1473,534" />
+      <AbsolutePoint location="1473,908" />
+      <AbsolutePoint location="147,908" />
+      <AbsolutePoint location="147,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/student.do,listPage,/jsp/teacher/stu_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,319" />
+      <AbsolutePoint location="871,319" />
+      <AbsolutePoint location="871,819" />
+      <AbsolutePoint location="143,819" />
+      <AbsolutePoint location="143,798" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,traUpdate,/jsp/student/order/tra_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3350,529" />
+      <AbsolutePoint location="3323,529" />
+      <AbsolutePoint location="3323,1914" />
+      <AbsolutePoint location="2839,1914" />
+      <AbsolutePoint location="2839,1899" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,success1,/send.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3477,450" />
+      <AbsolutePoint location="3477,417" />
+      <AbsolutePoint location="3623,417" />
+      <AbsolutePoint location="3623,472" />
+      <AbsolutePoint location="3560,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd16,/jsp/teacher/SjzdmxUpd16.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1174" />
+      <AbsolutePoint location="1354,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist11,/jsp/teacher/SjzdmxList11.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1945,50" />
+      <AbsolutePoint location="1945,-55" />
+      <AbsolutePoint location="4985,-55" />
+      <AbsolutePoint location="4985,574" />
+      <AbsolutePoint location="2964,574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ykdd.do,valiList,/jsp/student/cczx/ykddList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,720" />
+      <AbsolutePoint location="2731,720" />
+      <AbsolutePoint location="2731,2120" />
+      <AbsolutePoint location="1037,2120" />
+      <AbsolutePoint location="1037,2099" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ddfj.do,updatePage,/jsp/student/ddzx/ysdd_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3753,738" />
+      <AbsolutePoint location="3753,845" />
+      <AbsolutePoint location="345,845" />
+      <AbsolutePoint location="345,2174" />
+      <AbsolutePoint location="350,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ydcx.do,listPage,/jsp/student/ysps/ydcx_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4417,438" />
+      <AbsolutePoint location="4417,1401" />
+      <AbsolutePoint location="2536,1401" />
+      <AbsolutePoint location="2536,1501" />
+      <AbsolutePoint location="1753,1501" />
+      <AbsolutePoint location="1753,2274" />
+      <AbsolutePoint location="1850,2274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist7,/jsp/teacher/SjzdmxList7.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2072,134" />
+      <AbsolutePoint location="2072,374" />
+      <AbsolutePoint location="2150,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjxx.do,gotoUpd,/jsp/teacher/sjxx_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,492" />
+      <AbsolutePoint location="1219,492" />
+      <AbsolutePoint location="1219,874" />
+      <AbsolutePoint location="1250,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khts.do,getList,/khts.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2966,2350" />
+      <AbsolutePoint location="2966,2295" />
+      <AbsolutePoint location="3030,2295" />
+      <AbsolutePoint location="3030,2375" />
+      <AbsolutePoint location="2988,2375" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd5,/jsp/teacher/SjzdmxAdd5.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1274" />
+      <AbsolutePoint location="2251,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,sendView2,/jsp/student/order/send_view2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3441,538" />
+      <AbsolutePoint location="3441,647" />
+      <AbsolutePoint location="5183,647" />
+      <AbsolutePoint location="5183,1174" />
+      <AbsolutePoint location="4747,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bmxx.do,gotoAdd,/jsp/student/zygl/bmxxAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2556,2338" />
+      <AbsolutePoint location="2556,1474" />
+      <AbsolutePoint location="3950,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd20,/jsp/teacher/SjzdmxUpd20.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1174" />
+      <AbsolutePoint location="1954,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kfxx.do,gotoAdd,/jsp/student/zygl/kfxxAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3154,50" />
+      <AbsolutePoint location="3154,1" />
+      <AbsolutePoint location="5151,1" />
+      <AbsolutePoint location="5151,1547" />
+      <AbsolutePoint location="3136,1547" />
+      <AbsolutePoint location="3136,1550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,swcbtjt,/jsp/student/decision/swcbcwtj.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="176,2250" />
+      <AbsolutePoint location="176,2236" />
+      <AbsolutePoint location="4972,2236" />
+      <AbsolutePoint location="4972,2198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd8,/jsp/teacher/SjzdmxUpd8.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,60" />
+      <AbsolutePoint location="1850,974" />
+      <AbsolutePoint location="2352,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,traView,/jsp/student/order/tra_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3483,538" />
+      <AbsolutePoint location="3483,595" />
+      <AbsolutePoint location="4182,595" />
+      <AbsolutePoint location="4182,1874" />
+      <AbsolutePoint location="4132,1874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,sendUpdate,/jsp/student/order/send_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3350,494" />
+      <AbsolutePoint location="3299,494" />
+      <AbsolutePoint location="3299,1808" />
+      <AbsolutePoint location="2543,1808" />
+      <AbsolutePoint location="2543,1850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bmxx.do,success,/bmxx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2660,2250" />
+      <AbsolutePoint location="2660,2246" />
+      <AbsolutePoint location="2703,2246" />
+      <AbsolutePoint location="2703,2294" />
+      <AbsolutePoint location="2662,2294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd1,/jsp/teacher/SjzdmxAdd1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1074" />
+      <AbsolutePoint location="2251,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/clgl.do,listPage,/jsp/student/zygl/clgl_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4153,100" />
+      <AbsolutePoint location="4717,100" />
+      <AbsolutePoint location="4717,983" />
+      <AbsolutePoint location="2961,983" />
+      <AbsolutePoint location="2961,1674" />
+      <AbsolutePoint location="2917,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,viewRcPage,/jsp/student/cczx/rkdd_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3552,738" />
+      <AbsolutePoint location="3552,1374" />
+      <AbsolutePoint location="3234,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ysps.do,feiyongView,/jsp/student/ysps/feiyong_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4158,494" />
+      <AbsolutePoint location="5121,494" />
+      <AbsolutePoint location="5121,1914" />
+      <AbsolutePoint location="3450,1914" />
+      <AbsolutePoint location="3450,1950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd21,/jsp/teacher/SjzdmxAdd21.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,54" />
+      <AbsolutePoint location="1533,54" />
+      <AbsolutePoint location="1533,613" />
+      <AbsolutePoint location="1954,613" />
+      <AbsolutePoint location="1954,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd3,/jsp/teacher/SjzdmxAdd3.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,974" />
+      <AbsolutePoint location="2851,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsgl.do,updatePawPage,/jsp/teacher/jsgl_update_paw.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="769,50" />
+      <AbsolutePoint location="769,-55" />
+      <AbsolutePoint location="1649,-55" />
+      <AbsolutePoint location="1649,150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,getDdList,/crkdd.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3801,450" />
+      <AbsolutePoint location="3801,417" />
+      <AbsolutePoint location="3885,417" />
+      <AbsolutePoint location="3885,472" />
+      <AbsolutePoint location="3864,472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khts.do,updatePage,/jsp/student/kfzx/khts_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2988,2413" />
+      <AbsolutePoint location="3469,2413" />
+      <AbsolutePoint location="3469,2398" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qwxx.do,gotoFpcw,/jsp/student/zygl/cwxxAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3457,50" />
+      <AbsolutePoint location="3457,-4" />
+      <AbsolutePoint location="4837,-4" />
+      <AbsolutePoint location="4837,1744" />
+      <AbsolutePoint location="1038,1744" />
+      <AbsolutePoint location="1038,1699" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/hzgxxx.do,updatePage,/jsp/student/khxx/hzgxxx_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3473,338" />
+      <AbsolutePoint location="3473,347" />
+      <AbsolutePoint location="4842,347" />
+      <AbsolutePoint location="4842,1844" />
+      <AbsolutePoint location="748,1844" />
+      <AbsolutePoint location="748,1799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd4,/jsp/teacher/SjzdmxAdd4.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2100,92" />
+      <AbsolutePoint location="2137,92" />
+      <AbsolutePoint location="2137,619" />
+      <AbsolutePoint location="2851,619" />
+      <AbsolutePoint location="2851,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,yslrbb,/jsp/student/decision/yslrbb.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="154,2338" />
+      <AbsolutePoint location="154,2550" />
+      <AbsolutePoint location="4966,2550" />
+      <AbsolutePoint location="4966,2298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khfk.do,getList,/khfk.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1166,2350" />
+      <AbsolutePoint location="1166,2273" />
+      <AbsolutePoint location="1194,2273" />
+      <AbsolutePoint location="1194,2392" />
+      <AbsolutePoint location="1188,2392" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,getJsList,/cczx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3417,650" />
+      <AbsolutePoint location="3417,639" />
+      <AbsolutePoint location="3347,639" />
+      <AbsolutePoint location="3347,1326" />
+      <AbsolutePoint location="3569,1326" />
+      <AbsolutePoint location="3569,694" />
+      <AbsolutePoint location="3559,694" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ysps.do,feiyongList,/jsp/student/ysps/feiyong_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4158,516" />
+      <AbsolutePoint location="4935,516" />
+      <AbsolutePoint location="4935,1365" />
+      <AbsolutePoint location="3856,1365" />
+      <AbsolutePoint location="3856,1974" />
+      <AbsolutePoint location="3841,1974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khdd.do,viewPage,/jsp/student/order/khdd_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3155,538" />
+      <AbsolutePoint location="3155,542" />
+      <AbsolutePoint location="937,542" />
+      <AbsolutePoint location="937,1874" />
+      <AbsolutePoint location="841,1874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ydcx.do,viewPage,/jsp/student/ysps/ydcx_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4354,394" />
+      <AbsolutePoint location="4354,2274" />
+      <AbsolutePoint location="2243,2274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/testSetup.do,success,/testSetup.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2284,50" />
+      <AbsolutePoint location="2284,35" />
+      <AbsolutePoint location="2433,35" />
+      <AbsolutePoint location="2433,92" />
+      <AbsolutePoint location="2418,92" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd8,/jsp/teacher/SjzdmxAdd8.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1074" />
+      <AbsolutePoint location="2851,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/class.do,updatePage,/jsp/teacher/class_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="294,305" />
+      <AbsolutePoint location="555,305" />
+      <AbsolutePoint location="555,574" />
+      <AbsolutePoint location="650,574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd10,/jsp/teacher/SjzdmxUpd10.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1374" />
+      <AbsolutePoint location="154,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sbxx.do,listPage,/jsp/student/zygl/sbxx_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4160,275" />
+      <AbsolutePoint location="5235,275" />
+      <AbsolutePoint location="5235,1808" />
+      <AbsolutePoint location="3437,1808" />
+      <AbsolutePoint location="3437,1799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bxgl.do,getList,/bxgl.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3757,50" />
+      <AbsolutePoint location="3757,45" />
+      <AbsolutePoint location="3873,45" />
+      <AbsolutePoint location="3873,94" />
+      <AbsolutePoint location="3856,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/hzgxxx.do,viewPage,/jsp/student/khxx/hzgxxx_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3461,250" />
+      <AbsolutePoint location="3461,140" />
+      <AbsolutePoint location="4765,140" />
+      <AbsolutePoint location="4765,1801" />
+      <AbsolutePoint location="1350,1801" />
+      <AbsolutePoint location="1350,1799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,traView1,/jsp/student/order/tra_view1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3469,538" />
+      <AbsolutePoint location="3469,605" />
+      <AbsolutePoint location="4209,605" />
+      <AbsolutePoint location="4209,2274" />
+      <AbsolutePoint location="4138,2274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,viewRcPage,/jsp/student/order/rkdd_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3779,450" />
+      <AbsolutePoint location="3779,357" />
+      <AbsolutePoint location="3609,357" />
+      <AbsolutePoint location="3609,245" />
+      <AbsolutePoint location="627,245" />
+      <AbsolutePoint location="627,1974" />
+      <AbsolutePoint location="539,1974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/htxx.do,viewPage,/jsp/student/khxx/htxx_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3759,250" />
+      <AbsolutePoint location="3759,246" />
+      <AbsolutePoint location="4892,246" />
+      <AbsolutePoint location="4892,1319" />
+      <AbsolutePoint location="2625,1319" />
+      <AbsolutePoint location="2625,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sbxx.do,updatePage,/jsp/student/zygl/sbxx_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4160,290" />
+      <AbsolutePoint location="5204,290" />
+      <AbsolutePoint location="5204,1813" />
+      <AbsolutePoint location="3140,1813" />
+      <AbsolutePoint location="3140,1799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,traList,/jsp/student/order/tra_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3455,538" />
+      <AbsolutePoint location="3455,619" />
+      <AbsolutePoint location="3593,619" />
+      <AbsolutePoint location="3593,1874" />
+      <AbsolutePoint location="3523,1874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,getCrkList,/cczx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3454,650" />
+      <AbsolutePoint location="3454,556" />
+      <AbsolutePoint location="3563,556" />
+      <AbsolutePoint location="3563,688" />
+      <AbsolutePoint location="3559,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,addRcPage,/jsp/student/order/rkdd_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3721,450" />
+      <AbsolutePoint location="3721,431" />
+      <AbsolutePoint location="2085,431" />
+      <AbsolutePoint location="2085,1974" />
+      <AbsolutePoint location="2150,1974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,yscbcwtjt,/jsp/student/decision/yscbcwtj.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="154,2250" />
+      <AbsolutePoint location="154,2214" />
+      <AbsolutePoint location="4782,2214" />
+      <AbsolutePoint location="4782,1674" />
+      <AbsolutePoint location="4850,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/class.do,viewPage,/jsp/teacher/class_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,292" />
+      <AbsolutePoint location="-55,292" />
+      <AbsolutePoint location="-55,674" />
+      <AbsolutePoint location="50,674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bxgl.do,listPage,/jsp/student/zygl/bxgl_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3748,50" />
+      <AbsolutePoint location="3748,10" />
+      <AbsolutePoint location="2730,10" />
+      <AbsolutePoint location="2730,648" />
+      <AbsolutePoint location="1812,648" />
+      <AbsolutePoint location="1812,1674" />
+      <AbsolutePoint location="1722,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsgl.do,addPage,/jsp/teacher/jsgl_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,83" />
+      <AbsolutePoint location="555,83" />
+      <AbsolutePoint location="555,274" />
+      <AbsolutePoint location="540,274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khxx.do,viewPage,/jsp/student/khxx/khxx_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,294" />
+      <AbsolutePoint location="2213,294" />
+      <AbsolutePoint location="2213,231" />
+      <AbsolutePoint location="303,231" />
+      <AbsolutePoint location="303,1774" />
+      <AbsolutePoint location="238,1774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khdd.do,success,/khdd.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3169,450" />
+      <AbsolutePoint location="3169,417" />
+      <AbsolutePoint location="3267,417" />
+      <AbsolutePoint location="3267,471" />
+      <AbsolutePoint location="3260,471" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ykdd.do,success,/ykdd.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3154,650" />
+      <AbsolutePoint location="3154,635" />
+      <AbsolutePoint location="3274,635" />
+      <AbsolutePoint location="3274,658" />
+      <AbsolutePoint location="3259,658" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pddd.do,gotoUpd,/jsp/student/order/pdddUpd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4139,738" />
+      <AbsolutePoint location="4139,1520" />
+      <AbsolutePoint location="1827,1520" />
+      <AbsolutePoint location="1827,2174" />
+      <AbsolutePoint location="1733,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/clgl.do,updatePage,/jsp/student/zygl/clgl_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4153,106" />
+      <AbsolutePoint location="4669,106" />
+      <AbsolutePoint location="4669,946" />
+      <AbsolutePoint location="2745,946" />
+      <AbsolutePoint location="2745,1674" />
+      <AbsolutePoint location="2622,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd12,/jsp/teacher/SjzdmxUpd12.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,70" />
+      <AbsolutePoint location="1791,70" />
+      <AbsolutePoint location="1791,407" />
+      <AbsolutePoint location="2079,407" />
+      <AbsolutePoint location="2079,974" />
+      <AbsolutePoint location="2058,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,getList,/crkdd.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3757,450" />
+      <AbsolutePoint location="3757,371" />
+      <AbsolutePoint location="3639,371" />
+      <AbsolutePoint location="3639,219" />
+      <AbsolutePoint location="3871,219" />
+      <AbsolutePoint location="3871,458" />
+      <AbsolutePoint location="3864,458" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd1,/jsp/teacher/SjzdmxUpd1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1074" />
+      <AbsolutePoint location="751,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/student.do,updatePage,/jsp/teacher/stu_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,313" />
+      <AbsolutePoint location="641,313" />
+      <AbsolutePoint location="641,774" />
+      <AbsolutePoint location="552,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/zdgl.do,objList,/jsp/student/decision/zdglList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4250,1722" />
+      <AbsolutePoint location="2338,1722" />
+      <AbsolutePoint location="2338,1474" />
+      <AbsolutePoint location="2037,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/yggl.do,getList,/yggl.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2853,50" />
+      <AbsolutePoint location="2853,27" />
+      <AbsolutePoint location="2985,27" />
+      <AbsolutePoint location="2985,94" />
+      <AbsolutePoint location="2956,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ggxx.do,listStuPage,/jsp/student/testResult/GgxxList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1376,134" />
+      <AbsolutePoint location="1376,345" />
+      <AbsolutePoint location="1741,345" />
+      <AbsolutePoint location="1741,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/student.do,viewPage,/jsp/teacher/stu_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,305" />
+      <AbsolutePoint location="613,305" />
+      <AbsolutePoint location="613,788" />
+      <AbsolutePoint location="650,788" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/clgl.do,savePage,/jsp/student/zygl/clgl_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4153,88" />
+      <AbsolutePoint location="4959,88" />
+      <AbsolutePoint location="4959,1326" />
+      <AbsolutePoint location="3581,1326" />
+      <AbsolutePoint location="3581,1674" />
+      <AbsolutePoint location="3522,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,listPage,/jsp/student/order/crkdd_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3864,494" />
+      <AbsolutePoint location="3943,494" />
+      <AbsolutePoint location="3943,1936" />
+      <AbsolutePoint location="1642,1936" />
+      <AbsolutePoint location="1642,1950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist2,/jsp/teacher/SjzdmxList2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1174" />
+      <AbsolutePoint location="1654,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,updateRcPage,/jsp/student/order/rkdd_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3757,538" />
+      <AbsolutePoint location="3757,631" />
+      <AbsolutePoint location="1533,631" />
+      <AbsolutePoint location="1533,1974" />
+      <AbsolutePoint location="1451,1974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khfk.do,listPage,/jsp/student/kfzx/khfk_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1069,2392" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,listCrkPage,/jsp/student/cczx/crkdd_crk_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3536,738" />
+      <AbsolutePoint location="3536,1033" />
+      <AbsolutePoint location="315,1033" />
+      <AbsolutePoint location="315,2174" />
+      <AbsolutePoint location="250,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khts.do,addPage,/jsp/student/kfzx/khts_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2869,2434" />
+      <AbsolutePoint location="2869,2560" />
+      <AbsolutePoint location="4360,2560" />
+      <AbsolutePoint location="4360,2398" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd4,/jsp/teacher/SjzdmxUpd4.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,974" />
+      <AbsolutePoint location="2551,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pddd.do,success1,/pddd.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4055,650" />
+      <AbsolutePoint location="4055,542" />
+      <AbsolutePoint location="4331,542" />
+      <AbsolutePoint location="4331,656" />
+      <AbsolutePoint location="4160,656" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kccx.do,success,/jsp/student/cczx/kccxList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4250,1532" />
+      <AbsolutePoint location="1336,1532" />
+      <AbsolutePoint location="1336,1499" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/kfxx.do,success,/kfxx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3159,50" />
+      <AbsolutePoint location="3159,26" />
+      <AbsolutePoint location="3322,26" />
+      <AbsolutePoint location="3322,94" />
+      <AbsolutePoint location="3258,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd18,/jsp/teacher/SjzdmxUpd18.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1074" />
+      <AbsolutePoint location="1954,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,yslrcwtjt,/jsp/student/decision/yslrcwtj.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2264" />
+      <AbsolutePoint location="5,2264" />
+      <AbsolutePoint location="5,2114" />
+      <AbsolutePoint location="879,2114" />
+      <AbsolutePoint location="879,2350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsgl.do,getList,/jsgl.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="791,50" />
+      <AbsolutePoint location="791,-19" />
+      <AbsolutePoint location="901,-19" />
+      <AbsolutePoint location="901,61" />
+      <AbsolutePoint location="888,61" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd5,/jsp/teacher/SjzdmxUpd5.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1274" />
+      <AbsolutePoint location="1651,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,sendView,/jsp/student/order/send_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3491,450" />
+      <AbsolutePoint location="3491,445" />
+      <AbsolutePoint location="3929,445" />
+      <AbsolutePoint location="3929,1874" />
+      <AbsolutePoint location="3841,1874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,success,/send.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3437,494" />
+      <AbsolutePoint location="3437,435" />
+      <AbsolutePoint location="3335,435" />
+      <AbsolutePoint location="3335,494" />
+      <AbsolutePoint location="3455,494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd18,/jsp/teacher/SjzdmxAdd18.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1274" />
+      <AbsolutePoint location="454,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khdd.do,listPage,/jsp/student/order/khdd_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,510" />
+      <AbsolutePoint location="2107,510" />
+      <AbsolutePoint location="2107,1834" />
+      <AbsolutePoint location="441,1834" />
+      <AbsolutePoint location="441,1850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,ccCbList,/jsp/student/decision/cwtj_cccb.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="124,2338" />
+      <AbsolutePoint location="124,2565" />
+      <AbsolutePoint location="5234,2565" />
+      <AbsolutePoint location="5234,1874" />
+      <AbsolutePoint location="5100,1874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ggxx.do,objList,/jsp/teacher/GgxxList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,105" />
+      <AbsolutePoint location="901,105" />
+      <AbsolutePoint location="901,971" />
+      <AbsolutePoint location="1465,971" />
+      <AbsolutePoint location="1465,674" />
+      <AbsolutePoint location="1550,674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsgl.do,viewPage,/jsp/teacher/jsgl_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="871,134" />
+      <AbsolutePoint location="871,174" />
+      <AbsolutePoint location="950,174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,ddPage,/jsp/student/ddzx/crkdd_dd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3735,450" />
+      <AbsolutePoint location="3735,401" />
+      <AbsolutePoint location="2067,401" />
+      <AbsolutePoint location="2067,1974" />
+      <AbsolutePoint location="2031,1974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pgpc.do,listPage,/jsp/student/ysps/ysdd_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4459,199" />
+      <AbsolutePoint location="5093,199" />
+      <AbsolutePoint location="5093,1246" />
+      <AbsolutePoint location="1539,1246" />
+      <AbsolutePoint location="1539,2274" />
+      <AbsolutePoint location="1428,2274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ykdd.do,gotoUpd,/jsp/student/order/ykddUpd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3242,738" />
+      <AbsolutePoint location="3242,1206" />
+      <AbsolutePoint location="871,1206" />
+      <AbsolutePoint location="871,2074" />
+      <AbsolutePoint location="832,2074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,success,/sjzdmx.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,50" />
+      <AbsolutePoint location="1975,35" />
+      <AbsolutePoint location="2115,35" />
+      <AbsolutePoint location="2115,60" />
+      <AbsolutePoint location="2100,60" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/hzgxxx.do,listPage,/jsp/student/khxx/hzgxxx_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3445,250" />
+      <AbsolutePoint location="3445,1750" />
+      <AbsolutePoint location="1045,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist9,/jsp/teacher/SjzdmxList9.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2067,134" />
+      <AbsolutePoint location="2067,327" />
+      <AbsolutePoint location="2739,327" />
+      <AbsolutePoint location="2739,874" />
+      <AbsolutePoint location="2658,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist21,/jsp/teacher/SjzdmxList21.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2097,134" />
+      <AbsolutePoint location="2097,926" />
+      <AbsolutePoint location="1057,926" />
+      <AbsolutePoint location="1057,898" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist1,/jsp/teacher/SjzdmxList1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1374" />
+      <AbsolutePoint location="1654,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist8,/jsp/teacher/SjzdmxList8.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2061,134" />
+      <AbsolutePoint location="2061,874" />
+      <AbsolutePoint location="2058,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,success1,/jsp/student/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,92" />
+      <AbsolutePoint location="-79,92" />
+      <AbsolutePoint location="-79,1419" />
+      <AbsolutePoint location="1827,1419" />
+      <AbsolutePoint location="1827,1120" />
+      <AbsolutePoint location="3118,1120" />
+      <AbsolutePoint location="3118,899" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/send.do,traList1,/jsp/student/order/tra_list1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3350,477" />
+      <AbsolutePoint location="3275,477" />
+      <AbsolutePoint location="3275,1174" />
+      <AbsolutePoint location="3229,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/class.do,listForStuPage,/jsp/teacher/stu_class_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="294,319" />
+      <AbsolutePoint location="315,319" />
+      <AbsolutePoint location="315,674" />
+      <AbsolutePoint location="350,674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd7,/jsp/teacher/SjzdmxAdd7.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2079,134" />
+      <AbsolutePoint location="2079,345" />
+      <AbsolutePoint location="2431,345" />
+      <AbsolutePoint location="2431,774" />
+      <AbsolutePoint location="2450,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qwxx.do,objList,/jsp/student/zygl/qwxxList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3434,50" />
+      <AbsolutePoint location="3434,-79" />
+      <AbsolutePoint location="5021,-79" />
+      <AbsolutePoint location="5021,1257" />
+      <AbsolutePoint location="3878,1257" />
+      <AbsolutePoint location="3878,1574" />
+      <AbsolutePoint location="3950,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ysps.do,feiyongCharge,/jsp/student/ysps/feiyong_charge.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4054,450" />
+      <AbsolutePoint location="4054,387" />
+      <AbsolutePoint location="4167,387" />
+      <AbsolutePoint location="4167,299" />
+      <AbsolutePoint location="4756,299" />
+      <AbsolutePoint location="4756,1636" />
+      <AbsolutePoint location="546,1636" />
+      <AbsolutePoint location="546,2050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,success2,/jsp/teacher/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="172,50" />
+      <AbsolutePoint location="172,-79" />
+      <AbsolutePoint location="947,-79" />
+      <AbsolutePoint location="947,374" />
+      <AbsolutePoint location="822,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,yscbbb,/jsp/student/decision/yscbbb.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2294" />
+      <AbsolutePoint location="-25,2294" />
+      <AbsolutePoint location="-25,1514" />
+      <AbsolutePoint location="1473,1514" />
+      <AbsolutePoint location="1473,2350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist14,/jsp/teacher/SjzdmxList14.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1374" />
+      <AbsolutePoint location="1957,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qwxx.do,resetFpcw,/jsp/student/zygl/cwxxUpd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3439,138" />
+      <AbsolutePoint location="3439,1699" />
+      <AbsolutePoint location="738,1699" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd2,/jsp/teacher/SjzdmxUpd2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1274" />
+      <AbsolutePoint location="1351,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist19,/jsp/teacher/SjzdmxList19.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1174" />
+      <AbsolutePoint location="457,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khdd.do,savePage,/jsp/student/order/khdd_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3161,538" />
+      <AbsolutePoint location="3161,643" />
+      <AbsolutePoint location="1227,643" />
+      <AbsolutePoint location="1227,1874" />
+      <AbsolutePoint location="1137,1874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd15,/jsp/teacher/SjzdmxAdd15.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1374" />
+      <AbsolutePoint location="754,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cwtj.do,ccCbPrint,/jsp/student/decision/cc_cbprint.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="258,2284" />
+      <AbsolutePoint location="279,2284" />
+      <AbsolutePoint location="279,1574" />
+      <AbsolutePoint location="350,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khts.do,tsslPage,/jsp/student/kfzx/khts_sl.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2869,2392" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bmxx.do,gotoView,/jsp/student/zygl/bmxxView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,2294" />
+      <AbsolutePoint location="2367,2294" />
+      <AbsolutePoint location="2367,1541" />
+      <AbsolutePoint location="4640,1541" />
+      <AbsolutePoint location="4640,1499" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ggxx.do,gotoView,/jsp/teacher/GgxxView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1369,50" />
+      <AbsolutePoint location="1369,5" />
+      <AbsolutePoint location="35,5" />
+      <AbsolutePoint location="35,1114" />
+      <AbsolutePoint location="1503,1114" />
+      <AbsolutePoint location="1503,874" />
+      <AbsolutePoint location="1550,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/htxx.do,updatePage,/jsp/student/khxx/htxx_upd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3754,250" />
+      <AbsolutePoint location="3754,241" />
+      <AbsolutePoint location="4830,241" />
+      <AbsolutePoint location="4830,1820" />
+      <AbsolutePoint location="1941,1820" />
+      <AbsolutePoint location="1941,1799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ykdd.do,gotoVali,/jsp/student/cczx/ykddVali.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,713" />
+      <AbsolutePoint location="2447,713" />
+      <AbsolutePoint location="2447,2074" />
+      <AbsolutePoint location="2324,2074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjxx.do,gotoAdd,/jsp/teacher/sjxx_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1475,534" />
+      <AbsolutePoint location="1475,938" />
+      <AbsolutePoint location="445,938" />
+      <AbsolutePoint location="445,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd17,/jsp/teacher/SjzdmxUpd17.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,92" />
+      <AbsolutePoint location="1975,1374" />
+      <AbsolutePoint location="1354,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sbwxjl.do,success,/sbwxjl.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4765,1950" />
+      <AbsolutePoint location="4765,1936" />
+      <AbsolutePoint location="5089,1936" />
+      <AbsolutePoint location="5089,2005" />
+      <AbsolutePoint location="4767,2005" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,viewDdPage,/jsp/student/ddzx/crkdd_dd_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3859,538" />
+      <AbsolutePoint location="3859,971" />
+      <AbsolutePoint location="3232,971" />
+      <AbsolutePoint location="3232,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khth.do,listPage,/jsp/student/kfzx/khth_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="769,2492" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/khth.do,listPage,/jsp/student/base/khth_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="888,2513" />
+      <AbsolutePoint location="2563,2513" />
+      <AbsolutePoint location="2563,2498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/hzgxxx.do,savePage,/jsp/student/khxx/hzgxxx_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3572,308" />
+      <AbsolutePoint location="3623,308" />
+      <AbsolutePoint location="3623,-33" />
+      <AbsolutePoint location="4613,-33" />
+      <AbsolutePoint location="4613,936" />
+      <AbsolutePoint location="1789,936" />
+      <AbsolutePoint location="1789,1774" />
+      <AbsolutePoint location="1746,1774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ddfj.do,getList,/ddfj.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3753,650" />
+      <AbsolutePoint location="3753,635" />
+      <AbsolutePoint location="3871,635" />
+      <AbsolutePoint location="3871,703" />
+      <AbsolutePoint location="3856,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,mxlist5,/jsp/teacher/SjzdmxList5.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1855,134" />
+      <AbsolutePoint location="1855,213" />
+      <AbsolutePoint location="-25,213" />
+      <AbsolutePoint location="-25,474" />
+      <AbsolutePoint location="50,474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsgl.do,listPage,/jsp/teacher/jsgl_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="888,83" />
+      <AbsolutePoint location="950,83" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sbwxjl.do,gotoView,/jsp/student/zygl/sbwxjlView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4550,2032" />
+      <AbsolutePoint location="3528,2032" />
+      <AbsolutePoint location="3528,2250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pddd.do,success,/pddd.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4061,650" />
+      <AbsolutePoint location="4061,631" />
+      <AbsolutePoint location="4693,631" />
+      <AbsolutePoint location="4693,666" />
+      <AbsolutePoint location="4160,666" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cczx.do,viewCcPage,/jsp/student/cczx/ckdd_view.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3402,738" />
+      <AbsolutePoint location="3402,835" />
+      <AbsolutePoint location="915,835" />
+      <AbsolutePoint location="915,1474" />
+      <AbsolutePoint location="835,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ykdd.do,success1,/ykdd.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3155,650" />
+      <AbsolutePoint location="3155,556" />
+      <AbsolutePoint location="3293,556" />
+      <AbsolutePoint location="3293,688" />
+      <AbsolutePoint location="3259,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/student.do,getList,/student.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1161,250" />
+      <AbsolutePoint location="1161,165" />
+      <AbsolutePoint location="1295,165" />
+      <AbsolutePoint location="1295,295" />
+      <AbsolutePoint location="1182,295" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd9,/jsp/teacher/SjzdmxUpd9.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2035,50" />
+      <AbsolutePoint location="2035,35" />
+      <AbsolutePoint location="2679,35" />
+      <AbsolutePoint location="2679,574" />
+      <AbsolutePoint location="2652,574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoAdd9,/jsp/teacher/SjzdmxAdd9.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1855,50" />
+      <AbsolutePoint location="1855,35" />
+      <AbsolutePoint location="591,35" />
+      <AbsolutePoint location="591,713" />
+      <AbsolutePoint location="2251,713" />
+      <AbsolutePoint location="2251,698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjzdmx.do,gotoUpd7,/jsp/teacher/SjzdmxUpd7.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2035,134" />
+      <AbsolutePoint location="2035,350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/crkdd.do,listDdPage,/jsp/student/ddzx/crkdd_dd_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3789,450" />
+      <AbsolutePoint location="3789,341" />
+      <AbsolutePoint location="3039,341" />
+      <AbsolutePoint location="3039,1974" />
+      <AbsolutePoint location="2950,1974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pddd.do,gotoAdd,/jsp/student/order/pdddAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4160,680" />
+      <AbsolutePoint location="5049,680" />
+      <AbsolutePoint location="5049,1336" />
+      <AbsolutePoint location="2701,1336" />
+      <AbsolutePoint location="2701,2174" />
+      <AbsolutePoint location="2750,2174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

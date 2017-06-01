@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/whjbsoft/!svn/ver/4/JBTMS/src
+END
+ApplicationResources.properties
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/whjbsoft/!svn/ver/4/JBTMS/src/ApplicationResources.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/whjbsoft/!svn/ver/4/JBTMS/src/log4j.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/whjbsoft/!svn/ver/37/JBTMS/src/hibernate.cfg.xml
+END

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.exam.po.Stgls" table="STGLS">
+        <id name="stzj" type="java.lang.Integer">
+            <column name="stzj" />
+            <generator class="native" />
+        </id>
+        <many-to-one name="tkgl" class="com.whjbsoft.www.exam.po.Tkgls" fetch="select">
+            <column name="tkzj" />
+        </many-to-one>
+        <property name="stmc" type="java.lang.String">
+            <column name="stmc" not-null="true"/>
+        </property>
+        <property name="stlx" type="java.lang.String">
+            <column name="stlx" length="100" />
+        </property>
+        <property name="stnyd" type="java.lang.String">
+            <column name="stnyd" length="50" />
+        </property>
+        <property name="xxa" type="java.lang.String">
+            <column name="xxa" length="600" />
+        </property>
+        <property name="xxb" type="java.lang.String">
+            <column name="xxb" length="600" />
+        </property>
+        <property name="xxc" type="java.lang.String">
+            <column name="xxc" length="600" />
+        </property>
+        <property name="xxd" type="java.lang.String">
+            <column name="xxd" length="600" />
+        </property>
+        <property name="xxe" type="java.lang.String">
+            <column name="xxe" length="600" />
+        </property>
+        <property name="xxf" type="java.lang.String">
+            <column name="xxf" length="600" />
+        </property>
+        <property name="zqda" type="java.lang.String">
+            <column name="zqda" length="50" />
+        </property>
+        <property name="ckda" type="java.lang.String">
+            <column name="ckda" length="2000" />
+        </property>
+        <set name="dtxxes" inverse="true" cascade="all">
+            <key>
+                <column name="stzj" not-null="true" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.exam.po.Dtxxs" />
+        </set>
+        <set name="sjkts" inverse="true" cascade="all">
+            <key>
+                <column name="stzj" not-null="true" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.exam.po.Sjkts" />
+        </set>
+        
+    </class>
+</hibernate-mapping>

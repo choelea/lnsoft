@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.whjbsoft.www.po.Xsxx" table="XSXX">
+		<id name="xszj" type="java.lang.Integer">
+			<column name="xszj" />
+			<generator class="native" />
+		</id>
+		<many-to-one name="bjxx" class="com.whjbsoft.www.po.Bjxx"
+			fetch="select">
+			<column name="bjzj" />
+		</many-to-one>
+		<property name="xsxh" type="java.lang.String">
+			<column name="xsxh" length="100" />
+		</property>
+		<property name="xsxm" type="java.lang.String">
+			<column name="xsxm" length="200" />
+		</property>
+		<property name="xsmm" type="java.lang.String">
+			<column name="xsmm" length="100" />
+		</property>
+		<property name="yxbj" type="java.lang.Integer">
+			<column name="yxbj" />
+		</property>
+		<property name="bzxx" type="java.lang.String">
+			<column name="bzxx" length="1000" />
+		</property>
+		<property name="sfdl" type="java.lang.Integer">
+			<column name="sfdl" />
+		</property>
+		<property name="zhdlsj" type="java.lang.String">
+			<column name="zhdlsj" length="50" />
+		</property>
+		<property name="zhsyrwmc" type="java.lang.String">
+			<column name="zhsyrwmc" length="200" />
+		</property>
+		<property name="rxsj" type="java.lang.String">
+			<column name="rxsj" length="100" />
+		</property>
+		<property name="xb" type="java.lang.String">
+			<column name="xb" length="50" />
+		</property>
+		<property name="xsdh" type="java.lang.String">
+			<column name="xsdh" length="100" />
+		</property>
+		<property name="xsdz" type="java.lang.String">
+			<column name="xsdz" length="200" />
+		</property>
+		<property name="zjhm" type="java.lang.String">
+			<column name="zjhm" length="100" />
+		</property>
+		<property name="xsjg" type="java.lang.String">
+			<column name="xsjg" length="100" />
+		</property>
+		<property name="sssyz" type="java.lang.Integer">
+			<column name="sssyz" />
+		</property>
+		<property name="sssysz" type="java.lang.Integer">
+			<column name="sssysz" />
+		</property>
+		<set name="djxxes" inverse="true" cascade="all">
+			<key>
+				<column name="xszj" />
+			</key>
+			<one-to-many class="com.whjbsoft.www.po.Djxx" />
+		</set>
+		<set name="xsgwxxes" inverse="true" cascade="all">
+			<key>
+				<column name="xszj" not-null="true" />
+			</key>
+			<one-to-many class="com.whjbsoft.www.po.Xsgwxx" />
+		</set>
+		<set name="djxxess" inverse="true" cascade="all">
+			<key>
+				<column name="xszj" />
+			</key>
+			<one-to-many class="com.whjbsoft.www.exam.po.Djxxs" />
+		</set>
+	</class>
+</hibernate-mapping>

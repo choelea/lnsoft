@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.whjbsoft.www.exam.po.Sjxxs" table="SJXXS">
+		<id name="sjzj" type="java.lang.Integer">
+			<column name="sjzj" />
+			<generator class="native" />
+		</id>
+		<property name="sjbh" type="java.lang.String">
+			<column name="sjbh" length="100" />
+		</property>
+		<property name="sjmc" type="java.lang.String">
+			<column name="sjmc" length="200" />
+		</property>
+		<property name="kssc" type="java.lang.Integer">
+			<column name="kssc" />
+		</property>
+		<property name="sjnyd" type="java.lang.String">
+			<column name="sjnyd" length="50" />
+		</property>
+		<property name="sjzt" type="java.lang.Integer">
+			<column name="sjzt" />
+		</property>
+		<property name="cjsj" type="java.lang.String">
+			<column name="cjsj" length="50" />
+		</property>
+		<property name="cjr" type="java.lang.String">
+			<column name="cjr" length="200" />
+		</property>
+		<set name="ksszs" inverse="true" cascade="all">
+			<key>
+				<column name="sjzj" />
+			</key>
+			<one-to-many class="com.whjbsoft.www.exam.po.Kssz" />
+		</set>
+		<set name="sjtxes" inverse="true" cascade="all">
+			<key>
+				<column name="sjzj" />
+			</key>
+			<one-to-many class="com.whjbsoft.www.exam.po.Sjtxs" />
+		</set>
+			<set name="djxxess" inverse="true" cascade="all">
+			<key>
+			<column name="sjzj" />
+			</key>
+			<one-to-many class="com.whjbsoft.www.exam.po.Djxxs" />
+			</set>
+	</class>
+</hibernate-mapping>

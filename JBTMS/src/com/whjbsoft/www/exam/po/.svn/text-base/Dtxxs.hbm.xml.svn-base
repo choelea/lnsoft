@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.exam.po.Dtxxs" table="DTXXS">
+        <composite-id name="id" class="com.whjbsoft.www.exam.po.DtxxsId">
+            <key-many-to-one name="djxx" class="com.whjbsoft.www.exam.po.Djxxs">
+                <column name="djzj" />
+            </key-many-to-one>
+            <key-many-to-one name="stgl" class="com.whjbsoft.www.exam.po.Stgls">
+                <column name="stzj" />
+            </key-many-to-one>
+        </composite-id>
+        <property name="stda" type="java.lang.String">
+            <column name="stda" length="2000" />
+        </property>
+        <property name="dtdf" type="java.lang.Integer">
+            <column name="dtdf" />
+        </property>
+    </class>
+</hibernate-mapping>

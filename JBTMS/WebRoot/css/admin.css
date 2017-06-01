@@ -1,0 +1,192 @@
+BODY {
+	FONT-SIZE: 14px;;  
+	FONT-FAMILY: "宋体", "Verdana", "Arial"; 
+	margin-left: 0pt;
+	margin-top: 0pt;
+}
+th{
+	FONT-WEIGHT: bold; 
+	height:30px; 
+	FONT-SIZE: 12px; 
+	BACKGROUND-IMAGE: url(thbj.jpg); 
+	COLOR: black; 
+	text-align:center; 
+	padding-top:5px; 
+	border-top:1px #314D98 solid;
+}
+.th1{
+	FONT-WEIGHT: bold; 
+	height:30px; 
+	FONT-SIZE: 12px; 
+	BACKGROUND-IMAGE: url(thbj.jpg); 
+	COLOR: black; 
+	text-align:center; 
+	padding-top:5px; 
+	border-top:1px #314D98 solid;
+}
+td{
+	 height:22px; 
+	 font-size:12px;
+	 background-color:#FFF; 
+	 color:#000;
+	 /*text-align:center;*/ 
+	 /*padding-top:5px;*/
+}
+.td1{
+	 height:30px; 
+	 font-size:12px;
+	 background-color:#FFF; 
+	 color:#000; 
+	 padding-top:5px;
+	 text-align: right;
+}
+.td2{
+	 height:30px; 
+	 font-size:12px;
+	 background-color:#FFF; 
+	 color:#000; 
+	 padding-top:5px;
+}
+table{
+	border-color:#CCCCCC;
+	background-color: #cccccc;
+}
+.indextable{
+	border-color:#CCCCCC;
+	background-color: #ced7f7;
+}
+.input {	
+	width: 130px;
+	border-left: 0px solid;
+	border-right: 0px solid;
+	border-top: 0px solid;
+	border-bottom: 1px solid
+}
+.inputlong {	
+	width: 430px;
+	border-left: 0px solid;
+	border-right: 0px solid;
+	border-top: 0px solid;
+	border-bottom: 1px solid
+}
+.inputsmall {
+	width: 25px;
+	height:18px;
+}
+.inputsmall2 {
+	width: 100px;
+	border-left: 0px solid;
+	border-right: 0px solid;
+	border-top: 0px solid;
+	border-bottom: 1px solid
+}
+.inputsmall3 {	
+	width: 50px;
+	border-left: 0px solid;
+	border-right: 0px solid;
+	border-top: 0px solid;
+	border-bottom: 1px solid;
+}
+.inputbutton {
+	height: 20px;
+	width: 55px;
+	background-color:#ffffff;
+	background-image: url(../images/button2.jpg);
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: white;
+}
+textarea{
+	
+}
+
+.inputmove {	
+	width: 100px;;
+	border-left: 0px solid;
+	border-right: 0px solid;
+	border-top: 0px solid;
+	border-bottom: 1px solid
+}
+.inputbutton1 {
+	height: 16px;
+	width: 21px;
+	background-image: url(../images/button/prev.jpg);
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #FFFFFF;
+	cursor: hand;
+}
+.inputbutton2 {
+	height: 16px;
+	width: 21px;
+	background-image: url(../images/button/next.jpg);
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #FFFFFF;
+	cursor: hand;
+}
+.inputbutton3 {
+	height: 16px;
+	width: 23px;
+	background-image: url(../images/button/first.jpg);
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #FFFFFF;
+	cursor: hand;
+}
+.inputbutton4 {
+	height: 16px;
+	width: 24px;
+	background-image: url(../images/button/four.jpg);
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #FFFFFF;
+	cursor: hand;
+}
+.tishi{
+	color:red;
+	font:fantasy;
+}
+
+a:link  {
+	color:#147EB1;
+	text-decoration:none;
+	font-family: "宋体";
+	font-size: 12px;
+}
+a:visited  {
+		color:#147EB1;
+	text-decoration:none;
+	font-family: "宋体";
+	font-size: 12px;
+}
+a:hover  {
+		color:#FF6600;
+	text-decoration:underline;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.spts{
+	color: red;
+	font-size: 12px;
+}
+.bt{
+	font-size: 14px;
+	font-weight: 900;
+}
+.tanchuang{
+	background-color:white;
+	width: 485px;
+	height: 277px;
+	overflow: auto;
+}

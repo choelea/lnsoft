@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Khdd" table="KHDD">
+        <id name="ddzj" type="java.lang.Integer">
+            <column name="ddzj" />
+            <generator class="native" />
+        </id>
+        <many-to-one name="khxxByKhzj" class="com.whjbsoft.www.po.Khxx" fetch="select">
+            <column name="khzj" />
+        </many-to-one>
+        <many-to-one name="khxxByKhxKhzj" class="com.whjbsoft.www.po.Khxx" fetch="select">
+            <column name="KHX_khzj" />
+        </many-to-one>
+        <property name="ddbh" type="java.lang.String">
+            <column name="ddbh" length="50" />
+        </property>
+        <property name="ddrq" type="java.lang.String">
+            <column name="ddrq" length="50" />
+        </property>
+        <property name="qhrq" type="java.lang.String">
+            <column name="qhrq" length="50" />
+        </property>
+        <property name="ddzt" type="java.lang.Integer">
+            <column name="ddzt" />
+        </property>
+        <property name="zdr" type="java.lang.String">
+            <column name="zdr" length="200" />
+        </property>
+        <property name="ssxs" type="java.lang.Integer">
+            <column name="ssxs" />
+        </property>
+        <property name="sssysz" type="java.lang.Integer">
+            <column name="sssysz" />
+        </property>
+        <set name="khhts" inverse="true" cascade="all">
+            <key>
+                <column name="ddzj" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Khht" />
+        </set>
+        <set name="khddhpbs" inverse="true" cascade="all">
+            <key>
+                <column name="ddzj" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Khddhpb" />
+        </set>
+    </class>
+</hibernate-mapping>

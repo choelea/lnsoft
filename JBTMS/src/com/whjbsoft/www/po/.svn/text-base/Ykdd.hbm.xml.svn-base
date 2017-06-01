@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Ykdd" table="YKDD" >
+        <id name="ykzj" type="java.lang.Integer">
+            <column name="ykzj" />
+            <generator class="native" />
+        </id>
+        <property name="ykbh" type="java.lang.String">
+            <column name="ykbh" length="50" />
+        </property>
+        <property name="ddrq" type="java.lang.String">
+            <column name="ddrq" length="50" />
+        </property>
+        <property name="ckkfzj" type="java.lang.Integer">
+            <column name="ckkfzj" />
+        </property>
+        <property name="ckkfmc" type="java.lang.String">
+            <column name="ckkfmc" length="200" />
+        </property>
+        <property name="rkkfzj" type="java.lang.Integer">
+            <column name="rkkfzj" />
+        </property>
+        <property name="rkkfmc" type="java.lang.String">
+            <column name="rkkfmc" length="200" />
+        </property>
+        <property name="ckczr" type="java.lang.String">
+            <column name="ckczr" length="200" />
+        </property>
+        <property name="rkczr" type="java.lang.String">
+            <column name="rkczr" length="200" />
+        </property>
+        <property name="tdr" type="java.lang.String">
+            <column name="tdr" length="200" />
+        </property>
+        <property name="tdsj" type="java.lang.String">
+            <column name="tdsj" length="50" />
+        </property>
+        <property name="ykzt" type="java.lang.Integer">
+            <column name="ykzt" />
+        </property>
+        <property name="bzxx" type="java.lang.String">
+            <column name="bzxx" length="1000" />
+        </property>
+        <property name="ssxs" type="java.lang.Integer">
+            <column name="ssxs" />
+        </property>
+        <property name="sssysz" type="java.lang.Integer">
+            <column name="sssysz" />
+        </property>
+        <set name="ykmxes" inverse="true" cascade="all-delete-orphan">
+            <key>
+                <column name="ykzj" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Ykmx" />
+        </set>
+    </class>
+</hibernate-mapping>

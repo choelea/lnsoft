@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Hpxx" table="HPXX">
+        <id name="hpzj" type="java.lang.Integer">
+            <column name="hpzj" />
+            <generator class="native" />
+        </id>
+        <property name="hpbm" type="java.lang.String">
+            <column name="hpbm" length="200" />
+        </property>
+        <property name="hpmc" type="java.lang.String">
+            <column name="hpmc" length="200" />
+        </property>
+        <property name="txm" type="java.lang.String">
+            <column name="txm" length="200" />
+        </property>
+        <property name="pym" type="java.lang.String">
+            <column name="pym" length="100" />
+        </property>
+        <property name="hpdw" type="java.lang.String">
+            <column name="hpdw" length="100" />
+        </property>
+        <property name="hplx" type="java.lang.String">
+            <column name="hplx" length="200" />
+        </property>
+        <property name="hpzlx" type="java.lang.String">
+            <column name="hpzlx" length="200" />
+        </property>
+        <property name="hpgg" type="java.lang.String">
+            <column name="hpgg" length="200" />
+        </property>
+        <property name="hpxh" type="java.lang.String">
+            <column name="hpxh" length="200" />
+        </property>
+        <property name="sccs" type="java.lang.String">
+            <column name="sccs" length="200" />
+        </property>
+        <property name="hptj" type="java.lang.Double">
+            <column name="hptj" precision="25" />
+        </property>
+        <property name="tjdw" type="java.lang.String">
+            <column name="tjdw" length="100" />
+        </property>
+        <property name="bzq" type="java.lang.String">
+            <column name="bzq" length="200" />
+        </property>
+        <property name="zl" type="java.lang.Double">
+            <column name="zl" precision="25" />
+        </property>
+        <property name="zldw" type="java.lang.String">
+            <column name="zldw" length="100" />
+        </property>
+        <property name="cchj" type="java.lang.String">
+            <column name="cchj" length="200" />
+        </property>
+        <property name="hpsx" type="java.lang.String">
+            <column name="hpsx" length="200" />
+        </property>
+        <property name="ssxs" type="java.lang.Integer">
+            <column name="ssxs" />
+        </property>
+        <property name="sssysz" type="java.lang.Integer">
+            <column name="sssysz" />
+        </property>
+        <property name="hpsm" type="java.lang.String">
+            <column name="hpsm" length="2000" />
+        </property>
+        <property name="hpdj" type="java.lang.Double">
+            <column name="hpdj" precision="25" />
+        </property>
+    </class>
+</hibernate-mapping>

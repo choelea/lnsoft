@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Crkdd" table="CRKDD">
+        <id name="crkzj" type="java.lang.Integer">
+            <column name="crkzj" />
+            <generator class="native" />
+        </id>
+        <many-to-one name="khht" class="com.whjbsoft.www.po.Khht" fetch="select">
+            <column name="htzj" />
+        </many-to-one>
+        <property name="ddbh" type="java.lang.String">
+            <column name="ddbh" length="50" />
+        </property>
+        <property name="khzlh" type="java.lang.String">
+            <column name="khzlh" length="50" />
+        </property>
+        <property name="ddlx" type="java.lang.String">
+            <column name="ddlx" length="50" />
+        </property>
+        <property name="jjcd" type="java.lang.String">
+            <column name="jjcd" length="50" />
+        </property>
+        <property name="xdsj" type="java.lang.String">
+            <column name="xdsj" length="50" />
+        </property>
+        <property name="ddzt" type="java.lang.Integer">
+            <column name="ddzt" />
+        </property>
+        <property name="crklx" type="java.lang.String">
+            <column name="crklx" length="100" />
+        </property>
+        <property name="crkfs" type="java.lang.String">
+            <column name="crkfs" length="100" />
+        </property>
+        <property name="sykfzj" type="java.lang.Integer">
+            <column name="sykfzj" />
+        </property>
+        <property name="kfmc" type="java.lang.String">
+            <column name="kfmc" length="200" />
+        </property>
+        <property name="yjcrksj" type="java.lang.String">
+            <column name="yjcrksj" length="50" />
+        </property>
+        <property name="bzxx" type="java.lang.String">
+            <column name="bzxx" length="1000" />
+        </property>
+        <property name="zjbh" type="java.lang.String">
+            <column name="zjbh" length="50" />
+        </property>
+        <property name="zjr" type="java.lang.String">
+            <column name="zjr" length="200" />
+        </property>
+        <property name="zjsj" type="java.lang.String">
+            <column name="zjsj" length="50" />
+        </property>
+        <property name="sjcrksj" type="java.lang.String">
+            <column name="sjcrksj" length="50" />
+        </property>
+        <property name="ssxs" type="java.lang.Integer">
+            <column name="ssxs" />
+        </property>
+        <property name="sssysz" type="java.lang.Integer">
+            <column name="sssysz" />
+        </property>
+        <set name="crkhps" inverse="true" cascade="all">
+            <key>
+                <column name="crkzj" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Crkhp" />
+        </set>
+        <set name="ccsbdds" inverse="true" cascade="all">
+            <key>
+                <column name="crkzj" not-null="true" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Ccsbdd" />
+        </set>
+        <set name="ccrydds" inverse="true" cascade="all">
+            <key>
+                <column name="crkzj" not-null="true" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Ccrydd" />
+        </set>
+    </class>
+</hibernate-mapping>

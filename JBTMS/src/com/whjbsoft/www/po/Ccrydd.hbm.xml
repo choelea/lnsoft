@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Ccrydd" table="ccrydd">
+        <composite-id name="id" class="com.whjbsoft.www.po.CcryddId">
+            <key-property name="crkzj" type="java.lang.Integer">
+                <column name="crkzj" />
+            </key-property>
+            <key-property name="ygzj" type="java.lang.Integer">
+                <column name="ygzj" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="ygxx" class="com.whjbsoft.www.po.Ygxx" update="false" insert="false" fetch="select">
+            <column name="ygzj" not-null="true" />
+        </many-to-one>
+        <many-to-one name="crkdd" class="com.whjbsoft.www.po.Crkdd" update="false" insert="false" fetch="select">
+            <column name="crkzj" not-null="true" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

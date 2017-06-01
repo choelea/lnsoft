@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Sjzdmx" table="SJZDMX">
+        <id name="sjzdmxzj" type="java.lang.Integer">
+            <column name="sjzdmxzj" />
+            <generator class="native" />
+        </id>
+        <many-to-one name="sjzd" class="com.whjbsoft.www.po.Sjzd" fetch="select">
+            <column name="sjzdzj" />
+        </many-to-one>
+        <property name="fqzj" type="java.lang.Integer">
+            <column name="fqzj" />
+        </property>
+        <property name="sjzdmxbh" type="java.lang.String">
+            <column name="sjzdmxbh" length="200" />
+        </property>
+        <property name="sjzdmxmc" type="java.lang.String">
+            <column name="sjzdmxmc" length="200" />
+        </property>
+        <property name="field1" type="java.lang.String">
+            <column name="field1" length="200" />
+        </property>
+        <property name="field2" type="java.lang.String">
+            <column name="field2" length="200" />
+        </property>
+        <property name="field3" type="java.lang.String">
+            <column name="field3" length="200" />
+        </property>
+        <property name="field4" type="java.lang.String">
+            <column name="field4" length="200" />
+        </property>
+        <property name="field5" type="java.lang.String">
+            <column name="field5" length="200" />
+        </property>
+        <property name="field6" type="java.lang.String">
+            <column name="field6" length="200" />
+        </property>
+        <property name="field7" type="java.lang.String">
+            <column name="field7" length="200" />
+        </property>
+        <property name="field8" type="java.lang.String">
+            <column name="field8" length="200" />
+        </property>
+        <property name="kfcz" type="java.lang.Integer">
+            <column name="kfcz" />
+        </property>
+    </class>
+</hibernate-mapping>

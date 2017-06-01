@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.whjbsoft.www.po.Khfk" table="KHFK">
+		<id name="khfkzj" type="java.lang.Integer">
+			<column name="khfkzj"/>
+			<generator class="native"/>
+		</id>
+		<many-to-one name="yspsd" class="com.whjbsoft.www.po.Yspsd" fetch="select">
+			<column name="ysdzj" />
+		</many-to-one>
+		<property name="fkbh" type="java.lang.String">
+			<column name="fkbh" length="200"/>
+		</property>
+		<property name="fkr" type="java.lang.String">
+			<column name="fkr" length="200"/>
+		</property>
+		<property name="fhr" type="java.lang.String">
+			<column name="fhr" length="200"/>
+		</property>
+		<property name="fkzt" type="java.lang.Integer">
+			<column name="fkzt"/>
+		</property>
+		<property name="fksj" type="java.lang.String">
+			<column name="fksj" length="100"/>
+		</property>
+		<property name="fkbz" type="java.lang.String">
+			<column name="fkbz" length="2000"/>
+		</property>
+		<property name="zdr" type="java.lang.String">
+			<column name="zdr" length="50"/>
+		</property>
+		<property name="sfz" type="java.lang.String">
+			<column name="sfz" length="50"/>
+		</property>
+		<property name="mdz" type="java.lang.String">
+			<column name="mdz" length="50"/>
+		</property>
+		<property name="ssxs" type="java.lang.Integer">
+			<column name="ssxs"/>
+		</property>
+		<property name="sssysz" type="java.lang.Integer">
+			<column name="sssysz"/>
+		</property>
+	</class>
+</hibernate-mapping>

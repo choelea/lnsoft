@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Jsgl" table="JSGL">
+        <id name="jxzj" type="java.lang.Integer">
+            <column name="jxzj" />
+            <generator class="native" />
+        </id>
+        <property name="jsbh" type="java.lang.String">
+            <column name="jsbh" length="200" />
+        </property>
+        <property name="jsmc" type="java.lang.String">
+            <column name="jsmc" length="200" />
+        </property>
+        <property name="jsmm" type="java.lang.String">
+            <column name="jsmm" length="100" />
+        </property>
+        <property name="bzxx" type="java.lang.String">
+            <column name="bzxx" length="1000" />
+        </property>
+        <property name="jslx" type="java.lang.Integer">
+            <column name="jslx" />
+        </property>
+        <property name="kfxg" type="java.lang.Integer">
+            <column name="kfxg" />
+        </property>
+        <set name="jsbjs" inverse="true" cascade="all">
+            <key>
+                <column name="jxzj" not-null="true" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Jsbj" />
+        </set>
+    </class>
+</hibernate-mapping>

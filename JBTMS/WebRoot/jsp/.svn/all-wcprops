@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/jsp
+END
+print.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/jsp/print.jsp
+END
+upload_json.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/jsp/upload_json.jsp
+END
+file_manager_json.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/jsp/file_manager_json.jsp
+END

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Zdgl" table="ZDGL" >
+        <id name="zzdzj" type="java.lang.Integer">
+            <column name="zzdzj" />
+            <generator class="native" />
+        </id>
+        <property name="zzdbh" type="java.lang.String">
+            <column name="zzdbh" length="50" />
+        </property>
+        <property name="syhth" type="java.lang.String">
+            <column name="syhth" length="50" />
+        </property>
+        <property name="bz" type="java.lang.String">
+            <column name="bz" length="100" />
+        </property>
+        <property name="jsfs" type="java.lang.String">
+            <column name="jsfs" length="100" />
+        </property>
+        <property name="khqm" type="java.lang.String">
+            <column name="khqm" length="200" />
+        </property>
+        <property name="zdrq" type="java.lang.String">
+            <column name="zdrq" length="50" />
+        </property>
+        <property name="sfhx" type="java.lang.Integer">
+            <column name="sfhx" />
+        </property>
+        <property name="fkzh" type="java.lang.String">
+            <column name="fkzh" length="50" />
+        </property>
+        <property name="yfk" type="java.lang.Double">
+            <column name="yfk" precision="25" />
+        </property>
+        <property name="yf" type="java.lang.Double">
+            <column name="yf" precision="25" />
+        </property>
+        <property name="zf" type="java.lang.Double">
+            <column name="zf" precision="25" />
+        </property>
+        <property name="bf" type="java.lang.Double">
+            <column name="bf" precision="25" />
+        </property>
+        <property name="ccfy" type="java.lang.Double">
+            <column name="ccfy" precision="25" />
+        </property>
+        <property name="ccyqfy" type="java.lang.Double">
+            <column name="ccyqfy" precision="25" />
+        </property>
+        <property name="zje" type="java.lang.Double">
+            <column name="zje" precision="25" />
+        </property>
+        <property name="ssjg" type="java.lang.String">
+            <column name="ssjg" length="200" />
+        </property>
+        <property name="ssxs" type="java.lang.Integer">
+            <column name="ssxs" />
+        </property>
+        <property name="sssysz" type="java.lang.Integer">
+            <column name="sssysz" />
+        </property>
+        <property name="ssxt" type="java.lang.Integer">
+        	<column name="ssxt"/>
+        </property>
+    </class>
+</hibernate-mapping>

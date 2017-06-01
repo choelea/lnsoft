@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="loginForm" type="com.whjbsoft.www.form.LoginForm" />
+    <form-bean name="jsglForm" type="com.whjbsoft.www.form.JsglForm" />
+    <form-bean name="classForm" type="com.whjbsoft.www.form.ClassForm" />
+    <form-bean name="stuForm" type="com.whjbsoft.www.form.StuForm" />
+    <form-bean name="ggxxForm" type="com.whjbsoft.www.form.GgxxForm" />
+	<form-bean name="sjxxForm" type="com.whjbsoft.www.form.SjxxForm" />
+	<form-bean name="sjzdForm" type="com.whjbsoft.www.form.SjzdForm" />
+	<form-bean name="testSetupForm" type="com.whjbsoft.www.form.TestSetupForm" />
+	<form-bean name="ygglForm" type="com.whjbsoft.www.form.YgglForm" />
+	<form-bean name="kfxxForm" type="com.whjbsoft.www.form.KfxxForm" />
+	<form-bean name="qwxxForm" type="com.whjbsoft.www.form.QwxxForm" />
+	<form-bean name="bxglForm" type="com.whjbsoft.www.form.BxglForm" />
+	<form-bean name="clglForm" type="com.whjbsoft.www.form.ClglForm" />
+	<form-bean name="khxxForm" type="com.whjbsoft.www.form.KhxxForm" />
+	<form-bean name="hzgxxxForm" type="com.whjbsoft.www.form.HzgxxxForm" />
+	<form-bean name="htxxForm" type="com.whjbsoft.www.form.HtxxForm" />
+	<form-bean name="sbxxForm" type="com.whjbsoft.www.form.SbxxForm" />
+	<form-bean name="khddForm" type="com.whjbsoft.www.form.KhddForm" />
+	<form-bean name="sendForm" type="com.whjbsoft.www.form.SendForm" />
+	<form-bean name="crkddForm" type="com.whjbsoft.www.form.CrkddForm" />
+	<form-bean name="ykddForm" type="com.whjbsoft.www.form.YkddForm" />
+    <form-bean name="cczxForm" type="com.whjbsoft.www.form.CrkddForm" />
+    <form-bean name="ysddForm" type="com.whjbsoft.www.form.YsddForm" />
+    <form-bean name="pdddForm" type="com.whjbsoft.www.form.PdddForm" />
+    <form-bean name="kccxForm" type="com.whjbsoft.www.form.KccxForm" />
+    <form-bean name="zdglForm" type="com.whjbsoft.www.form.ZdglForm" />
+    <form-bean name="cwtjForm" type="com.whjbsoft.www.form.CwtjForm" />
+    <form-bean name="bmxxForm" type="com.whjbsoft.www.form.BmxxForm" />
+    <form-bean name="sbwxjlForm" type="com.whjbsoft.www.form.SbwxjlForm" />
+    <form-bean name="khtsForm" type="com.whjbsoft.www.form.KhtsForm" />
+    <form-bean name="khfkForm" type="com.whjbsoft.www.form.KhfkForm"/>
+    <form-bean name="khthForm" type="com.whjbsoft.www.form.KhthForm" />
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards >
+  	<forward name="error" path="/error.jsp"/>
+  </global-forwards>
+   <action-mappings >
+    <action 
+      attribute="loginForm"
+      name="loginForm"
+      parameter="method"
+      path="/login"
+      scope="request"
+      type="com.whjbsoft.www.action.LoginAction">
+      <forward name="success1" path="/jsp/student/index.jsp" redirect="true"/>
+      <forward name="success2" path="/jsp/teacher/index.jsp" redirect="true"/>
+    </action>
+    <action
+      attribute="jsglForm"
+      input="jsp/teacher/jsgl_add.jsp"
+      name="jsglForm"
+      parameter="method"
+      path="/jsgl"
+      scope="request"
+      type="com.whjbsoft.www.action.JsglAction"
+      validate="false">
+      <forward name="updatePage" path="/jsp/teacher/jsgl_update.jsp" />
+      <forward name="listPage" path="/jsp/teacher/jsgl_list.jsp" />
+      <forward name="viewPage" path="/jsp/teacher/jsgl_view.jsp" />
+      <forward name="getList" path="/jsgl.do?method=getList" />
+      <forward name="addPage" path="/jsp/teacher/jsgl_add.jsp" />
+      <forward name="updatePawPage" path="/jsp/teacher/jsgl_update_paw.jsp"></forward>
+    </action>
+     <action 
+    	attribute="classForm" 
+    	name="classForm"
+		parameter="method" 
+		path="/class" 
+		scope="request"
+		type="com.whjbsoft.www.action.ClassAction" 
+		validate="false">
+		<forward name="listPage" path="/jsp/teacher/class_list.jsp" />
+		<forward name="addPage" path="/jsp/teacher/class_add.jsp" />
+		<forward name="getList" path="/class.do?method=getList" />
+		<forward name="updatePage" path="/jsp/teacher/class_update.jsp" />
+		<forward name="viewPage" path="/jsp/teacher/class_view.jsp" />
+		<forward name="listForStuPage" path="/jsp/teacher/stu_class_list.jsp">
+		</forward>
+	</action>
+	<action 
+		attribute="stuForm" 
+		name="stuForm" 
+		parameter="method"
+		path="/student" 
+		scope="request" 
+		type="com.whjbsoft.www.action.StuAction"
+		validate="false">
+		<forward name="updatePage" path="/jsp/teacher/stu_update.jsp" />
+		<forward name="listPage" path="/jsp/teacher/stu_list.jsp" />
+		<forward name="viewPage" path="/jsp/teacher/stu_view.jsp" />
+		<forward name="getList" path="/student.do?method=getList" />
+		<forward name="addPlPage" path="/jsp/teacher/stu_more_add.jsp" />
+		<forward name="gotoDr" path="/jsp/teacher/xsxxImport.jsp" />
+	</action>
+	<action 
+		attribute="ggxxForm" 
+		name="ggxxForm" 
+		parameter="method"
+		path="/ggxx" 
+		scope="request"
+		type="com.whjbsoft.www.action.GgxxAction">
+		<forward name="objList" path="/jsp/teacher/GgxxList.jsp" />
+		<forward name="gotoAdd" path="/jsp/teacher/GgxxAdd.jsp" />
+		<forward name="gotoUpd" path="/jsp/teacher/GgxxUpd.jsp" />
+		<forward name="gotoView" path="/jsp/teacher/GgxxView.jsp" />
+		<forward name="success" path="/ggxx.do?method=getList" />
+		<forward name="listStuPage" path="/jsp/student/testResult/GgxxList.jsp"/>
+		<forward name="viewForStu" path="/jsp/student/testResult/GgxxView.jsp"/>
+	</action>
+	<action attribute="sjxxForm" name="sjxxForm" parameter="method"
+		path="/sjxx" scope="request"
+		type="com.whjbsoft.www.action.SjxxAction">
+		<forward name="objList" path="/jsp/teacher/sjxx_list.jsp" />
+		<forward name="gotoAdd" path="/jsp/teacher/sjxx_add.jsp" />
+		<forward name="gotoUpd" path="/jsp/teacher/sjxx_update.jsp" />
+		<forward name="gotoView" path="/jsp/teacher/sjxx_view.jsp" />
+		<forward name="success" path="/sjxx.do?method=objList" />
+	</action>
+	<action
+      attribute="sjzdForm"
+      name="sjzdForm"
+      parameter="method"
+      path="/sjzdmx"
+      scope="request"
+      type="com.whjbsoft.www.action.SjzdmxAction">
+      <forward name="sjzdList" path="/jsp/teacher/SjzdList.jsp" />
+	  <forward name="mxlist1" path="/jsp/teacher/SjzdmxList1.jsp" />
+	  <forward name="gotoAdd1" path="/jsp/teacher/SjzdmxAdd1.jsp" />
+	  <forward name="gotoUpd1" path="/jsp/teacher/SjzdmxUpd1.jsp" />	  
+	  <forward name="mxlist2" path="/jsp/teacher/SjzdmxList2.jsp" />
+	  <forward name="gotoAdd2" path="/jsp/teacher/SjzdmxAdd2.jsp" />
+	  <forward name="gotoUpd2" path="/jsp/teacher/SjzdmxUpd2.jsp" />
+	  <forward name="mxlist3" path="/jsp/teacher/SjzdmxList3.jsp" />
+	  <forward name="gotoAdd3" path="/jsp/teacher/SjzdmxAdd3.jsp" />
+	  <forward name="gotoUpd3" path="/jsp/teacher/SjzdmxUpd3.jsp" />
+	  <forward name="mxlist4" path="/jsp/teacher/SjzdmxList4.jsp" />
+	  <forward name="gotoAdd4" path="/jsp/teacher/SjzdmxAdd4.jsp" />
+	  <forward name="gotoUpd4" path="/jsp/teacher/SjzdmxUpd4.jsp" />
+	  <forward name="mxlist5" path="/jsp/teacher/SjzdmxList5.jsp" />
+	  <forward name="gotoAdd5" path="/jsp/teacher/SjzdmxAdd5.jsp" />
+	  <forward name="gotoUpd5" path="/jsp/teacher/SjzdmxUpd5.jsp" />
+	  <forward name="mxlist6" path="/jsp/teacher/SjzdmxList6.jsp" />
+	  <forward name="gotoAdd6" path="/jsp/teacher/SjzdmxAdd6.jsp" />
+	  <forward name="gotoUpd6" path="/jsp/teacher/SjzdmxUpd6.jsp" />
+	  <forward name="mxlist7" path="/jsp/teacher/SjzdmxList7.jsp" />
+	  <forward name="gotoAdd7" path="/jsp/teacher/SjzdmxAdd7.jsp" />
+	  <forward name="gotoUpd7" path="/jsp/teacher/SjzdmxUpd7.jsp" />
+	  <forward name="mxlist8" path="/jsp/teacher/SjzdmxList8.jsp" />
+	  <forward name="gotoAdd8" path="/jsp/teacher/SjzdmxAdd8.jsp" />
+	  <forward name="gotoUpd8" path="/jsp/teacher/SjzdmxUpd8.jsp" />
+	  <forward name="mxlist9" path="/jsp/teacher/SjzdmxList9.jsp" />
+	  <forward name="gotoAdd9" path="/jsp/teacher/SjzdmxAdd9.jsp" />
+	  <forward name="gotoUpd9" path="/jsp/teacher/SjzdmxUpd9.jsp" />
+	  <forward name="mxlist10" path="/jsp/teacher/SjzdmxList10.jsp" />
+	  <forward name="gotoAdd10" path="/jsp/teacher/SjzdmxAdd10.jsp" />
+	  <forward name="gotoUpd10" path="/jsp/teacher/SjzdmxUpd10.jsp" />
+	  <forward name="mxlist11" path="/jsp/teacher/SjzdmxList11.jsp" />
+	  <forward name="gotoAdd11" path="/jsp/teacher/SjzdmxAdd11.jsp" />
+	  <forward name="gotoUpd11" path="/jsp/teacher/SjzdmxUpd11.jsp" />
+	  <forward name="mxlist12" path="/jsp/teacher/SjzdmxList12.jsp" />
+	  <forward name="gotoAdd12" path="/jsp/teacher/SjzdmxAdd12.jsp" />
+	  <forward name="gotoUpd12" path="/jsp/teacher/SjzdmxUpd12.jsp" />
+	  <forward name="mxlist13" path="/jsp/teacher/SjzdmxList13.jsp" />
+	  <forward name="gotoAdd13" path="/jsp/teacher/SjzdmxAdd13.jsp" />
+	  <forward name="gotoUpd13" path="/jsp/teacher/SjzdmxUpd13.jsp" />
+	  <forward name="mxlist14" path="/jsp/teacher/SjzdmxList14.jsp" />
+	  <forward name="gotoAdd14" path="/jsp/teacher/SjzdmxAdd14.jsp" />
+	  <forward name="gotoUpd14" path="/jsp/teacher/SjzdmxUpd14.jsp" />
+	  <forward name="mxlist15" path="/jsp/teacher/SjzdmxList15.jsp" />
+	  <forward name="gotoAdd15" path="/jsp/teacher/SjzdmxAdd15.jsp" />
+	  <forward name="gotoUpd15" path="/jsp/teacher/SjzdmxUpd15.jsp" />
+	  <forward name="mxlist16" path="/jsp/teacher/SjzdmxList16.jsp" />
+	  <forward name="gotoAdd16" path="/jsp/teacher/SjzdmxAdd16.jsp" />
+	  <forward name="gotoUpd16" path="/jsp/teacher/SjzdmxUpd16.jsp" />
+	  <forward name="mxlist17" path="/jsp/teacher/SjzdmxList17.jsp" />
+	  <forward name="gotoAdd17" path="/jsp/teacher/SjzdmxAdd17.jsp" />
+	  <forward name="gotoUpd17" path="/jsp/teacher/SjzdmxUpd17.jsp" />
+	  <forward name="mxlist18" path="/jsp/teacher/SjzdmxList18.jsp" />
+	  <forward name="gotoAdd18" path="/jsp/teacher/SjzdmxAdd18.jsp" />
+	  <forward name="gotoUpd18" path="/jsp/teacher/SjzdmxUpd18.jsp" />
+	  <forward name="mxlist19" path="/jsp/teacher/SjzdmxList19.jsp" />
+	  <forward name="gotoAdd19" path="/jsp/teacher/SjzdmxAdd19.jsp" />
+	  <forward name="gotoUpd19" path="/jsp/teacher/SjzdmxUpd19.jsp" />
+	  <forward name="mxlist20" path="/jsp/teacher/SjzdmxList20.jsp" />
+	  <forward name="gotoAdd20" path="/jsp/teacher/SjzdmxAdd20.jsp" />
+	  <forward name="gotoUpd20" path="/jsp/teacher/SjzdmxUpd20.jsp" />
+	  <forward name="mxlist21" path="/jsp/teacher/SjzdmxList21.jsp" />
+	  <forward name="gotoAdd21" path="/jsp/teacher/SjzdmxAdd21.jsp" />
+	  <forward name="gotoUpd21" path="/jsp/teacher/SjzdmxUpd21.jsp" />	  
+	  <forward name="success" path="/sjzdmx.do?method=sjzdmxList" />
+    </action>
+    <action attribute="testSetupForm" name="testSetupForm"
+			parameter="method" path="/testSetup" scope="request"
+			type="com.whjbsoft.www.action.TestSetupAction" validate="false">
+		<!--		<forward name="setupList" path="/jsp/teacher/testSetup.jsp"/>-->
+		<forward name="bjxxList" path="/jsp/teacher/bjxxSetList.jsp"/>
+		<forward name="groupList" path="/jsp/teacher/groupSetList.jsp"/>
+		<forward name="xsxxList" path="/jsp/teacher/xsxxSetList.jsp"/>
+		<forward name="xsxxLeaveList" path="/jsp/teacher/xsxxLeaveList.jsp"/>
+		<forward name="success" path="/testSetup.do?method=groupList"/>
+		<forward name="success1" path="/testSetup.do?method=xsxxList"/>
+		<forward name="success2" path="/testSetup.do?method=xsxxLeaveList"/>
+	</action>
+    <action attribute="sjxxForm" name="sjxxForm"
+      parameter="method" path="/taskCircs"
+      scope="request" type="com.whjbsoft.www.action.TaskCircsAction">
+      <forward name="success" path="/jsp/teacher/taskCircs.jsp" />
+     </action>
+     <action
+      attribute="ygglForm"
+      name="ygglForm"
+      parameter="method"
+      path="/yggl"
+      scope="request"
+      type="com.whjbsoft.www.action.YgglAction"
+      validate="false">
+      <forward name="updatePage" path="/jsp/student/zygl/ygxx_update.jsp" />
+      <forward name="listPage" path="/jsp/student/zygl/ygxx_list.jsp" />
+      <forward name="getList" path="/yggl.do?method=getList" />
+      <forward name="addPage" path="/jsp/student/zygl/ygxx_add.jsp" />
+      <forward name="viewPage" path="/jsp/student/zygl/ygxx_view.jsp" />
+    </action>
+    <action
+      attribute="kfxxForm"
+      name="kfxxForm"
+      parameter="method"
+      path="/kfxx"
+      scope="request"
+      type="com.whjbsoft.www.action.KfxxAction">
+      <forward name="objList" path="/jsp/student/zygl/kfxxList.jsp" />
+      <forward name="gotoAdd" path="/jsp/student/zygl/kfxxAdd.jsp" />
+      <forward name="gotoUpd" path="/jsp/student/zygl/kfxxUpd.jsp" />
+      <forward name="gotoView" path="/jsp/student/zygl/kfxxView.jsp" />
+      <forward name="success" path="/kfxx.do?method=objList" />
+    </action>
+    <action
+      attribute="qwxxForm"
+      name="qwxxForm"
+      parameter="method"
+      path="/qwxx"
+      scope="request"
+      type="com.whjbsoft.www.action.QwxxAction">
+      <forward name="objList" path="/jsp/student/zygl/qwxxList.jsp" />
+      <forward name="gotoAdd" path="/jsp/student/zygl/qwxxAdd.jsp" />
+      <forward name="gotoUpd" path="/jsp/student/zygl/qwxxUpd.jsp" />
+      <forward name="gotoView" path="/jsp/student/zygl/qwxxView.jsp" />
+      <forward name="gotoFpcw" path="/jsp/student/zygl/cwxxAdd.jsp" />
+      <forward name="resetFpcw" path="/jsp/student/zygl/cwxxUpd.jsp" />
+      <forward name="success" path="/qwxx.do?method=objList" />
+    </action>
+    <action path="/bxgl"
+		name="bxglForm"
+		attribute="bxglForm"
+		scope="request"
+		parameter="method"
+		type="com.whjbsoft.www.action.BxglAction">
+		<forward name="getList" path="/bxgl.do?method=getList"/>
+		<forward name="listPage" path="/jsp/student/zygl/bxgl_list.jsp"/>
+		<forward name="savePage" path="/jsp/student/zygl/bxgl_add.jsp"/>
+		<forward name="updatePage" path="/jsp/student/zygl/bxgl_upd.jsp"/>
+		<forward name="viewPage" path="/jsp/student/zygl/bxgl_view.jsp"/>
+	</action>
+	<action path="/clgl"
+		name="clglForm"
+		attribute="clglForm"
+		scope="request"
+		parameter="method"
+		type="com.whjbsoft.www.action.ClglAction">
+		<forward name="getList" path="/clgl.do?method=getList"/>
+		<forward name="listPage" path="/jsp/student/zygl/clgl_list.jsp"/>
+		<forward name="savePage" path="/jsp/student/zygl/clgl_add.jsp"/>
+		<forward name="updatePage" path="/jsp/student/zygl/clgl_upd.jsp"/>
+		<forward name="viewPage" path="/jsp/student/zygl/clgl_view.jsp"/>
+	</action>
+	<action 
+		attribute="khxxForm" 
+		name="khxxForm" 
+		parameter="method"
+		path="/khxx" 
+		scope="request"
+		type="com.whjbsoft.www.action.KhxxAction">
+		<forward name="listPage" path="/jsp/student/khxx/khxx_list.jsp" />
+		<forward name="savePage" path="/jsp/student/khxx/khxx_add.jsp" />
+		<forward name="updatePage" path="/jsp/student/khxx/khxx_upd.jsp" />
+		<forward name="viewPage" path="/jsp/student/khxx/khxx_view.jsp" />
+		<forward name="getList" path="/khxx.do?method=getList" />
+	</action>
+	<action 
+		attribute="hzgxxxForm" 
+		name="hzgxxxForm" 
+		parameter="method"
+		path="/hzgxxx" 
+		scope="request"
+		type="com.whjbsoft.www.action.HzgxxxAction">
+		<forward name="listPage" path="/jsp/student/khxx/hzgxxx_list.jsp" />
+		<forward name="savePage" path="/jsp/student/khxx/hzgxxx_add.jsp" />
+		<forward name="updatePage" path="/jsp/student/khxx/hzgxxx_upd.jsp" />
+		<forward name="viewPage" path="/jsp/student/khxx/hzgxxx_view.jsp" />
+		<forward name="getList" path="/hzgxxx.do?method=getList" />
+	</action>
+	<action 
+		attribute="htxxForm" 
+		name="htxxForm" 
+		parameter="method"
+		path="/htxx" 
+		scope="request"
+		type="com.whjbsoft.www.action.HtxxAction">
+		<forward name="listPage" path="/jsp/student/khxx/htxx_list.jsp" />
+		<forward name="savePage" path="/jsp/student/khxx/htxx_add.jsp" />
+		<forward name="updatePage" path="/jsp/student/khxx/htxx_upd.jsp" />
+		<forward name="viewPage" path="/jsp/student/khxx/htxx_view.jsp" />
+		<forward name="getList" path="/htxx.do?method=getList" />
+	</action>
+	 <action path="/sbxx"
+		name="sbxxForm"
+		attribute="sbxxForm"
+		scope="request"
+		parameter="method"
+		type="com.whjbsoft.www.action.SbxxAction">
+		<forward name="getList" path="/sbxx.do?method=getList"/>
+		<forward name="listPage" path="/jsp/student/zygl/sbxx_list.jsp"/>
+		<forward name="savePage" path="/jsp/student/zygl/sbxx_add.jsp"/>
+		<forward name="updatePage" path="/jsp/student/zygl/sbxx_upd.jsp"/>
+		<forward name="viewPage" path="/jsp/student/zygl/sbxx_view.jsp"/>
+	</action>
+	<action
+      attribute="khddForm"
+      name="khddForm"
+      parameter="method"
+      path="/khdd"
+      scope="request"
+      type="com.whjbsoft.www.action.KhddAction">
+      <forward name="listPage" path="/jsp/student/order/khdd_list.jsp" />
+	  <forward name="savePage" path="/jsp/student/order/khdd_add.jsp"/>
+	  <forward name="updatePage" path="/jsp/student/order/khdd_upd.jsp"/>
+	  <forward name="viewPage" path="/jsp/student/order/khdd_view.jsp"/>
+	  <forward name="khddMsg" path="/jsp/student/order/khddMsg.jsp"/>
+	  <forward name="getList" path="/khdd.do?method=getList" />
+	  <forward name="success" path="/khdd.do?method=objList" />
+	  <forward name="objList" path="/jsp/student/order/khdd_list1.jsp" />
+	  <forward name="viewPage1" path="/jsp/student/order/khdd_view1.jsp"/>
+    </action>
+    <action 
+    	attribute="sendForm" 
+    	name="sendForm" 
+    	parameter="method"
+		path="/send" scope="request" 
+		type="com.whjbsoft.www.action.SendAction">
+		<forward name="sendList" path="/jsp/student/order/send_list.jsp"/>
+		<forward name="sendSave" path="/jsp/student/order/send_add.jsp"/>
+		<forward name="getList" path="/send.do?method=getList"/>
+		<forward name="sendView" path="/jsp/student/order/send_view.jsp"/>
+		<forward name="sendUpdate" path="/jsp/student/order/send_upd.jsp"/>
+		<forward name="traList" path="/jsp/student/order/tra_list.jsp"/>
+		<forward name="traSave" path="/jsp/student/order/tra_add.jsp"/>
+		<forward name="traView" path="/jsp/student/order/tra_view.jsp"/>
+		<forward name="traUpdate" path="/jsp/student/order/tra_upd.jsp"/>
+		<forward name="success" path="/send.do?method=objList"/>
+		<forward name="sendList1" path="/jsp/student/order/send_list1.jsp"/>
+		<forward name="traList1" path="/jsp/student/order/tra_list1.jsp"/>
+		<forward name="sendView1" path="/jsp/student/order/send_view1.jsp"/>
+		<forward name="traView1" path="/jsp/student/order/tra_view1.jsp"/>
+		<forward name="success1" path="/send.do?method=objList1"/>
+		<forward name="sendList2" path="/jsp/student/order/send_list2.jsp"/>
+		<forward name="traList2" path="/jsp/student/order/tra_list2.jsp"/>
+		<forward name="sendView2" path="/jsp/student/order/send_view2.jsp"/>
+		<forward name="traView2" path="/jsp/student/order/tra_view2.jsp"/>
+	</action>
+	<action
+      attribute="crkddForm"
+      name="crkddForm"
+      parameter="method"
+      path="/crkdd"
+      scope="request"
+      type="com.whjbsoft.www.action.CrkddAction"
+      validate="false">
+      <forward name="listPage" path="/jsp/student/order/crkdd_list.jsp" />
+      <forward name="updateRcPage" path="/jsp/student/order/rkdd_update.jsp" />
+      <forward name="viewRcPage" path="/jsp/student/order/rkdd_view.jsp" />
+      <forward name="getList" path="/crkdd.do?method=getList" />
+      <forward name="addRcPage" path="/jsp/student/order/rkdd_add.jsp" />
+      <forward name="addCcPage" path="/jsp/student/order/ckdd_add.jsp" />
+      <forward name="updateCcPage" path="/jsp/student/order/ckdd_update.jsp" />
+      <forward name="viewCcPage" path="/jsp/student/order/ckdd_view.jsp" />
+      <forward name="listDdPage" path="/jsp/student/ddzx/crkdd_dd_list.jsp" />
+      <forward name="ddPage" path="/jsp/student/ddzx/crkdd_dd.jsp"/>
+      <forward name="getDdList" path="/crkdd.do?method=getDdList"/>
+      <forward name="viewDdPage" path="/jsp/student/ddzx/crkdd_dd_view.jsp"/>
+      <forward name="success" path="/crkdd.do?method=objList"/>
+      <forward name="objList" path="/jsp/student/order/crkdd_list1.jsp" />
+    </action>
+    <action 
+    	attribute="sendForm" 
+    	name="sendForm" 
+    	parameter="method"
+		path="/ysps" scope="request" 
+		type="com.whjbsoft.www.action.YspsAction">
+		<forward name="qsList" path="/jsp/student/ysps/qs_list.jsp"/>
+		<forward name="getList" path="/ysps.do?method=getList"/>
+		<forward name="qsView" path="/jsp/student/ysps/qs_view.jsp"/>
+		<forward name="qsPage" path="/jsp/student/ysps/qs_qs.jsp"/>
+		<forward name="feiyongList" path="/jsp/student/ysps/feiyong_list.jsp"/>
+		<forward name="feiyongView" path="/jsp/student/ysps/feiyong_view.jsp"/>
+		<forward name="feiyongCharge" path="/jsp/student/ysps/feiyong_charge.jsp"/>
+	</action>
+	<action
+      attribute="ykddForm"
+      name="ykddForm"
+      parameter="method"
+      path="/ykdd"
+      scope="request"
+      type="com.whjbsoft.www.action.YkddAction">
+      <forward name="objList" path="/jsp/student/order/ykddList.jsp" />
+      <forward name="gotoAdd" path="/jsp/student/order/ykddAdd.jsp" />
+      <forward name="gotoUpd" path="/jsp/student/order/ykddUpd.jsp" />
+      <forward name="gotoView" path="/jsp/student/order/ykddView.jsp" />
+      <forward name="success" path="/ykdd.do?method=objList" />
+      <forward name="valiList" path="/jsp/student/cczx/ykddList.jsp" />
+      <forward name="gotoVali" path="/jsp/student/cczx/ykddVali.jsp" />
+      <forward name="success1" path="/ykdd.do?method=valiList" />
+      <forward name="gotoView1" path="/jsp/student/cczx/ykddView.jsp" />
+    </action>
+    <action
+      attribute="cczxForm"
+      name="cczxForm"
+      parameter="method"
+      path="/cczx"
+      scope="request"
+      type="com.whjbsoft.www.action.CczxAction"
+      validate="false" >
+      <forward name="listJsPage" path="/jsp/student/cczx/crkdd_js_list.jsp"/>
+      <forward name="jsPage" path="/jsp/student/cczx/crkdd_js.jsp"/>
+      <forward name="getJsList" path="/cczx.do?method=getJsList"/>
+      <forward name="listZjPage" path="/jsp/student/cczx/crkdd_zj_list.jsp"/>
+      <forward name="zjPage" path="/jsp/student/cczx/crkdd_zj.jsp"/>
+      <forward name="getZjList" path="/cczx.do?method=getZjList"/>
+      <forward name="listCrkPage" path="/jsp/student/cczx/crkdd_crk_list.jsp"/>
+      <forward name="rkPage" path="/jsp/student/cczx/crkdd_rk.jsp"/>
+      <forward name="ckPage" path="/jsp/student/cczx/crkdd_ck.jsp"/>
+      <forward name="getCrkList" path="/cczx.do?method=getCrkList"/>
+      <forward name="viewRcPage" path="/jsp/student/cczx/rkdd_view.jsp" />
+      <forward name="viewCcPage" path="/jsp/student/cczx/ckdd_view.jsp" />
+      </action>
+      <action 
+		attribute="ysddForm"
+		name="ysddForm"
+		parameter="method"
+		path="/ddfj"
+		scope="request"
+		type="com.whjbsoft.www.action.DdfjAction">
+		<forward name="listPage" path="/jsp/student/ddzx/ysdd_list.jsp"/>
+		<forward name="savePage" path="/jsp/student/ddzx/ysdd_add.jsp"/>
+		<forward name="updatePage" path="/jsp/student/ddzx/ysdd_upd.jsp"/>
+		<forward name="viewPage" path="/jsp/student/ddzx/ysdd_view.jsp"/>
+		<forward name="getList" path="/ddfj.do?method=getList"/>
+	</action>
+    <action
+      attribute="pdddForm"
+      name="pdddForm"
+      parameter="method"
+      path="/pddd"
+      scope="request"
+      type="com.whjbsoft.www.action.PdddAction">
+      <forward name="objList" path="/jsp/student/order/pdddList.jsp" />
+      <forward name="gotoAdd" path="/jsp/student/order/pdddAdd.jsp" />
+      <forward name="gotoUpd" path="/jsp/student/order/pdddUpd.jsp" />
+      <forward name="gotoView" path="/jsp/student/order/pdddView.jsp" />
+      <forward name="success" path="/pddd.do?method=objList" />
+      <forward name="valiList" path="/jsp/student/cczx/pdddList.jsp" />
+      <forward name="gotoVali" path="/jsp/student/cczx/pdddVali.jsp" />
+      <forward name="success1" path="/pddd.do?method=valiList" />
+      <forward name="gotoView1" path="/jsp/student/cczx/pdddView.jsp" />
+      <forward name="gotoView2" path="/jsp/student/cczx/pdddView1.jsp" />
+    </action>
+    <action
+      attribute="kccxForm"
+      name="kccxForm"
+      parameter="method"
+      path="/kccx"
+      scope="request"
+      type="com.whjbsoft.www.action.KccxAction">
+      <forward name="success" path="/jsp/student/cczx/kccxList.jsp" />
+    </action>
+    <action
+      attribute="zdglForm"
+      name="zdglForm"
+      parameter="method"
+      path="/zdgl"
+      scope="request"
+      type="com.whjbsoft.www.action.ZdglAction">
+      <forward name="objList" path="/jsp/student/decision/zdglList.jsp" />
+      <forward name="gotoAdd" path="/jsp/student/decision/zdglAdd.jsp" />
+      <forward name="gotoView" path="/jsp/student/decision/zdglView.jsp" />
+      <forward name="success" path="/zdgl.do?method=objList" />
+    </action>
+    <action
+      attribute="cwtjForm"
+      name="cwtjForm"
+      parameter="method"
+      path="/cwtj"
+      scope="request"
+      type="com.whjbsoft.www.action.CwtjAction">
+      <forward name="success" path="/jsp/student/decision/cwtj.jsp" />
+      <forward name="ccCbList" path="/jsp/student/decision/cwtj_cccb.jsp" />
+      <forward name="ccLrList" path="/jsp/student/decision/cwtj_cclr.jsp" />
+      <forward name="ccCbPrint" path="/jsp/student/decision/cc_cbprint.jsp" />
+      <forward name="ccLrPrint" path="/jsp/student/decision/cc_lrprint.jsp" />
+      <forward name="yslrcwtjt" path="/jsp/student/decision/yslrcwtj.jsp" />
+      <forward name="yscbcwtjt" path="/jsp/student/decision/yscbcwtj.jsp" />
+      <forward name="yslrbb" path="/jsp/student/decision/yslrbb.jsp"/>
+      <forward name="yscbbb" path="/jsp/student/decision/yscbbb.jsp"/>
+      <forward name="swcbtjt" path="/jsp/student/decision/swcbcwtj.jsp"/>
+      <forward name="swcbbb" path="/jsp/student/decision/swcbbb.jsp"/>
+      <forward name="swjlrcwtjt" path="/jsp/student/decision/swjlrcwtj.jsp"/>
+      <forward name="swJlrbb" path="/jsp/student/decision/swJlrbb.jsp"/>
+      <forward name="swsrbb" path="/jsp/student/decision/swSrbb.jsp"/>
+    </action>
+    <action 
+    	attribute="ysddForm"
+    	name="ysddForm"
+    	parameter="method"
+    	scope="request"
+    	path="/pgpc"
+    	type="com.whjbsoft.www.action.PgpcAction">
+    	<forward name="listPage" path="/jsp/student/ysps/ysdd_list.jsp"/>
+    	<forward name="pgPage" path="/jsp/student/ysps/ysdd_pg.jsp"/>
+    	<forward name="pcPage" path="/jsp/student/ysps/ysdd_pc.jsp"/>
+    	<forward name="viewPage" path="/jsp/student/ysps/ysdd_view.jsp"/>
+    	<forward name="getList" path="/pgpc.do?method=getList"/>
+    	<forward name="listZcPage" path="/jsp/student/ysps/ysdd_zc_list.jsp"/>
+    	<forward name="listFcPage" path="/jsp/student/ysps/ysdd_fc_list.jsp"/>
+    </action>
+    <action 
+    	attribute="ysddForm"
+    	name="ysddForm"
+    	parameter="method"
+    	scope="request"
+    	path="/ydcx"
+    	type="com.whjbsoft.www.action.YdcxAction">
+    	<forward name="getList" path="/ydcx.do?method=getList"/>
+    	<forward name="listPage" path="/jsp/student/ysps/ydcx_list.jsp"/>
+    	<forward name="viewPage" path="/jsp/student/ysps/ydcx_view.jsp"/>
+    </action>
+    <action
+      attribute="bmxxForm"
+      name="bmxxForm"
+      parameter="method"
+      path="/bmxx"
+      scope="request"
+      type="com.whjbsoft.www.action.BmxxAction">
+        <forward name="objList" path="/jsp/student/zygl/bmxxList.jsp" />
+		<forward name="gotoAdd" path="/jsp/student/zygl/bmxxAdd.jsp" />
+		<forward name="gotoUpd" path="/jsp/student/zygl/bmxxUpd.jsp" />
+		<forward name="gotoView" path="/jsp/student/zygl/bmxxView.jsp" />
+		<forward name="success" path="/bmxx.do?method=objList" />
+    </action>
+    <action
+      attribute="sbwxjlForm"
+      name="sbwxjlForm"
+      parameter="method"
+      path="/sbwxjl"
+      scope="request"
+      type="com.whjbsoft.www.action.SbwxjlAction">
+      <forward name="objList" path="/jsp/student/zygl/sbwxjlList.jsp" />
+	  <forward name="gotoAdd" path="/jsp/student/zygl/sbwxjlAdd.jsp" />
+	  <forward name="gotoUpd" path="/jsp/student/zygl/sbwxjlUpd.jsp" />
+	  <forward name="gotoView" path="/jsp/student/zygl/sbwxjlView.jsp" />
+	  <forward name="success" path="/sbwxjl.do?method=objList" />
+    </action>
+    <action
+      attribute="khtsForm"
+      name="khtsForm"
+      parameter="method"
+      path="/khts"
+      scope="request"
+      type="com.whjbsoft.www.action.KhtsAction">
+      <forward name="updatePage" path="/jsp/student/kfzx/khts_update.jsp" />
+      <forward name="listPage" path="/jsp/student/kfzx/khts_list.jsp" />
+      <forward name="viewPage" path="/jsp/student/kfzx/khts_view.jsp" />
+      <forward name="getList" path="/khts.do?method=getList" />
+      <forward name="addPage" path="/jsp/student/kfzx/khts_add.jsp" />
+      <forward name="tsslPage" path="/jsp/student/kfzx/khts_sl.jsp" />
+    </action>
+    <action 
+    	attribute="khfkForm"
+    	name="khfkForm"
+    	parameter="method"
+    	path="/khfk"
+    	scope="request"
+    	type="com.whjbsoft.www.action.KhfkAction">
+    	<forward name="getList" path="/khfk.do?method=getList"/>
+    	<forward name="listPage" path="/jsp/student/kfzx/khfk_list.jsp"/>
+    	<forward name="viewPage" path="/jsp/student/kfzx/khfk_view.jsp"/>
+    	<forward name="savePage" path="/jsp/student/kfzx/khfk_add.jsp"/>
+    	<forward name="updatePage" path="/jsp/student/kfzx/khfk_upd.jsp"/>
+    </action>
+    <action 
+    	attribute="khthForm"
+    	name="khthForm"
+    	parameter="method"
+    	path="/khth"
+    	scope="request"
+    	type="com.whjbsoft.www.action.KhthAction">
+    	<forward name="updatePage" path="/jsp/student/kfzx/khth_upd.jsp"/>
+    	<forward name="listPage" path="/jsp/student/kfzx/khth_list.jsp"/>
+    	<forward name="viewPage" path="/jsp/student/kfzx/khth_view.jsp"/>
+    	<forward name="savePage" path="/jsp/student/kfzx/khth_add.jsp"/>
+    	<forward name="getList" path="/khth.do?method=getList"/>
+    </action>
+  </action-mappings>
+  <message-resources parameter="ApplicationResources" />
+</struts-config>
+

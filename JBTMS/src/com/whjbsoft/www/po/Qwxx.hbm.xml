@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Qwxx" table="QWXX" >
+        <id name="qwzj" type="java.lang.Integer">
+            <column name="qwzj" />
+            <generator class="native" />
+        </id>
+        <many-to-one name="kfxx" class="com.whjbsoft.www.po.Kfxx" fetch="select">
+            <column name="kfzj" />
+        </many-to-one>
+        <property name="qwbh" type="java.lang.String">
+            <column name="qwbh" length="50" />
+        </property>
+        <property name="qwmc" type="java.lang.String">
+            <column name="qwmc" length="200" />
+        </property>
+        <property name="ccgn" type="java.lang.String">
+            <column name="ccgn" length="200" />
+        </property>
+        <property name="cclx" type="java.lang.String">
+            <column name="cclx" length="200" />
+        </property>
+        <property name="ccfs" type="java.lang.String">
+            <column name="ccfs" length="200" />
+        </property>
+        <property name="cchj" type="java.lang.String">
+            <column name="cchj" length="200" />
+        </property>
+        <property name="ccpz" type="java.lang.String">
+            <column name="ccpz" length="100" />
+        </property>
+        <property name="sffpcw" type="java.lang.Integer">
+            <column name="sffpcw"/>
+        </property>
+        <property name="qfabm" type="java.lang.Integer">
+            <column name="qfabm"/>
+        </property>
+        <property name="amhs" type="java.lang.Integer">
+            <column name="amhs"/>
+        </property>
+        <property name="amls" type="java.lang.Integer">
+            <column name="amls"/>
+        </property>
+        <property name="bmhs" type="java.lang.Integer">
+            <column name="bmhs"/>
+        </property>
+        <property name="bmls" type="java.lang.Integer">
+            <column name="bmls"/>
+        </property>
+        <set name="cwxxes" inverse="true" cascade="all">
+            <key>
+                <column name="qwzj" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Cwxx" />
+        </set>
+    </class>
+</hibernate-mapping>

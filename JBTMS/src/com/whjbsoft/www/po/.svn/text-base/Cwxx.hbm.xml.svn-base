@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Cwxx" table="CWXX">
+        <id name="cwzj" type="java.lang.Integer">
+            <column name="cwzj" />
+            <generator class="native" />
+        </id>
+        <many-to-one name="qwxx" class="com.whjbsoft.www.po.Qwxx" fetch="select">
+            <column name="qwzj" />
+        </many-to-one>
+        <property name="cwbh" type="java.lang.String">
+            <column name="cwbh" length="100" />
+        </property>
+        <property name="cwtm" type="java.lang.String">
+            <column name="cwtm" length="50" />
+        </property>
+        <property name="cwzfm" type="java.lang.String">
+            <column name="cwzfm" length="50" />
+        </property>
+        <property name="cwsx" type="java.lang.Double">
+            <column name="cwsx" precision="25" />
+        </property>
+        <property name="hgsl" type="java.lang.Double">
+            <column name="hgsl" precision="25" />
+        </property>
+        <property name="shsl" type="java.lang.Double">
+            <column name="shsl" precision="25" />
+        </property>
+        <property name="hpbm" type="java.lang.String">
+            <column name="hpbm" length="200" />
+        </property>
+        <property name="hpmc" type="java.lang.String">
+            <column name="hpmc" length="200" />
+        </property>
+        <property name="hpdw" type="java.lang.String">
+            <column name="hpdw" length="100" />
+        </property>
+        <set name="ykmxesForCwzj" inverse="true" cascade="all">
+            <key>
+                <column name="cwzj" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Ykmx" />
+        </set>
+        <set name="ykmxesForCwxCwzj" inverse="true" cascade="all">
+            <key>
+                <column name="CWX_cwzj" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Ykmx" />
+        </set>
+        <set name="crkhps" inverse="false" table="hpcfcw">
+        	<key column="cwzj"></key>
+        	<many-to-many class="com.whjbsoft.www.po.Crkhp" column="crkhpzj"/>
+        </set>
+    </class>
+</hibernate-mapping>

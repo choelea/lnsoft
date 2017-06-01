@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Yspsd" table="YSPSD" >
+        <id name="ysdzj" type="java.lang.Integer">
+            <column name="ysdzj" />
+            <generator class="native" />
+        </id>
+        <many-to-one name="khht" class="com.whjbsoft.www.po.Khht" fetch="select">
+            <column name="htzj" />
+        </many-to-one>
+        <property name="ysdbh" type="java.lang.String">
+            <column name="ysdbh" length="50" />
+        </property>
+        <property name="ysdlx" type="java.lang.String">
+            <column name="ysdlx" length="50" />
+        </property>
+        <property name="dhsj" type="java.lang.String">
+            <column name="dhsj" length="50" />
+        </property>
+        <property name="qhsj" type="java.lang.String">
+            <column name="qhsj" length="50" />
+        </property>
+        <property name="ysfs" type="java.lang.String">
+            <column name="ysfs" length="100" />
+        </property>
+        <property name="yf" type="java.lang.Double">
+            <column name="yf" precision="25" />
+        </property>
+        <property name="zf" type="java.lang.Double">
+            <column name="zf" precision="25" />
+        </property>
+        <property name="fyxj" type="java.lang.Double">
+            <column name="fyxj" precision="25" />
+        </property>
+        <property name="tbsm" type="java.lang.Integer">
+            <column name="tbsm" />
+        </property>
+        <property name="tbje" type="java.lang.Double">
+            <column name="tbje" precision="25" />
+        </property>
+        <property name="bxf" type="java.lang.Double">
+            <column name="bxf" precision="25" />
+        </property>
+        <property name="yzfhj" type="java.lang.Double">
+            <column name="yzfhj" precision="25" />
+        </property>
+        <property name="ysk" type="java.lang.Double">
+            <column name="ysk" precision="25" />
+        </property>
+        <property name="yssm" type="java.lang.String">
+            <column name="yssm" length="1000" />
+        </property>
+        <property name="zdr" type="java.lang.String">
+            <column name="zdr" length="200" />
+        </property>
+        <property name="zdsj" type="java.lang.String">
+            <column name="zdsj" length="50" />
+        </property>
+        <property name="sffd" type="java.lang.Integer">
+            <column name="sffd" />
+        </property>
+         <property name="sfth" type="java.lang.Integer">
+            <column name="sfth" />
+        </property>
+         <property name="yszt" type="java.lang.Integer">
+            <column name="yszt" />
+        </property>
+        <property name="shrqz" type="java.lang.String">
+            <column name="shrqz" length="200" />
+        </property>
+        <property name="shrqzsj" type="java.lang.String">
+            <column name="shrqzsj" length="50" />
+        </property>
+        <property name="ssxs" type="java.lang.Integer">
+            <column name="ssxs" />
+        </property>
+        <property name="sssysz" type="java.lang.Integer">
+            <column name="sssysz" />
+        </property>
+        <set name="ysddds" inverse="true" cascade="all">
+            <key>
+                <column name="ysdzj" not-null="true" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Ysddd" />
+        </set>
+        <set name="khfks" inverse="true" cascade="all">
+        	<key>
+        		<column name="ysdzj" not-null="true" unique="true"/>
+        	</key>
+        	<one-to-many class="com.whjbsoft.www.po.Khfk"/>
+        </set>
+        <set name="khths" inverse="true" cascade="all">
+        	<key>
+        		<column name="ysdzj" not-null="true" unique="true"/>
+        	</key>
+        	<one-to-many class="com.whjbsoft.www.po.Khth"/>
+        </set>
+    </class>
+</hibernate-mapping>

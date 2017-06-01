@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN"
+	"dwr20.dtd">
+<dwr>
+	<allow>
+		<create javascript="UserDWR" creator="new" scope="session">
+			<param name="class" value="com.whjbsoft.www.util.UserDWR" />
+		</create>
+		<convert converter="bean"
+			match="com.whjbsoft.www.util.Pageinfo" />
+		<convert converter="bean" match="com.whjbsoft.www.po.Hpxx" />
+		<convert converter="bean" match="com.whjbsoft.www.vo.BjglVo" />
+		<convert converter="bean" match="com.whjbsoft.www.po.Bjxx">
+			<param name="exclude" value="jsbjs,xsxxes,ggxxes,ksszs" />
+		</convert>
+		<convert converter="bean" match="com.whjbsoft.www.po.Bxxx">
+			<param name="exclude" value="xlyhs,bxlcs" />
+		</convert>
+		<convert converter="bean" match="com.whjbsoft.www.po.Bxlc" />
+		<convert converter="bean" match="com.whjbsoft.www.po.Kfxx">
+			<param name="exclude" value="sbxxes,qwxxes" />
+		</convert>
+		<convert converter="bean" match="com.whjbsoft.www.po.Khxx">
+			<param name="exclude" value="khddsForKhxKhzj,khddsForKhzj" />
+		</convert>
+		<convert converter="bean" match="com.whjbsoft.www.po.Khht">
+			<param name="exclude" value="crkdds,yspsds" />
+		</convert>
+		<convert converter="bean" match="com.whjbsoft.www.po.Sjzdmx">
+			<param name="exclude" value="sjzd" />
+		</convert>
+		<convert match="com.whjbsoft.www.po.Xsxx" converter="bean">
+			<param name="exclude" value="djxxes,bjxx,xsgwxxes,djxxess" />
+		</convert>
+		<convert match="com.whjbsoft.www.po.Sjxx" converter="bean">
+			<param name="exclude" value="sjhps,ktxxes,djxxes,sysjs" />
+		</convert>
+		<convert match="com.whjbsoft.www.vo.DjInfo" converter="bean" />
+		<convert converter="bean" match="com.whjbsoft.www.po.Ygxx">
+			<param name="exclude" value="ccrydds,ysrydds" />
+		</convert>
+		<convert converter="bean" match="com.whjbsoft.www.po.Sjhp">
+			<param name="exclude" value="sjxx" />
+		</convert>
+		<convert converter="bean" match="com.whjbsoft.www.po.Khddhpb">
+			<param name="exclude" value="khdd" />
+		</convert>
+		<convert match="com.whjbsoft.www.vo.SjxxVo" converter="bean" />
+		<convert match="com.whjbsoft.www.vo.KtxxVo" converter="bean" />
+		<convert match="com.whjbsoft.www.vo.SjhpVo" converter="bean" />
+		<convert match="com.whjbsoft.www.vo.GgxxVo" converter="bean" />
+		<convert match="com.whjbsoft.www.vo.KhddVo" converter="bean" />
+		<convert match="com.whjbsoft.www.vo.HtxxVo" converter="bean" />
+		<convert match="com.whjbsoft.www.vo.YspsdVo" converter="bean" />
+		<convert match="com.whjbsoft.www.po.Qwxx" converter="bean">
+			<param name="exclude" value="kfxx,cwxxes" />
+		</convert>
+		<convert match="com.whjbsoft.www.po.Cwxx" converter="bean">
+			<param name="exclude"
+				value="qwxx,ykmxesForCwzj,ykmxesForCwxCwzj,crkhps" />
+		</convert>
+		<convert match="com.whjbsoft.www.vo.CrkddVo" converter="bean" />
+		<convert match="com.whjbsoft.www.po.Crkhp" converter="bean">
+			<param name="exclude" value="crkdd,crkhps" />
+		</convert>
+		<convert match="com.whjbsoft.www.po.Ygxx" converter="bean">
+			<param name="exclude" value="ccrydds,ysrydds" />
+		</convert>
+		<convert match="com.whjbsoft.www.po.Sbxx" converter="bean">
+			<param name="exclude" value="kfxx,ccsbdds" />
+		</convert>
+		<convert match="com.whjbsoft.www.po.Ylxx" converter="bean">
+			<param name="exclude" value="yscldds" />
+		</convert>
+		<convert converter="bean" match="com.whjbsoft.www.po.Bxlc">
+			<param name="exclude" value="bxxx" />
+		</convert>
+		<convert match="com.whjbsoft.www.vo.YsddxxVo" converter="bean" />
+		<convert match="com.whjbsoft.www.vo.ZdtjVo" converter="bean" />
+		<convert converter="bean" match="com.whjbsoft.www.po.Bmxx" />
+		<convert match="com.whjbsoft.www.vo.SbxxVo" converter="bean" />
+		<!-- 集成考试系统 -->
+		<create javascript="ExamDWR" creator="new" scope="session">
+			<param name="class" value="com.whjbsoft.www.util.ExamDwr" />
+		</create>
+		<convert converter="bean"
+			match="com.whjbsoft.www.exam.po.Stgls">
+			<param name="exclude" value="tkgl,dtxxes,sjkts" />
+		</convert>
+		<convert converter="bean"
+			match="com.whjbsoft.www.exam.po.Sjxxs">
+			<param name="exclude" value="ksszs,sjtxes,djxxess" />
+		</convert>
+	</allow>
+	<signatures>
+		<![CDATA[
+			import java.util.List;
+			import java.util.Map;
+		]]>
+	</signatures>
+</dwr>

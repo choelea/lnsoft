@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Crkhp" table="CRKHP">
+        <id name="crkhpzj" type="java.lang.Integer">
+            <column name="crkhpzj" />
+            <generator class="native" />
+        </id>
+        <many-to-one name="crkdd" class="com.whjbsoft.www.po.Crkdd" fetch="select">
+            <column name="crkzj" />
+        </many-to-one>        
+        <property name="hpbm" type="java.lang.String">
+            <column name="hpbm" length="200" />
+        </property>
+        <property name="hpmc" type="java.lang.String">
+            <column name="hpmc" length="200" />
+        </property>
+        <property name="txm" type="java.lang.String">
+            <column name="txm" length="200" />
+        </property>
+        <property name="hpdw" type="java.lang.String">
+            <column name="hpdw" length="100" />
+        </property>
+        <property name="hplx" type="java.lang.String">
+            <column name="hplx" length="200" />
+        </property>
+        <property name="hpxh" type="java.lang.String">
+            <column name="hpxh" length="200" />
+        </property>
+        <property name="hpgg" type="java.lang.String">
+            <column name="hpgg" length="200" />
+        </property>
+        <property name="hpsl" type="java.lang.Double">
+            <column name="hpsl" precision="25" />
+        </property>
+        <property name="hptj" type="java.lang.Double">
+            <column name="hptj" precision="25" />
+        </property>
+        <property name="hpdj" type="java.lang.Double">
+            <column name="hpdj" precision="25" />
+        </property>
+        <property name="tjdw" type="java.lang.String">
+            <column name="tjdw" length="100" />
+        </property>
+        <property name="hgsl" type="java.lang.Double">
+            <column name="hgsl" precision="25" />
+        </property>
+        <property name="shsl" type="java.lang.Double">
+            <column name="shsl" precision="25" />
+        </property>
+        <set name="crkhps" inverse="false" table="hpcfcw">
+        	<key column="crkhpzj"></key>
+        	<many-to-many class="com.whjbsoft.www.po.Cwxx" column="cwzj"/>
+        </set>
+    </class>
+</hibernate-mapping>

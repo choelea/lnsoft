@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.exam.po.Kssz" table="KSSZ">
+        <id name="ksszzj" type="java.lang.Integer">
+            <column name="ksszzj" />
+            <generator class="native" />
+        </id>
+        <many-to-one name="sjxx" class="com.whjbsoft.www.exam.po.Sjxxs" fetch="select">
+            <column name="sjzj" />
+        </many-to-one>
+        <many-to-one name="bjxx" class="com.whjbsoft.www.po.Bjxx" fetch="select">
+            <column name="bjzj" />
+        </many-to-one>
+        <property name="ksszzt" type="java.lang.Integer">
+            <column name="ksszzt" />
+        </property>
+    </class>
+</hibernate-mapping>

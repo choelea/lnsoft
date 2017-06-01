@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="stglForm"
+			type="com.whjbsoft.www.exam.form.StglForm" />
+		<form-bean name="sjxxForm"
+			type="com.whjbsoft.www.exam.form.SjxxForm" />
+		<form-bean name="ksszForm"
+			type="com.whjbsoft.www.exam.form.KsszForm" />
+		<form-bean name="djxxForm"
+			type="com.whjbsoft.www.exam.form.DjxxForm" />
+	</form-beans>
+	<action-mappings>
+		<!-- 考试系统 -->
+		<action attribute="stglForm" name="stglForm" parameter="m"
+			path="/stglExam" scope="request"
+			type="com.whjbsoft.www.exam.action.StglAction">
+			<forward name="tkList" path="/exam/jsp/teacher/tkList.jsp" />
+			<forward name="objList"
+				path="/exam/jsp/teacher/stglList.jsp" />
+			<forward name="gotoAdd"
+				path="/exam/jsp/teacher/stglAdd.jsp" />
+			<forward name="gotoUpd"
+				path="/exam/jsp/teacher/stglUpd.jsp" />
+			<forward name="gotoView"
+				path="/exam/jsp/teacher/stglView.jsp" />
+			<forward name="success" path="/stglExam.do?m=objList" />
+		</action>
+		<action attribute="sjxxForm" name="sjxxForm" parameter="m"
+			path="/sjxxExam" scope="request"
+			type="com.whjbsoft.www.exam.action.SjxxAction">
+			<forward name="objList"
+				path="/exam/jsp/teacher/sjxxList.jsp" />
+			<forward name="gotoAdd"
+				path="/exam/jsp/teacher/sjxxAdd.jsp" />
+			<forward name="nextAdd"
+				path="/exam/jsp/teacher/sjxxAdd2.jsp" />
+			<forward name="gotoUpd"
+				path="/exam/jsp/teacher/sjxxUpd.jsp" />
+			<forward name="gotoView"
+				path="/exam/jsp/teacher/sjxxView.jsp" />
+			<forward name="success" path="/sjxxExam.do?m=objList" />
+		</action>
+		<action attribute="ksszForm" name="ksszForm" parameter="m"
+			path="/ksszExam" scope="request"
+			type="com.whjbsoft.www.exam.action.KsszAction">
+			<forward name="objList"
+				path="/exam/jsp/teacher/syszList.jsp" />
+			<forward name="gotoAdd"
+				path="/exam/jsp/teacher/syszAdd.jsp" />
+			<forward name="success" path="/ksszExam.do?m=objList" />
+		</action>
+		<action attribute="djxxForm" name="djxxForm" parameter="m"
+			path="/djxxExam" scope="request"
+			type="com.whjbsoft.www.exam.action.DjxxAction">
+			<forward name="objList"
+				path="/exam/jsp/student/djszList.jsp" />
+			<forward name="objList1"
+				path="/exam/jsp/student/djszList1.jsp" />
+			<forward name="gotoAdd"
+				path="/exam/jsp/student/djxxAdd.jsp" />
+			<forward name="gotoUpd"
+				path="/exam/jsp/student/djxxUpd.jsp" />
+			<forward name="gotoView"
+				path="/exam/jsp/student/djxxView.jsp" />
+			<forward name="djxxList"
+				path="/exam/jsp/student/djxxList.jsp" />
+			<forward name="syszList"
+				path="/exam/jsp/student/syszList.jsp" />
+			<forward name="success" path="/djxxExam.do?m=objList" />
+			<forward name="successt" path="/djxxExam.do?m=djxxList" />
+		</action>
+	</action-mappings>
+</struts-config>
+

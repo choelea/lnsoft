@@ -1,0 +1,194 @@
+
+package com.whjbsoft.www.action;
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+import org.apache.struts.actions.DispatchAction;
+
+import com.whjbsoft.www.form.LoginForm;
+import com.whjbsoft.www.po.Jsgl;
+import com.whjbsoft.www.po.Xsgwxx;
+import com.whjbsoft.www.po.Xsxx;
+import com.whjbsoft.www.service.LoginService;
+import com.whjbsoft.www.servicei.LoginServicei;
+import com.whjbsoft.www.util.CheckDate;
+
+public class LoginAction extends DispatchAction {
+	private LoginService service;
+
+	public LoginService getService() {
+		return service;
+	}
+
+	public void setService(LoginService service) {
+		this.service = service;
+	}
+
+	public LoginAction() {
+		service = new LoginServicei();
+	}
+
+	/**
+	 * 控制器
+	 */
+	public ActionForward login(ActionMapping mapping, ActionForm form,
+			HttpServletRequest request, HttpServletResponse response) {
+		LoginForm loginForm = (LoginForm) form;
+		try {
+			//String miCode   =   request.getSession().getServletContext().getRealPath( "")+ "/WEB-INF/miCode.txt ";
+			// String jiaFlie   =   request.getSession().getServletContext().getRealPath( "")+ "/WEB-INF/jiaFlie.txt ";
+			//boolean flag=CheckDate.checkTime(miCode,jiaFlie);
+			boolean flag=true;
+			if(flag){
+			Class c = this.getClass();
+			Method m = c.getDeclaredMethod(loginForm.getLoginType(),
+					ActionMapping.class, ActionForm.class,
+					HttpServletRequest.class, HttpServletResponse.class);
+			return (ActionForward) m.invoke(this, mapping, form, request,response);
+			}else{
+				request.setAttribute("msg", "对不起，您的系统已过期，请购买后再使用，谢谢!");
+				return mapping.findForward("error");
+			}
+			} catch (Exception e) {
+			e.printStackTrace();
+			return mapping.findForward("error");
+		}
+	}
+
+	/**
+	 * 管理员登陆
+	 * 
+	 * @param mapping
+	 * @param form
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	public ActionForward adminLogin(ActionMapping mapping, ActionForm form,
+			HttpServletRequest request, HttpServletResponse response) {
+		
+			LoginForm loginForm = (LoginForm) form;
+			String username = loginForm.getUserName();
+			String userpaw = loginForm.getPassword();
+			Jsgl jsgl = this.getService().getJsgl(username, userpaw, 0);
+			if (jsgl != null) {
+				if (username.equals(jsgl.getJsbh())
+						&& userpaw.equals(jsgl.getJsmm())) {
+					request.getSession().setAttribute("userPk", jsgl.getJxzj());
+					request.getSession().setAttribute("userName",
+							jsgl.getJsbh());
+					request.getSession().setAttribute("userType",
+							jsgl.getJslx());
+					request.getSession().setAttribute("userTName",
+							jsgl.getJsmc());
+					return mapping.findForward("success2");
+				} else {
+					request.setAttribute("msg", "用户名或密码输入有误!");
+					return mapping.findForward("error");
+				}
+			} else {
+				request.setAttribute("msg", "用户名或密码输入有误!");
+				return mapping.findForward("error");
+			}
+		}
+
+	/**
+	 * 教师登陆
+	 * 
+	 * @param mapping
+	 * @param form
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	public ActionForward teaLogin(ActionMapping mapping, ActionForm form,
+			HttpServletRequest request, HttpServletResponse response) {
+		
+			LoginForm loginForm = (LoginForm) form;
+			String username = loginForm.getUserName();
+			String userpaw = loginForm.getPassword();
+			Jsgl jsgl = this.getService().getJsgl(username, userpaw, 1);
+			if (jsgl != null) {
+				if (username.equals(jsgl.getJsbh())
+						&& userpaw.equals(jsgl.getJsmm())) {
+					request.getSession().setAttribute("userPk", jsgl.getJxzj());
+					request.getSession().setAttribute("userName",
+							jsgl.getJsbh());
+					request.getSession().setAttribute("userType",
+							jsgl.getJslx());
+					return mapping.findForward("success2");
+				} else {
+					request.setAttribute("msg", "用户名或密码输入有误!");
+					return mapping.findForward("error");
+				}
+			} else {
+				request.setAttribute("msg", "用户名或密码输入有误!");
+				return mapping.findForward("error");
+			}
+		}
+
+	/**
+	 * 学生登陆
+	 * 
+	 * @param mapping
+	 * @param form
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	public ActionForward stuLogin(ActionMapping mapping, ActionForm form,
+			HttpServletRequest request, HttpServletResponse response) {
+		
+			LoginForm loginForm = (LoginForm) form;
+			Xsxx xsxx = this.getService().stuLogin(loginForm);
+			if(xsxx!=null && loginForm.getUserName().equals(xsxx.getXsxh()) && loginForm.getPassword().equals(xsxx.getXsmm())){
+				if(xsxx.getSssyz()!=null && xsxx.getSssysz()!=null){					
+					Set<Xsgwxx> set = xsxx.getXsgwxxes();
+					if(set!=null && set.size()>0){
+						request.getSession().setAttribute("userStuPk",xsxx.getXszj());//登陆人主键，此处因为是从其他系统改版而成的此系统，所以根据需要将原有的userPk字段存储了试验组号，改为userStuPk存储登陆人主键
+						request.getSession().setAttribute("userPk", xsxx.getSssyz());//登陆试验组号
+						request.getSession().setAttribute("userName", xsxx.getXsxh());//登录人学号
+						request.getSession().setAttribute("userTName", xsxx.getXsxm());//登陆人姓名
+						request.getSession().setAttribute("userPaw", xsxx.getXsmm());//登陆人密码
+						request.getSession().setAttribute("userSyszzj", xsxx.getSssysz());//实验设置主键
+						request.getSession().setAttribute("userDjxxzj", 0);//答卷主键
+						request.getSession().setAttribute("userSjxxzj", 0);//试卷主键
+						request.getSession().setAttribute("userBjzj",xsxx.getBjxx().getBjzj());//班级主键
+						List<Xsgwxx> ruleList = new ArrayList(set);
+						int curRule = 0;
+						for(Xsgwxx xsgw : ruleList){
+							int gwzj = xsgw.getId().getGwxx().getGwzj();
+							if(curRule==0){
+								curRule=gwzj;
+							}else{
+								if(curRule>gwzj){
+									curRule=gwzj;
+								}
+							}
+						}
+						request.getSession().setAttribute("curGwzj", curRule);
+						ruleList=null;
+						return mapping.findForward("success1");
+					}else{
+						request.setAttribute("msg", "等待教师分配权限，正在退出系统。。。!");
+						return mapping.findForward("error");
+					}					
+				}else{
+					request.setAttribute("msg", "等待教师分配权限，正在退出系统。。。!");
+					return mapping.findForward("error");
+				}				
+			}else{
+				request.setAttribute("msg", "用户名或密码输入有误!");
+				return mapping.findForward("error");
+			}
+		}
+}

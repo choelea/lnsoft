@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/stglExam.do" location="601,694" dimension="280,84" />
+  <StrutsActivity path="/sjxxExam.do" location="601,387" dimension="280,84" />
+  <StrutsActivity path="/ksszExam.do" location="128,1001" dimension="280,84" />
+  <StrutsActivity path="/djxxExam.do" location="918,60" dimension="280,84" />
+  <StrutsActivity path="/exam/jsp/teacher/stglUpd.jsp" location="0,878" dimension="214,48" />
+  <StrutsActivity path="/exam/jsp/teacher/stglList.jsp" location="314,878" dimension="220,48" />
+  <StrutsActivity path="/exam/jsp/teacher/stglAdd.jsp" location="634,878" dimension="214,48" />
+  <StrutsActivity path="/exam/jsp/teacher/stglView.jsp" location="948,878" dimension="220,48" />
+  <StrutsActivity path="/exam/jsp/teacher/tkList.jsp" location="1268,878" dimension="208,48" />
+  <StrutsActivity path="/exam/jsp/teacher/sjxxUpd.jsp" location="0,571" dimension="214,48" />
+  <StrutsActivity path="/exam/jsp/teacher/sjxxList.jsp" location="314,571" dimension="220,48" />
+  <StrutsActivity path="/exam/jsp/teacher/sjxxAdd.jsp" location="634,571" dimension="214,48" />
+  <StrutsActivity path="/exam/jsp/teacher/sjxxView.jsp" location="948,571" dimension="220,48" />
+  <StrutsActivity path="/exam/jsp/teacher/sjxxAdd2.jsp" location="1268,571" dimension="220,48" />
+  <StrutsActivity path="/exam/jsp/teacher/syszList.jsp" location="0,1185" dimension="220,48" />
+  <StrutsActivity path="/exam/jsp/teacher/syszAdd.jsp" location="320,1185" dimension="214,48" />
+  <StrutsActivity path="/exam/jsp/student/djxxUpd.jsp" location="0,264" dimension="214,48" />
+  <StrutsActivity path="/exam/jsp/student/djszList.jsp" location="314,264" dimension="220,48" />
+  <StrutsActivity path="/exam/jsp/student/djxxAdd.jsp" location="634,264" dimension="214,48" />
+  <StrutsActivity path="/exam/jsp/student/djxxView.jsp" location="948,264" dimension="220,48" />
+  <StrutsActivity path="/exam/jsp/student/syszList.jsp" location="1268,264" dimension="220,48" />
+  <StrutsActivity path="/exam/jsp/student/djszList1.jsp" location="1588,264" dimension="226,48" />
+  <StrutsActivity path="/exam/jsp/student/djxxList.jsp" location="1914,264" dimension="220,48" />
+  <StrutsTransition id="/stglExam.do,success,/stglExam.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="741,694" />
+      <AbsolutePoint location="741,664" />
+      <AbsolutePoint location="571,664" />
+      <AbsolutePoint location="571,736" />
+      <AbsolutePoint location="601,736" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/djxxExam.do,gotoView,/exam/jsp/student/djxxView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1058,144" />
+      <AbsolutePoint location="1058,264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjxxExam.do,gotoAdd,/exam/jsp/teacher/sjxxAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="741,471" />
+      <AbsolutePoint location="741,571" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjxxExam.do,gotoUpd,/exam/jsp/teacher/sjxxUpd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="629,471" />
+      <AbsolutePoint location="629,506" />
+      <AbsolutePoint location="107,506" />
+      <AbsolutePoint location="107,571" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjxxExam.do,success,/sjxxExam.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="741,387" />
+      <AbsolutePoint location="741,357" />
+      <AbsolutePoint location="571,357" />
+      <AbsolutePoint location="571,429" />
+      <AbsolutePoint location="601,429" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/djxxExam.do,djxxList,/exam/jsp/student/djxxList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1178,144" />
+      <AbsolutePoint location="1178,174" />
+      <AbsolutePoint location="2024,174" />
+      <AbsolutePoint location="2024,264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ksszExam.do,gotoAdd,/exam/jsp/teacher/syszAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="338,1085" />
+      <AbsolutePoint location="338,1135" />
+      <AbsolutePoint location="427,1135" />
+      <AbsolutePoint location="427,1185" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjxxExam.do,gotoView,/exam/jsp/teacher/sjxxView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="797,471" />
+      <AbsolutePoint location="797,536" />
+      <AbsolutePoint location="1058,536" />
+      <AbsolutePoint location="1058,571" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ksszExam.do,objList,/exam/jsp/teacher/syszList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="198,1085" />
+      <AbsolutePoint location="198,1135" />
+      <AbsolutePoint location="110,1135" />
+      <AbsolutePoint location="110,1185" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/djxxExam.do,gotoUpd,/exam/jsp/student/djxxUpd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="938,144" />
+      <AbsolutePoint location="938,174" />
+      <AbsolutePoint location="107,174" />
+      <AbsolutePoint location="107,264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/stglExam.do,gotoUpd,/exam/jsp/teacher/stglUpd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="629,778" />
+      <AbsolutePoint location="629,813" />
+      <AbsolutePoint location="107,813" />
+      <AbsolutePoint location="107,878" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/djxxExam.do,success,/djxxExam.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1128,60" />
+      <AbsolutePoint location="1128,0" />
+      <AbsolutePoint location="858,0" />
+      <AbsolutePoint location="858,123" />
+      <AbsolutePoint location="918,123" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/stglExam.do,objList,/exam/jsp/teacher/stglList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="685,778" />
+      <AbsolutePoint location="685,843" />
+      <AbsolutePoint location="424,843" />
+      <AbsolutePoint location="424,878" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/djxxExam.do,gotoAdd,/exam/jsp/student/djxxAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1018,144" />
+      <AbsolutePoint location="1018,234" />
+      <AbsolutePoint location="741,234" />
+      <AbsolutePoint location="741,264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/djxxExam.do,syszList,/exam/jsp/student/syszList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1098,144" />
+      <AbsolutePoint location="1098,234" />
+      <AbsolutePoint location="1378,234" />
+      <AbsolutePoint location="1378,264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ksszExam.do,success,/ksszExam.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="268,1001" />
+      <AbsolutePoint location="268,971" />
+      <AbsolutePoint location="98,971" />
+      <AbsolutePoint location="98,1043" />
+      <AbsolutePoint location="128,1043" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjxxExam.do,nextAdd,/exam/jsp/teacher/sjxxAdd2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="853,471" />
+      <AbsolutePoint location="853,506" />
+      <AbsolutePoint location="1378,506" />
+      <AbsolutePoint location="1378,571" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/djxxExam.do,objList,/exam/jsp/student/djszList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="978,144" />
+      <AbsolutePoint location="978,204" />
+      <AbsolutePoint location="424,204" />
+      <AbsolutePoint location="424,264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/stglExam.do,tkList,/exam/jsp/teacher/tkList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="853,778" />
+      <AbsolutePoint location="853,813" />
+      <AbsolutePoint location="1372,813" />
+      <AbsolutePoint location="1372,878" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/djxxExam.do,successt,/djxxExam.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="988,60" />
+      <AbsolutePoint location="988,30" />
+      <AbsolutePoint location="888,30" />
+      <AbsolutePoint location="888,81" />
+      <AbsolutePoint location="918,81" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sjxxExam.do,objList,/exam/jsp/teacher/sjxxList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="685,471" />
+      <AbsolutePoint location="685,536" />
+      <AbsolutePoint location="424,536" />
+      <AbsolutePoint location="424,571" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/stglExam.do,gotoAdd,/exam/jsp/teacher/stglAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="741,778" />
+      <AbsolutePoint location="741,878" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/djxxExam.do,objList1,/exam/jsp/student/djszList1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1138,144" />
+      <AbsolutePoint location="1138,204" />
+      <AbsolutePoint location="1701,204" />
+      <AbsolutePoint location="1701,264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/stglExam.do,gotoView,/exam/jsp/teacher/stglView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="797,778" />
+      <AbsolutePoint location="797,843" />
+      <AbsolutePoint location="1058,843" />
+      <AbsolutePoint location="1058,878" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

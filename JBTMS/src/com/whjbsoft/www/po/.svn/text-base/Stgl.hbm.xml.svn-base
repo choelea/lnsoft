@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Stgl" table="STGL">
+        <id name="stzj" type="java.lang.Integer">
+            <column name="stzj" />
+            <generator class="native" />
+        </id>
+        <property name="stmc" type="java.lang.String">
+            <column name="stmc" length="200" />
+        </property>
+        <property name="stlx" type="java.lang.String">
+            <column name="stlx" length="200" />
+        </property>
+        <property name="sfyk" type="java.lang.Integer">
+            <column name="sfyk" />
+        </property>
+        <property name="czlx" type="java.lang.Integer">
+            <column name="czlx" />
+        </property>
+        <set name="ktxxs" inverse="true" cascade="all">
+            <key>
+                <column name="stzj" not-null="true" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Ktxx" />
+        </set>
+    </class>
+</hibernate-mapping>

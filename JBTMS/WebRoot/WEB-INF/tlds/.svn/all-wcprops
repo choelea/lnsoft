@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds
+END
+sql.tld
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/sql.tld
+END
+sql-1_0-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/sql-1_0-rt.tld
+END
+c-1_0.tld
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/c-1_0.tld
+END
+struts-logic.tld
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/struts-logic.tld
+END
+permittedTaglibs.tld
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/permittedTaglibs.tld
+END
+fn.tld
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/fn.tld
+END
+fmt-1_0.tld
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/fmt-1_0.tld
+END
+struts-html.tld
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/struts-html.tld
+END
+scriptfree.tld
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/scriptfree.tld
+END
+struts-bean.tld
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/struts-bean.tld
+END
+x-1_0-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/x-1_0-rt.tld
+END
+x.tld
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/x.tld
+END
+sql-1_0.tld
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/sql-1_0.tld
+END
+NumCn.tld
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/NumCn.tld
+END
+c.tld
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/c.tld
+END
+c-1_0-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/c-1_0-rt.tld
+END
+struts-tiles.tld
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/struts-tiles.tld
+END
+struts-nested.tld
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/struts-nested.tld
+END
+x-1_0.tld
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/x-1_0.tld
+END
+fmt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/fmt.tld
+END
+fmt-1_0-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/fmt-1_0-rt.tld
+END
+ReplaceImgs.tld
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/whjbsoft/!svn/ver/4/JBTMS/WebRoot/WEB-INF/tlds/ReplaceImgs.tld
+END

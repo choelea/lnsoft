@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.exam.po.Sjtxs" table="SJTXS">
+        <id name="sjtxzj" type="java.lang.Integer">
+            <column name="sjtxzj" />
+            <generator class="native"/>
+        </id>
+        <many-to-one name="sjxx" class="com.whjbsoft.www.exam.po.Sjxxs" fetch="select">
+            <column name="sjzj"/>
+        </many-to-one>
+        <property name="sjtxmc" type="java.lang.String">
+            <column name="sjtxmc" length="50" />
+        </property>
+        <property name="zts" type="java.lang.Integer">
+            <column name="zts" />
+        </property>
+        <property name="dtfs" type="java.lang.Integer">
+            <column name="dtfs" />
+        </property>
+        <property name="zjfs" type="java.lang.Integer">
+            <column name="zjfs" />
+        </property>
+        <property name="plsx" type="java.lang.Integer">
+            <column name="plsx" />
+        </property>
+        <set name="sjkts" inverse="true" cascade="all">
+            <key>
+                <column name="sjtxzj"/>
+            </key>
+            <one-to-many class="com.whjbsoft.www.exam.po.Sjkts" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Xlyh" table="xlyh">
+        <composite-id name="id" class="com.whjbsoft.www.po.XlyhId">
+            <key-property name="bxzj" type="java.lang.Integer">
+                <column name="bxzj" />
+            </key-property>
+            <key-property name="ysddzj" type="java.lang.Integer">
+                <column name="ysddzj" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="bxxx" class="com.whjbsoft.www.po.Bxxx" update="false" insert="false" fetch="select">
+            <column name="bxzj" not-null="true" />
+        </many-to-one>
+        <many-to-one name="ysddxx" class="com.whjbsoft.www.po.Ysddxx" update="false" insert="false" fetch="select">
+            <column name="ysddzj" not-null="true" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

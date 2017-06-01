@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Ykmx" table="YKMX">
+        <id name="ykmxzj" type="java.lang.Integer">
+            <column name="ykmxzj" />
+            <generator class="native" />
+        </id>
+        <many-to-one name="cwxxByCwxCwzj" class="com.whjbsoft.www.po.Cwxx" fetch="select">
+            <column name="CWX_cwzj" />
+        </many-to-one>
+        <many-to-one name="cwxxByCwzj" class="com.whjbsoft.www.po.Cwxx" fetch="select">
+            <column name="cwzj" />
+        </many-to-one>
+        <many-to-one name="ykdd" class="com.whjbsoft.www.po.Ykdd" fetch="select">
+            <column name="ykzj" />
+        </many-to-one>
+        <property name="ykhpsl" type="java.lang.Double" column="ykhpsl" precision="25"/>
+        <property name="ykshsl" type="java.lang.Double" column="ykshsl" precision="25"/>
+    </class>
+</hibernate-mapping>

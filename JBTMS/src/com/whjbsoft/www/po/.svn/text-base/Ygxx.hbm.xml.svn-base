@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whjbsoft.www.po.Ygxx" table="YGXX">
+        <id name="ygzj" type="java.lang.Integer">
+            <column name="ygzj" />
+            <generator class="native" />
+        </id>
+        <property name="ygbh" type="java.lang.String">
+            <column name="ygbh" length="200" />
+        </property>
+        <property name="ygmc" type="java.lang.String">
+            <column name="ygmc" length="200" />
+        </property>
+        <property name="ygzw" type="java.lang.String">
+            <column name="ygzw" length="200" />
+        </property>
+        <property name="ygxb" type="java.lang.String">
+            <column name="ygxb" length="50" />
+        </property>
+        <property name="csrq" type="java.lang.String">
+            <column name="csrq" length="50" />
+        </property>
+        <property name="gzrq" type="java.lang.String">
+            <column name="gzrq" length="50" />
+        </property>
+        <property name="sfzh" type="java.lang.String">
+            <column name="sfzh" length="50" />
+        </property>
+        <property name="ygdh" type="java.lang.String">
+            <column name="ygdh" length="200" />
+        </property>
+        <property name="ygdz" type="java.lang.String">
+            <column name="ygdz" length="200" />
+        </property>
+        <property name="yggz" type="java.lang.Double">
+            <column name="yggz" precision="25" />
+        </property>
+        <property name="ygzt" type="java.lang.String">
+            <column name="ygzt" length="200" />
+        </property>
+        <property name="ygms" type="java.lang.String">
+            <column name="ygms" length="2000" />
+        </property>
+        <property name="ssbm" type="java.lang.String">
+            <column name="ssbm" length="200" />
+        </property>
+        <property name="ssjg" type="java.lang.String">
+            <column name="ssjg" length="200" />
+        </property>
+        <property name="ssxs" type="java.lang.Integer">
+            <column name="ssxs" />
+        </property>
+        <property name="sssysz" type="java.lang.Integer">
+            <column name="sssysz" />
+        </property>
+        <set name="ccrydds" inverse="true" cascade="all">
+            <key>
+                <column name="ygzj" not-null="true" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Ccrydd" />
+        </set>
+        <set name="ysrydds" inverse="true" cascade="all">
+            <key>
+                <column name="ygzj" not-null="true" />
+            </key>
+            <one-to-many class="com.whjbsoft.www.po.Ysrydd" />
+        </set>
+    </class>
+</hibernate-mapping>
